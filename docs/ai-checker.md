@@ -33,6 +33,14 @@ HTTP(S) citations are not fetched or certified. Reference-style links
 not reference-link navigation. This is a bounded Markdown checker, not a
 general renderer or HTML-link validator.
 
+Backslash-escaped inline backtick delimiter syntax is deliberately unsupported
+outside fenced code and fails closed with `AI_DOC_SYNTAX`, even when link targets
+exist. Conservatively, any backslash immediately followed by a backtick outside
+a fence is rejected before inline code stripping (including inside inline code
+examples). Use plain prose or place that syntax in a fenced example. Ordinary
+inline code spans, fenced examples and plain inline navigation remain supported;
+this checker does not implement general Markdown escape parsing.
+
 API fingerprints conservatively cover entire referenced artifacts, while a
 bounded lexical declaration inventory checks named JavaScript/TypeScript/Swift
 symbols. Fingerprints detect signature and data changes, including changes that

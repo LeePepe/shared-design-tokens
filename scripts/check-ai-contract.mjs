@@ -88,7 +88,13 @@ export function checkContract({root, expectedName, expectedVersion}) {
     // reference is a link only when defined; reject definitions as well as
     // full/collapsed reference syntax, instead of silently skipping targets.
     // Code spans/fences are examples, not navigation (see docs/ai-checker.md).
-    const prose = text.replace(/^([ \t]*)(`{3,}|~{3,})[^\n]*\n[\s\S]*?^\1\2[ \t]*$/gm, '').replace(/(`+)[\s\S]*?\1/g, '');
+    const unfenced = text.replace(/^([ \t]*)(`{3,}|~{3,})[^\n]*\n[\s\S]*?^\1\2[ \t]*$/gm, '');
+    // Reject ambiguous escaped delimiters before code-span stripping can hide navigation.
+    if (/\\`/.test(unfenced)) {
+      fail('AI_DOC_SYNTAX', target, 'Backslash-backtick syntax outside fenced code is unsupported; use plain prose or a fenced example.');
+      return;
+    }
+    const prose = unfenced.replace(/(`+)[\s\S]*?\1/g, '');
     if (/^[ \t]{0,3}\[[^\]\n]+\]:/m.test(prose) || /\[[^\]\n]+\][ \t\n]*\[[^\]\n]*\]/.test(prose)) {
       fail('AI_DOC_SYNTAX', target, 'Reference-style Markdown links are unsupported; use inline [label](relative-path) links.');
     }

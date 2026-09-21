@@ -135,6 +135,31 @@ for (const [name, example] of [
   });
 }
 
+for (const target of ['missing.md', 'README.md']) {
+  test(`escaped backticks outside fences fail closed even with target ${target}`, t => {
+    const f = fixture(t);
+    f.put('ai/USAGE.md', '# Usage\nUse \\`literal [broken](' + target + ') \\` here.\n');
+    const result = f.run();
+    assert.equal(result.ok, false);
+    assert.ok(result.errors.some(error => error.id === 'AI_DOC_SYNTAX' && error.path === 'ai/USAGE.md'));
+    const cli = spawnSync(process.execPath, [new URL('../scripts/check-ai-contract.mjs', import.meta.url).pathname,
+      '--root', f.root, '--expected-name', '@fixture/tokens', '--expected-version', '1.2.3'], {encoding: 'utf8'});
+    assert.equal(cli.status, 1);
+    assert.ok(JSON.parse(cli.stdout).errors.some(error => error.id === 'AI_DOC_SYNTAX'));
+  });
+}
+for (const example of [
+  '[plain](README.md) and `[example](missing.md)`',
+  '```md\nUse \\`literal [broken](missing.md) \\` here.\n```\n[plain](README.md)',
+  '~~~md\nUse \\`literal [broken](missing.md) \\` here.\n~~~\n[plain](README.md)'
+]) {
+  test(`escaped-backtick guard preserves supported plain/code links: ${JSON.stringify(example)}`, t => {
+    const f = fixture(t);
+    f.put('ai/USAGE.md', `# Usage\n${example}\n`);
+    assert.deepEqual(f.run(), {ok: true, errors: []});
+  });
+}
+
 for (const entry of ['stdin', 'missing-path']) {
   test(`import with ${entry} argv entry is safe and does not execute the CLI`, t => {
     const f = fixture(t); f.run();
