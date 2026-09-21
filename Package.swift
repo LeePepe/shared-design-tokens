@@ -10,4 +10,4 @@ let package = Package(
         .testTarget(name: "DesignTokensTests", dependencies: ["DesignTokens"], path: "tests/DesignTokensTests")
     ]
 )
-// Future NativeDesignKit must be a separate UI target depending on DesignTokens.
+// Future NativeDesignKit belongs in an independent Apple repository consuming DesignTokens via SPM.

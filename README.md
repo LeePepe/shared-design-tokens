@@ -1,9 +1,10 @@
 # design-system — color data candidate
 
-Private, unpublished `@leepepe/design-tokens@0.1.0-candidate.0` / Swift `DesignTokens`. This first version ships **color data only**, not UI components. `tokens/colors.json` is the editable source of truth; JSON Schema and deterministic generation produce JS/TS, scoped CSS, resolved JSON and Swift.
+Private, unpublished `@leepepe/design-tokens@0.1.0-candidate.1` / Swift `DesignTokens`. This version ships **color data only**, not UI components. `tokens/colors.json` is the editable source of truth; JSON Schema and deterministic generation produce JS/TS, scoped CSS, resolved JSON and Swift. Current origin remains `LeePepe/design-system`; no repository rename or creation is claimed.
 
 ## Start here
 
+- [Version-matched AI task router](ai/README.md), [changelog](CHANGELOG.md)
 - [Specification](specs/001-shared-colors/spec.md), [plan](specs/001-shared-colors/plan.md), [tasks](specs/001-shared-colors/tasks.md)
 - [Constitution](docs/constitution.md), [technical context](docs/context.md)
 - [Basalt baseline and public API audit](docs/upstream.md), [third-party notices](THIRD_PARTY_NOTICES.md)
@@ -47,7 +48,7 @@ Public exports: root ESM + `.d.ts`, `/colors.css`, `/resolved.json`, `/source.js
 
 ## Swift data consumer
 
-Add a local Swift package dependency for this candidate, then `.product(name: "DesignTokens", package: "design-system-colors")` (the dependency identity follows your local folder or explicit package identity). At a future reviewed Git revision the repository identity is `design-system`.
+Pin an exact reviewed Git revision and consume `.product(name: "DesignTokens", package: "design-system")` for the actual remote identity. This unpublished local candidate is verified through an external package resolving a local Git mirror, not a source-path dependency; see [Swift integration](ai/INTEGRATION.md#swift-revision).
 
 ```swift
 import DesignTokens
@@ -62,7 +63,7 @@ let ratio = try color.contrast(with: DesignTokens.color("product.surface.canvas"
 
 `Theme`, `BrandRole`, `RGBA`, `SeriesColor`, `TokenError` and `DesignTokens` are public immutable/Sendable data APIs. `RGBA(red:green:blue:alpha:)` rejects out-of-range/nonfinite inputs; `relativeLuminance` implements WCAG sRGB math; `contrast(with:)` rejects translucent colors instead of guessing a compositing surface. No HSB API or placeholder non-AppKit values exist.
 
-Root `Package.swift` currently has only a `DesignTokens` library and its tests. A future **separate** `NativeDesignKit` UI target may depend on it, with native per-platform implementations; do not add UI imports to this target. Declared floors: Swift tools 6.0, iOS15/macOS12/watchOS8. Those are data-target declarations, not consumer migrations or device-validation claims. See the compatibility matrix.
+Root `Package.swift` currently has only a `DesignTokens` library and its tests. Future `NativeDesignKit` belongs in an **independent Apple repository**, consuming DesignTokens via SPM; no UI target is added here. Declared floors: Swift tools 6.0, iOS15/macOS12/watchOS8. Those are data-target declarations, not consumer migrations or device-validation claims. See the compatibility matrix.
 
 ## Reproduce
 
@@ -72,8 +73,12 @@ npm test # requires Chrome/Chromium; includes test:browser
 npm run generate:check
 npm run test:consumer
 npm run test:pack
+npm run check:ai
+npm run test:contract
 swift build
 swift test
+# After gates and an ordinary local commit, verify its exact Git revision:
+npm run test:swift-consumer -- "$(git rev-parse HEAD)"
 ```
 
 Browser tests use Node standard library to launch an isolated, short-lived headless Chrome/Chromium, load the delivered CSS and compare computed sRGB RGBA for every token in both themes, inheritance, nesting and invalid boundaries. A duplicate wrong declaration proves the gate detects winning overrides. Set `CHROME_BIN` to an executable, or use standard Chrome/Chromium commands on PATH / the standard macOS application location (Windows installation paths are also searched, not locally verified). Missing browsers and invalid explicit overrides fail, never skip. `npm run test:browser` runs this suite alone; `test:pack` also checks the CSS exported by the actually installed tarball. No UI framework, server or screenshot test is used.

@@ -26,6 +26,8 @@ jobs:
       - run: npm run generate:check
       - run: npm run test:consumer
       - run: npm run test:pack
+      - run: npm run check:ai
+      - run: npm run test:contract
   swift:
     runs-on: macos-15
     timeout-minutes: 10
@@ -36,4 +38,8 @@ jobs:
       - run: swift --version
       - run: swift build
       - run: swift test
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm run test:swift-consumer -- "$(git rev-parse HEAD)"
 # Presence does not configure a required check/ruleset; parent must review/enforce separately.

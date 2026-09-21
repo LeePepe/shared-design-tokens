@@ -1,5 +1,7 @@
 # Color candidate verification
 
+Historical candidate.0 evidence follows; it is not a candidate.1 test receipt. The candidate.1 contract harnesses retain exact artifact/revision receipts outside the repository. See [executable checks](../ai/EXAMPLES.md).
+
 ## Local execution and independent reviews
 
 The orchestrator reran the complete suite against the final code candidate after both repair rounds:
