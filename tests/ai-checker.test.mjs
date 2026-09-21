@@ -118,6 +118,40 @@ test('reference-like syntax in code is not navigation', t => {
   assert.equal(f.run().ok, true);
 });
 
+for (const [name, example] of [
+  ['span', '`[example](absent.md)`'],
+  ['backtick fence', '```md\n[example](absent.md)\n```'],
+  ['tilde fence', '~~~md\n[example](absent.md)\n~~~']
+]) {
+  test(`inline links in a code ${name} are examples, but prose links are checked`, t => {
+    const f = fixture(t);
+    const markdown = `# Usage\n${example}\n[real navigation](README.md)\n`;
+    f.put('ai/USAGE.md', markdown);
+    assert.deepEqual(f.run(), {ok: true, errors: []});
+    f.put('ai/USAGE.md', `${markdown}[broken navigation](missing-prose.md)\n`);
+    const result = f.run();
+    assert.equal(result.ok, false);
+    assert.ok(result.errors.some(error => error.id === 'AI_DOC_LINK' && error.path === 'ai/missing-prose.md'));
+  });
+}
+
+for (const entry of ['stdin', 'missing-path']) {
+  test(`import with ${entry} argv entry is safe and does not execute the CLI`, t => {
+    const f = fixture(t); f.run();
+    const moduleURL = new URL('../scripts/check-ai-contract.mjs', import.meta.url).href;
+    const options = {root: f.root, expectedName: '@fixture/tokens', expectedVersion: '1.2.3'};
+    const result = spawnSync(process.execPath, ['--input-type=module', '-'], {
+      cwd: f.root, encoding: 'utf8',
+      input: `${entry === 'missing-path' ? `process.argv[1] = ${JSON.stringify(join(f.root, 'absent-entry.mjs'))};` : ''}
+        const {checkContract} = await import(${JSON.stringify(moduleURL)});
+        console.log(JSON.stringify(checkContract(${JSON.stringify(options)})));`
+    });
+    assert.equal(result.status, 0, result.stderr);
+    assert.equal(result.stderr, '');
+    assert.deepEqual(JSON.parse(result.stdout), {ok: true, errors: []});
+  });
+}
+
 test('CLI invoked through a symlink still checks and returns failing exits', t => {
   const f = fixture(t); f.run();
   const entry = join(f.root, 'checker-link.mjs');

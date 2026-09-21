@@ -92,7 +92,7 @@ export function checkContract({root, expectedName, expectedVersion}) {
     if (/^[ \t]{0,3}\[[^\]\n]+\]:/m.test(prose) || /\[[^\]\n]+\][ \t\n]*\[[^\]\n]*\]/.test(prose)) {
       fail('AI_DOC_SYNTAX', target, 'Reference-style Markdown links are unsupported; use inline [label](relative-path) links.');
     }
-    for (const match of text.matchAll(/\[[^\]]*\]\(([^\s)]+)\)/g)) {
+    for (const match of prose.matchAll(/\[[^\]]*\]\(([^\s)]+)\)/g)) {
       if (/^https?:\/\//.test(match[1])) continue; // Citations only; no network resolution.
       link(match[1], target);
     }
@@ -144,7 +144,13 @@ export function checkContract({root, expectedName, expectedVersion}) {
 
 // Node resolves module URLs through symlinks; argv may retain /var or a link.
 // Compare real paths so direct CLI invocation cannot silently skip validation.
-if (process.argv[1] && realpathSync(process.argv[1]) === realpathSync(fileURLToPath(import.meta.url))) {
+let isDirectInvocation = false;
+try {
+  isDirectInvocation = Boolean(process.argv[1]) && realpathSync(process.argv[1]) === realpathSync(fileURLToPath(import.meta.url));
+} catch {
+  // Imports from stdin or virtual entrypoints may have no resolvable argv file.
+}
+if (isDirectInvocation) {
   const args = process.argv.slice(2);
   const allowed = ['--root', '--expected-name', '--expected-version'];
   const valid = args.length === 6 && args.every((arg, i) => i % 2 || allowed.includes(arg)) && new Set(args.filter((_, i) => i % 2 === 0)).size === 3;
