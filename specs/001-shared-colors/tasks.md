@@ -1,0 +1,14 @@
+# Tasks
+- [x] Audit and pin Basalt package, public API, CSS values and MIT license
+- [x] Write failing tracer and implement source/schema/resolution
+- [x] Negative validation/contrast/reference/identity tests
+- [x] Deterministic generator and JS/TS consumer contracts
+- [x] S1/S2 CSS completion: actual Chrome CSSOM/computed RGBA for all tokens/themes, scope self/inheritance/nesting, invalid boundaries and duplicate-override negative; generator-only CSS fix
+- [x] Pure Swift target with real tests and cross-platform data parity (host only, no UI)
+- [x] Packed consumer and clean-regeneration verification
+- [x] Read-only CI and consumer/compatibility documentation
+- [x] Thin root AGENTS.md — explicit Owner authorization obtained; protected write succeeded
+- [x] CSS P1 fix execution evidence: external `color-css-fix.md` with actual red/green and exit-code logs
+- [x] Final candidate-wide local execution evidence: [verification](../../docs/verification.md)
+- [x] Independent functional Spec, Quality and cross-boundary reviews; S1/S2/Q1 closed
+- [ ] Final agent-index/documentation delta review and remote PR/CI delivery

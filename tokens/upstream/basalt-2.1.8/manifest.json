@@ -1,0 +1,42 @@
+{
+  "package": "@nocoo/basalt",
+  "version": "2.1.8",
+  "license": "MIT",
+  "files": [
+    {
+      "path": "package.json",
+      "url": "https://cdn.jsdelivr.net/npm/@nocoo/basalt@2.1.8/package.json",
+      "sha256": "849b6dcebdff95780c76eac2fe8fa47dd858bca1dd3d8872f101e25e68f80fb1"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://cdn.jsdelivr.net/npm/@nocoo/basalt@2.1.8/LICENSE",
+      "sha256": "4bd1de59e976f86422fbc5e08e3377823d6445db6854e20b737b777d0b7b2cb9"
+    },
+    {
+      "path": "dist/index.d.ts",
+      "url": "https://cdn.jsdelivr.net/npm/@nocoo/basalt@2.1.8/dist/index.d.ts",
+      "sha256": "3523244554088c2d56ae5d83ec947ca4bb4d758632d6641c373632e5b1ef57bb"
+    },
+    {
+      "path": "dist/providers/theme.d.ts",
+      "url": "https://cdn.jsdelivr.net/npm/@nocoo/basalt@2.1.8/dist/providers/theme.d.ts",
+      "sha256": "4d2dd18904c9c323dca1c4f378a276965dfbfea9fb017b2805d0603214baa0d4"
+    },
+    {
+      "path": "dist/providers/theme.js",
+      "url": "https://cdn.jsdelivr.net/npm/@nocoo/basalt@2.1.8/dist/providers/theme.js",
+      "sha256": "a45e3f0ca86f9968004af61d58f25b8d951a2e8fb1eec01726aa8898a799c525"
+    },
+    {
+      "path": "dist/styles/tailwind.css",
+      "url": "https://cdn.jsdelivr.net/npm/@nocoo/basalt@2.1.8/dist/styles/tailwind.css",
+      "sha256": "c4637b76abf9254a379d2f7f30bae78c3b0aec7d9fb17824fbf66fd92e0141ce"
+    },
+    {
+      "path": "dist/styles/tokens.css",
+      "url": "https://cdn.jsdelivr.net/npm/@nocoo/basalt@2.1.8/dist/styles/tokens.css",
+      "sha256": "412a50e79dc4bb4eb814958b9b828a157eccbbe06bae5c695a2930d77314e5d8"
+    }
+  ]
+}

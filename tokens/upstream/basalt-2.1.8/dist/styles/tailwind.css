@@ -1,0 +1,118 @@
+@import "./tokens.css";
+@import "./base.css";
+
+/* Library variants follow ThemeProvider without changing the application's dark variant. */
+@custom-variant basalt-dark (&:where(.dark, .dark *, [data-mode="dark"], [data-mode="dark"] *));
+
+@theme inline {
+	--color-basalt-background: hsl(var(--basalt-background));
+	--color-basalt-foreground: hsl(var(--basalt-foreground));
+	--color-basalt-card: hsl(var(--basalt-card));
+	--color-basalt-card-foreground: hsl(var(--basalt-card-foreground));
+	--color-basalt-secondary: hsl(var(--basalt-secondary));
+	--color-basalt-secondary-foreground: hsl(var(--basalt-secondary-foreground));
+	--color-basalt-popover: hsl(var(--basalt-popover));
+	--color-basalt-popover-foreground: hsl(var(--basalt-popover-foreground));
+	--color-basalt-bright: hsl(var(--basalt-bright));
+	--color-basalt-control: var(--basalt-control-fill);
+	--color-basalt-primary: hsl(var(--basalt-primary));
+	--color-basalt-primary-foreground: hsl(var(--basalt-primary-foreground));
+	--color-basalt-muted: hsl(var(--basalt-muted));
+	--color-basalt-muted-foreground: hsl(var(--basalt-muted-foreground));
+	--color-basalt-accent: hsl(var(--basalt-accent));
+	--color-basalt-accent-foreground: hsl(var(--basalt-accent-foreground));
+	--color-basalt-destructive: hsl(var(--basalt-destructive));
+	--color-basalt-destructive-foreground: hsl(var(--basalt-destructive-foreground));
+	--color-basalt-info: hsl(var(--basalt-info));
+	--color-basalt-info-foreground: hsl(var(--basalt-info-foreground));
+	--color-basalt-info-tint: hsl(var(--basalt-info-tint));
+	--color-basalt-warning: hsl(var(--basalt-warning));
+	--color-basalt-warning-foreground: hsl(var(--basalt-warning-foreground));
+	--color-basalt-warning-tint: hsl(var(--basalt-warning-tint));
+	--color-basalt-danger: hsl(var(--basalt-danger));
+	--color-basalt-danger-foreground: hsl(var(--basalt-danger-foreground));
+	--color-basalt-danger-tint: hsl(var(--basalt-danger-tint));
+	--color-basalt-border: hsl(var(--basalt-border));
+	--color-basalt-input: hsl(var(--basalt-input));
+	--color-basalt-ring: hsl(var(--basalt-ring));
+	--color-basalt-chart-1: hsl(var(--basalt-chart-1));
+	--color-basalt-chart-2: hsl(var(--basalt-chart-2));
+	--color-basalt-chart-3: hsl(var(--basalt-chart-3));
+	--color-basalt-chart-4: hsl(var(--basalt-chart-4));
+	--color-basalt-chart-5: hsl(var(--basalt-chart-5));
+	--color-basalt-chart-6: hsl(var(--basalt-chart-6));
+	--color-basalt-chart-7: hsl(var(--basalt-chart-7));
+	--color-basalt-chart-8: hsl(var(--basalt-chart-8));
+	--color-basalt-chart-9: hsl(var(--basalt-chart-9));
+	--color-basalt-chart-10: hsl(var(--basalt-chart-10));
+	--color-basalt-chart-11: hsl(var(--basalt-chart-11));
+	--color-basalt-chart-12: hsl(var(--basalt-chart-12));
+	--color-basalt-chart-13: hsl(var(--basalt-chart-13));
+	--color-basalt-chart-14: hsl(var(--basalt-chart-14));
+	--color-basalt-chart-15: hsl(var(--basalt-chart-15));
+	--color-basalt-chart-16: hsl(var(--basalt-chart-16));
+	--color-basalt-chart-17: hsl(var(--basalt-chart-17));
+	--color-basalt-chart-18: hsl(var(--basalt-chart-18));
+	--color-basalt-chart-19: hsl(var(--basalt-chart-19));
+	--color-basalt-chart-20: hsl(var(--basalt-chart-20));
+	--color-basalt-chart-21: hsl(var(--basalt-chart-21));
+	--color-basalt-chart-22: hsl(var(--basalt-chart-22));
+	--color-basalt-chart-23: hsl(var(--basalt-chart-23));
+	--color-basalt-chart-24: hsl(var(--basalt-chart-24));
+	--color-basalt-badge-green-foreground: hsl(var(--basalt-badge-green-foreground));
+	--color-basalt-badge-teal: hsl(var(--basalt-badge-teal));
+	--color-basalt-badge-purple: hsl(var(--basalt-badge-purple));
+	--color-basalt-badge-teal-foreground: hsl(var(--basalt-badge-teal-foreground));
+	--color-basalt-badge-purple-foreground: hsl(var(--basalt-badge-purple-foreground));
+	--color-basalt-chart-axis: hsl(var(--basalt-chart-axis));
+	--color-basalt-chart-muted: hsl(var(--basalt-chart-muted));
+	--color-basalt-heatmap-green-1: hsl(var(--basalt-heatmap-green-1));
+	--color-basalt-heatmap-green-2: hsl(var(--basalt-heatmap-green-2));
+	--color-basalt-heatmap-green-3: hsl(var(--basalt-heatmap-green-3));
+	--color-basalt-heatmap-green-4: hsl(var(--basalt-heatmap-green-4));
+	--color-basalt-heatmap-red-1: hsl(var(--basalt-heatmap-red-1));
+	--color-basalt-heatmap-red-2: hsl(var(--basalt-heatmap-red-2));
+	--color-basalt-heatmap-red-3: hsl(var(--basalt-heatmap-red-3));
+	--color-basalt-heatmap-red-4: hsl(var(--basalt-heatmap-red-4));
+	--color-basalt-heatmap-blue-1: hsl(var(--basalt-heatmap-blue-1));
+	--color-basalt-heatmap-blue-2: hsl(var(--basalt-heatmap-blue-2));
+	--color-basalt-heatmap-blue-3: hsl(var(--basalt-heatmap-blue-3));
+	--color-basalt-heatmap-blue-4: hsl(var(--basalt-heatmap-blue-4));
+	--color-basalt-heatmap-orange-1: hsl(var(--basalt-heatmap-orange-1));
+	--color-basalt-heatmap-orange-2: hsl(var(--basalt-heatmap-orange-2));
+	--color-basalt-heatmap-orange-3: hsl(var(--basalt-heatmap-orange-3));
+	--color-basalt-heatmap-orange-4: hsl(var(--basalt-heatmap-orange-4));
+	--radius-basalt-lg: var(--basalt-radius);
+	--radius-basalt-md: calc(var(--basalt-radius) - 2px);
+	--radius-basalt-sm: calc(var(--basalt-radius) - 4px);
+	--radius-basalt-island: var(--basalt-radius-island);
+	--radius-basalt-card: var(--basalt-radius-card);
+	--radius-basalt-widget: var(--basalt-radius-widget);
+	--font-basalt-sans: var(--basalt-font-sans);
+	--font-basalt-display: var(--basalt-font-display);
+	--animate-basalt-accordion-down: basalt-accordion-down 0.2s ease-out;
+	--animate-basalt-accordion-up: basalt-accordion-up 0.2s ease-out;
+	--animate-basalt-spin: basalt-spin 1s linear infinite;
+	--animate-basalt-loader: basalt-loader-spin 1.4s linear infinite;
+	--animate-pulse: basalt-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+	--animate-basalt-overlay-in: basalt-overlay-in 200ms ease-out;
+	--animate-basalt-overlay-out: basalt-overlay-out 150ms ease-in forwards;
+	--animate-basalt-dialog-in: basalt-dialog-in 220ms cubic-bezier(0.16, 1, 0.3, 1);
+	--animate-basalt-dialog-out: basalt-dialog-out 140ms cubic-bezier(0.4, 0, 1, 1) forwards;
+	--animate-basalt-collapsible-down: basalt-collapsible-down 150ms ease-out;
+	--animate-basalt-collapsible-up: basalt-collapsible-up 100ms ease-in;
+	--animate-basalt-shimmer: basalt-shimmer 1.5s ease-in-out infinite;
+	--animate-basalt-tab-in: basalt-tab-in 180ms ease-out;
+}
+
+.basalt-chart .recharts-sector:focus:not(:focus-visible),
+.basalt-chart .recharts-rectangle:focus:not(:focus-visible),
+.basalt-chart .recharts-layer:focus:not(:focus-visible),
+.basalt-chart .recharts-surface:focus:not(:focus-visible) {
+	outline: none;
+}
+
+.basalt-chart :focus-visible {
+	outline: 2px solid hsl(var(--basalt-ring));
+	outline-offset: 2px;
+}

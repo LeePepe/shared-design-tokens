@@ -1,0 +1,39 @@
+name: Verify colors
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  node:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      # Ubuntu 24.04 hosted images include Chrome; discovery fails closed if absent.
+      - name: Require real Chrome or Chromium
+        run: node scripts/browser-css.mjs
+      # npm test includes the real CSSOM/computed-style suite, not a text parser.
+      - run: npm test
+      - run: npm run generate:check
+      - run: npm run test:consumer
+      - run: npm run test:pack
+  swift:
+    runs-on: macos-15
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - run: swift --version
+      - run: swift build
+      - run: swift test
+# Presence does not configure a required check/ruleset; parent must review/enforce separately.

@@ -1,0 +1,42 @@
+{
+  "name": "@leepepe/design-tokens",
+  "version": "0.1.0-candidate.0",
+  "private": true,
+  "type": "module",
+  "description": "Platform-neutral pinned color data; no UI",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=22"
+  },
+  "files": [
+    "dist",
+    "tokens",
+    "THIRD_PARTY_NOTICES.md",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./colors.css": "./dist/colors.css",
+    "./resolved.json": "./dist/resolved.json",
+    "./source.json": "./tokens/colors.json",
+    "./schema.json": "./tokens/schema.json"
+  },
+  "sideEffects": [
+    "./dist/colors.css"
+  ],
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "generate": "node scripts/generate.mjs",
+    "generate:check": "node scripts/generate.mjs --check",
+    "test:browser": "node --test tests/browser.test.mjs",
+    "test:consumer": "node scripts/test-consumer.mjs",
+    "test:pack": "node scripts/test-pack.mjs"
+  },
+  "devDependencies": {
+    "ajv": "8.17.1",
+    "typescript": "5.9.3"
+  }
+}
