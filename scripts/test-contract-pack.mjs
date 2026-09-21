@@ -33,8 +33,25 @@ try {
   const tarball = join(dir, pack.filename);
   receipt.artifact = {path: tarball, sha256: digest(readFileSync(tarball)), files: pack.entryCount};
   assert.ok(!pack.files.some(({path}) => /^(node_modules|\.build|examples\/demo)\//.test(path)));
-  writeFileSync(join(dir, 'package.json'), JSON.stringify({private: true, type: 'module'}));
-  run('npm', ['install', '--offline', '--ignore-scripts', '--no-audit', '--no-fund', '--save-exact', tarball]);
+  // Bootstrap test-only tools from the existing frozen graph, not npm package
+  // indexes: root npm ci can cache locked tarballs without caching packuments.
+  const manifestBytes = readFileSync(join(root, 'package.json'));
+  const lockBytes = readFileSync(join(root, 'package-lock.json'));
+  const provider = JSON.parse(manifestBytes);
+  const toolLock = JSON.parse(lockBytes);
+  writeFileSync(join(dir, 'package.json'), manifestBytes);
+  writeFileSync(join(dir, 'package-lock.json'), lockBytes);
+  run('npm', ['ci', '--offline', '--ignore-scripts', '--no-audit', '--no-fund', '--include=dev']);
+  assert.ok(readFileSync(join(dir, 'package-lock.json')).equals(lockBytes), 'Frozen tool lock changed');
+  receipt.tooling = {manifestSha256: digest(manifestBytes), lockSha256: digest(lockBytes)};
+  // Remove provider self-exports from the disposable consumer, retaining the
+  // installed/locked dev graph while adding the real token tarball dependency.
+  writeFileSync(join(dir, 'package.json'), JSON.stringify({private: true, type: 'module', devDependencies: provider.devDependencies}));
+  run('npm', ['install', '--offline', '--ignore-scripts', '--no-audit', '--no-fund', '--include=dev', '--save-exact', tarball]);
+  const consumerLock = JSON.parse(readFileSync(join(dir, 'package-lock.json')));
+  for (const [path, pkg] of Object.entries(toolLock.packages).filter(([path]) => path)) {
+    for (const field of ['version', 'resolved', 'integrity']) assert.equal(consumerLock.packages[path]?.[field], pkg[field], `${path} ${field}`);
+  }
   installed = join(dir, 'node_modules/@leepepe/design-tokens');
   const pkg = JSON.parse(readFileSync(join(installed, 'package.json')));
   assert.equal(pkg.private, true);
@@ -42,8 +59,6 @@ try {
   assert.equal(pkg.peerDependencies, undefined);
   assert.equal(pkg.version, expectedVersion);
   assert.equal(pkg.name, expectedName);
-  // Test-only tools, installed into the disposable consumer, never runtime dependencies.
-  run('npm', ['install', '--offline', '--ignore-scripts', '--no-audit', '--no-fund', '--save-dev', '--save-exact', 'ajv@8.17.1', 'typescript@5.9.3']);
   assert.deepEqual(scan(installed), {ok: true, errors: []});
   receipt.examples = [];
   for (const example of ['usage.mjs', 'migration.mjs']) {
