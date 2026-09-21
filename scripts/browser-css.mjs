@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import {spawn, spawnSync} from 'node:child_process';
-import {copyFileSync, mkdtempSync, rmSync, writeFileSync} from 'node:fs';
+import {copyFileSync, mkdtempSync, writeFileSync} from 'node:fs';
+import {rm} from 'node:fs/promises';
 import {tmpdir} from 'node:os';
 import {join, resolve} from 'node:path';
 import {fileURLToPath, pathToFileURL} from 'node:url';
@@ -108,7 +109,10 @@ export async function measureCSS(cssPath, ids) {
     assert.ok(data.ruleCount > 0, 'delivered stylesheet must parse as CSSOM rules');
     return data;
   } finally {
-    rmSync(dir, {recursive:true, force:true});
+    // The main child's exit (or pipe close) does not guarantee that Chrome's
+    // profile writers have stopped. Retry only this mkdtemp-owned tree using
+    // Node's bounded transient-error policy; exhausted/permanent errors reject.
+    await rm(dir, {recursive:true, force:true, maxRetries:5, retryDelay:100});
   }
 }
 
