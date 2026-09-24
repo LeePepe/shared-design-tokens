@@ -1,6 +1,6 @@
-# design-system — color data candidate
+# shared-design-tokens — color data
 
-Private, unpublished `@leepepe/design-tokens@0.1.0-candidate.1` / Swift `DesignTokens`. This version ships **color data only**, not UI components. `tokens/colors.json` is the editable source of truth; JSON Schema and deterministic generation produce JS/TS, scoped CSS, resolved JSON and Swift. Current origin remains `LeePepe/design-system`; no repository rename or creation is claimed.
+Release `0.1.0` (Git tag `v0.1.0`) of `@leepepe/design-tokens` / Swift `DesignTokens`. This version ships **color data only**, not UI components. `tokens/colors.json` is the editable source of truth; JSON Schema and deterministic generation produce JS/TS, scoped CSS, resolved JSON and Swift. Agents: start with [AGENTS.md](AGENTS.md).
 
 ## Start here
 
@@ -25,7 +25,7 @@ Nine declared opaque text/surface or on-color pairs are contrast-gated at >=4.5 
 
 ## Web / TypeScript consumer
 
-Use an exact reviewed local tarball or commit; nothing has been published. The runtime package has **zero dependencies**, including no React. Ajv/TypeScript are generator/test dev dependencies only.
+Install the tarball built from tag `v0.1.0` at an exact version; nothing is published to the npm registry. The runtime package has **zero dependencies**, including no React. Ajv/TypeScript are generator/test dev dependencies only.
 
 ```ts
 import {color, brandColor, seriesColor, type SeriesID} from '@leepepe/design-tokens';
@@ -48,7 +48,7 @@ Public exports: root ESM + `.d.ts`, `/colors.css`, `/resolved.json`, `/source.js
 
 ## Swift data consumer
 
-Pin an exact reviewed Git revision and consume `.product(name: "DesignTokens", package: "design-system")` for the actual remote identity. This unpublished local candidate is verified through an external package resolving a local Git mirror, not a source-path dependency; see [Swift integration](ai/INTEGRATION.md#swift-revision).
+Pin `.package(url: "https://github.com/LeePepe/shared-design-tokens.git", exact: "0.1.0")` and consume `.product(name: "DesignTokens", package: "shared-design-tokens")`. CI also verifies an external package resolving a local Git mirror of the exact commit, not a source-path dependency; see [Swift integration](ai/INTEGRATION.md#swift-revision).
 
 ```swift
 import DesignTokens

@@ -52,7 +52,7 @@ try {
   receipt.checkout = checkout;
   const registry = JSON.parse(readFileSync(join(checkout, 'ai/registry.json')));
   const pkg = JSON.parse(readFileSync(join(checkout, 'package.json')));
-  assert.equal(pkg.version, '0.1.0-candidate.1');
+  assert.equal(pkg.version, '0.1.0');
   assert.equal(registry.package.version, pkg.version);
   assert.equal(registry.package.swiftProduct, 'DesignTokens');
   // All contract and linked local Markdown authorities are from the resolved commit.

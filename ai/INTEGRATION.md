@@ -2,15 +2,15 @@
 
 ## npm artifact
 
-Prerequisites: Node >=22, npm, an explicitly supplied reviewed candidate tarball plus its SHA-256. No registry release exists. Verify its digest against the handoff before installing; a matching version string alone does not authenticate bytes. The runtime has no dependencies, permissions or install hooks. Development-only checker and TS execution require exact Ajv 8.17.1 and TypeScript 5.9.3.
+Prerequisites: Node >=22, npm, and the release tarball built from tag `v0.1.0` (`npm pack` in a checkout of that tag) plus its SHA-256 from the release notes. There is no npm registry publication. Verify its digest against the handoff before installing; a matching version string alone does not authenticate bytes. The runtime has no dependencies, permissions or install hooks. Development-only checker and TS execution require exact Ajv 8.17.1 and TypeScript 5.9.3.
 
-Commands below are executable recipes after replacing `<candidate.tgz>` with that verified local file; they are not registry-publication instructions. Start in an empty disposable consumer directory:
+Commands below are executable recipes after replacing `<release.tgz>` with that verified local file; they are not registry-publication instructions. Start in an empty disposable consumer directory:
 
 ```sh
 npm init -y
-npm install --ignore-scripts --no-audit --no-fund --save-exact /path/to/<candidate.tgz>
+npm install --ignore-scripts --no-audit --no-fund --save-exact /path/to/<release.tgz>
 npm install --ignore-scripts --no-audit --no-fund --save-dev --save-exact ajv@8.17.1 typescript@5.9.3
-node node_modules/@leepepe/design-tokens/scripts/check-ai-contract.mjs --root node_modules/@leepepe/design-tokens --expected-name @leepepe/design-tokens --expected-version 0.1.0-candidate.1
+node node_modules/@leepepe/design-tokens/scripts/check-ai-contract.mjs --root node_modules/@leepepe/design-tokens --expected-name @leepepe/design-tokens --expected-version 0.1.0
 node node_modules/@leepepe/design-tokens/examples/data/usage.mjs
 node node_modules/@leepepe/design-tokens/examples/data/migration.mjs
 node node_modules/typescript/bin/tsc --strict --target ES2022 --module NodeNext --moduleResolution NodeNext --outDir node_modules/@leepepe/design-tokens/examples/data/compiled node_modules/@leepepe/design-tokens/examples/data/usage.ts
@@ -23,7 +23,7 @@ Uninstall: first remove imports, scoped CSS references and dependent code, then 
 
 ## Swift revision
 
-Swift tools 6.0+; public product `DesignTokens`. Use a full reviewed 40-hex revision, not a branch. The illustrative remote declaration is `.package(url: "https://github.com/LeePepe/design-system.git", revision: "<reviewed-full-SHA>")`, with `.product(name: "DesignTokens", package: "design-system")`. The local provider candidate is not remotely available until separately reviewed and pushed; this recipe does not claim remote fetch success.
+Swift tools 6.0+; public product `DesignTokens`. Pin the release tag exactly, never a branch or range: `.package(url: "https://github.com/LeePepe/shared-design-tokens.git", exact: "0.1.0")`, with `.product(name: "DesignTokens", package: "shared-design-tokens")`. The release notes record the tag's commit SHA and the external-consumer evidence.
 
 The runnable [external fixture manifest](../examples/data/swift/Package.swift) instead consumes a local Git URL with an exact revision. Its dependency identity `tokens-provider` belongs to the fixture's local bare mirror, not a renamed remote. From a clean, committed source checkout run `npm run test:swift-consumer -- <full-local-SHA>`. The harness retains its mirror, `Package.resolved`, actual dependency checkout and output receipt outside the source tree. It asserts resolution equals the requested SHA, compares registry/docs bytes to that Git revision and runs the external executable against the public product. No source-path dependency or copying of provider sources is used.
 
