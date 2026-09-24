@@ -22,3 +22,4 @@ The constitution owns invariants; contexts own technical facts; feature specs ow
 ## Before writing
 
 - Before pushing or opening a PR, verify the actual fetch/push URL and target repository; ask the Owner about any remote of unclear ownership.
+- Account and credential selection is owned by the Owner's private agent configuration and, per Owner decision, is not kept in this repository. Before writing, confirm the authenticated account has the required permission on the target repository; if that cannot be verified or does not match, stop and report instead of falling back to an environment token or another account.
