@@ -1,0 +1,36 @@
+# Caller of the shared-ci fail-closed quality gate. The only check the ruleset
+# needs is `quality / aggregate`; it fails unless every selected lane passed on
+# the PR head SHA. Lanes:
+#   verify  macOS: scripts/verify --all (contract checks, Tokens and Swift layers)
+#   test    Linux: scripts/verify --layer Tokens (keeps the ubuntu Node/Chrome coverage)
+#   contract, workflow-lint: shared-ci audits at the pinned SHA
+name: ci
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened, edited]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: read
+
+concurrency:
+  group: ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality:
+    uses: LeePepe/shared-ci/.github/workflows/quality.yml@761fe6b0b3ca5e2c57d244182d495ab8041851fa
+    with:
+      runs-on: macos-15
+      setup-command: scripts/ci/setup.sh
+      verify-command: scripts/verify --all
+      test-command: scripts/verify --layer Tokens
+      test-runs-on: ubuntu-24.04
+      contract-audit: true
+      workflow-lint: true
+      timeout-minutes: 30

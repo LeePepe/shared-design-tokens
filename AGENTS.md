@@ -1,25 +1,84 @@
-# design-system — Agent index
+# AGENTS.md — shared-design-tokens
 
-Read [constitution](docs/constitution.md), then [root context](docs/context.md).
-The constitution owns invariants; contexts own technical facts; feature specs own intent and acceptance.
+Platform-neutral, pinned color data (`@leepepe/design-tokens` npm package and
+`DesignTokens` SwiftPM product); no UI. Every agent that edits this repository
+follows the protocol below. Tool-specific files (CLAUDE.md etc.) only point here.
 
-| Scope | Read next |
-|---|---|
-| Token source, schema, generator, JS/CSS/Swift data, tests or CI | [Colors context](docs/colors-context.md) |
-| Shared color feature | [Spec](specs/001-shared-colors/spec.md), [plan](specs/001-shared-colors/plan.md), [tasks](specs/001-shared-colors/tasks.md) |
-| Consumer integration or upgrades | [Compatibility](docs/compatibility.md), [upstream provenance](docs/upstream.md) |
-| Contract/docs, installed package integration, examples or migration | [AI task router](ai/README.md), [Colors context](docs/colors-context.md) |
+## Read first
 
-## Delivery and planning
+1. `docs/constitution.md` — non-negotiable provider invariants
+2. `docs/architecture/tech-context.md` — layer table: layer → paths → depends_on
+3. The leaf `tech-context.md` of every layer you touch (`Tokens`, `Swift`)
+4. Feature intent and acceptance: `specs/001-shared-colors/`; consumer-facing
+   contract: `ai/README.md` (it ships with every release)
 
-- Work only in the task's isolated worktree; keep the primary checkout on `main` and preserve other agents' work.
-- Branch → independent review → PR → applicable CI → merge. No direct main push, forced history rewrite, hook bypass or unapproved package/App release.
-- `DesignTokens` is data-only. Future `NativeDesignKit` belongs in an independent Apple repository consuming DesignTokens through SPM; business-repository migration is separate work. The current repository remains `LeePepe/design-system`; no rename or new repository is claimed.
-- MY-1569 is the historical native-component request. Any native spec/plan/tasks and context belong to that independent Apple scope under normal review, using the actual reviewed colors API. Preserve the colors specification; NativeDesignKit is not implemented here.
-- Current planning uses the versioned `specs/` documents; no `.specify` tooling is installed or claimed. Missing tooling is not missing product authorization. If additional scaffolding is necessary, propose the smallest reviewed documentation change rather than inventing an approved baseline.
-- Tests and platform coverage live in the colors context and compatibility document. The documented single-leaf route is not a machine-verified recursive resolver; CI configuration is not proof of remote required-check enforcement.
+## Protocol
 
-## Before writing
+Follow `LeePepe/shared-ci@761fe6b0b3ca5e2c57d244182d495ab8041851fa/ai/agent-protocol.md`
+(https://github.com/LeePepe/shared-ci/blob/761fe6b0b3ca5e2c57d244182d495ab8041851fa/ai/agent-protocol.md).
+It must be the same SHA as the `uses:` pins in `.github/workflows/`.
 
-- Before pushing or opening a PR, verify the actual fetch/push URL and target repository; ask the Owner about any remote of unclear ownership.
-- Account and credential selection is owned by the Owner's private agent configuration and, per Owner decision, is not kept in this repository. Before writing, confirm the authenticated account has the required permission on the target repository; if that cannot be verified or does not match, stop and report instead of falling back to an environment token or another account.
+## Verify
+
+```sh
+git config core.hooksPath .githooks   # once per clone
+scripts/ci/setup.sh                   # Node 22 + npm ci (Chrome/Chromium and Swift 6 must be installed)
+scripts/verify                        # contract checks + changed layers vs origin/main (what pre-push runs)
+scripts/verify --all                  # contract checks + every layer (what CI runs)
+scripts/verify --layer Tokens         # one layer
+```
+
+The Swift `consumer` gate verifies the exact committed `HEAD`, so commit before
+running it. Never `--no-verify`, never weaken or skip tests, never edit
+policy/gates to pass.
+
+## Required checks
+
+Merging to `main` requires (target ruleset; applying it is an Owner step):
+
+- `quality / aggregate`
+
+`quality / aggregate` fails unless every lane of the shared-ci quality gate
+passed on the PR head: `scripts/verify --all` on macOS, the Tokens layer on
+Linux, contract audit, workflow-lint and the PR-body check.
+
+## Red lines
+
+- Color data only: the Swift target never imports UIKit, AppKit or SwiftUI; no
+  business data, screens, services or native components here. Native UI lives
+  in `LeePepe/shared-design-system`, which consumes this package by exact version.
+- `tokens/colors.json` is the only editable color authority; generated files
+  (`dist/`, `GeneratedColors.swift`) are reproducible and never hand-tuned.
+- Unknown IDs, missing modes, invalid colors or references and generation drift
+  fail closed; no silent fallbacks.
+- Basalt stays the Web theme authority; this package emits only `--lp-*`
+  variables under explicit selectors. Third-party attribution travels with
+  derived values (`THIRD_PARTY_NOTICES.md`).
+- Releases are immutable semver tags with release notes and external-consumer
+  evidence (shared-ci W5). No npm registry publication without separate Owner
+  authorization; `package.json` stays `private`.
+- Non-public project configuration never enters git: keep it in a gitignored
+  local file with a committed `.example` template.
+- No personal account names, credential-profile paths or local home paths in the repo.
+
+Approved exceptions:
+
+- No `codex-review-target` review caller: this repository has no self-hosted
+  review runner (S7 rollout decision). The required list above omits
+  `codex-review-target / codex-review` until one exists.
+
+## Dependencies
+
+- `shared-ci` `761fe6b0b3ca5e2c57d244182d495ab8041851fa` — https://github.com/LeePepe/shared-ci/blob/761fe6b0b3ca5e2c57d244182d495ab8041851fa/ai/
+
+Runtime dependencies: none. Dev tools are exact pins in `package-lock.json`.
+
+## Delivery
+
+- One task → one branch + worktree → one PR using `.github/pull_request_template.md`.
+- Done = required checks green on the PR head SHA; a new push invalidates old evidence.
+- CODEOWNERS paths (`.github/**`, `.githooks/**`, AGENTS.md, constitution,
+  tech-context, `scripts/verify`, manifests and lockfiles) need Owner approval;
+  until enforced, add the `owner-review` label.
+- Public API, schema or contract changes update `ai/` and `CHANGELOG.md` in
+  the same PR; breaking changes also update `ai/MIGRATION.md`.
