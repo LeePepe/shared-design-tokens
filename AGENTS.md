@@ -19,20 +19,6 @@ The constitution owns invariants; contexts own technical facts; feature specs ow
 - Current planning uses the versioned `specs/` documents; no `.specify` tooling is installed or claimed. Missing tooling is not missing product authorization. If additional scaffolding is necessary, propose the smallest reviewed documentation change rather than inventing an approved baseline.
 - Tests and platform coverage live in the colors context and compatibility document. The documented single-leaf route is not a machine-verified recursive resolver; CI configuration is not proof of remote required-check enforcement.
 
-## GitHub identity
+## Before writing
 
-- Repository: `LeePepe/design-system`, ID `1379070625`; expected GitHub account: `LeePepe`; this checkout uses `origin`.
-- Every clone/worktree must verify its fetch/push URL and effective credential configuration. Use the existing isolated profile, not shared `gh auth switch` or environment-token fallback:
-
-```sh
-env -u GH_TOKEN -u GITHUB_TOKEN -u GH_REPO -u GH_HOST \
-  GH_CONFIG_DIR="$HOME/.config/github-identity/profiles/LeePepe" \
-  gh api --hostname github.com user --jq .login
-env -u GH_TOKEN -u GITHUB_TOKEN -u GH_REPO -u GH_HOST \
-  GH_CONFIG_DIR="$HOME/.config/github-identity/profiles/LeePepe" \
-  gh api --hostname github.com repos/LeePepe/design-system --jq '{full_name,id,permissions}'
-```
-
-- Verify identity, repository ID and required permission before writes; repository commands explicitly use `--repo LeePepe/design-system`.
-- Git HTTPS uses a verified repository-path-local credential helper selecting the same existing profile. Documentation does not install that helper in a new clone.
-- On identity/permission failure stop and report; never print credentials, change global authentication, create/rotate credentials, or restart services.
+- Before pushing or opening a PR, verify the actual fetch/push URL and target repository; ask the Owner about any remote of unclear ownership.
