@@ -1,0 +1,19 @@
+# Important paths need Owner review (enforced once the ruleset requires code-owner review).
+/.github/                         @LeePepe
+/.githooks/                       @LeePepe
+/AGENTS.md                        @LeePepe
+/CLAUDE.md                        @LeePepe
+/docs/constitution.md             @LeePepe
+/docs/architecture/               @LeePepe
+**/tech-context.md                @LeePepe
+/scripts/verify                   @LeePepe
+/scripts/ci/                      @LeePepe
+# Dependency manifests and lockfiles (pin upgrades)
+**/Package.swift                  @LeePepe
+**/Package.resolved               @LeePepe
+**/package.json                   @LeePepe
+**/package-lock.json              @LeePepe
+# Color authority, schema and the shipped consumer contract
+/tokens/                          @LeePepe
+/ai/                              @LeePepe
+/THIRD_PARTY_NOTICES.md           @LeePepe
