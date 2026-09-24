@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "1.0.0",
+  "package": {
+    "name": "@leepepe/design-tokens",
+    "version": "0.1.0-candidate.1",
+    "swiftProduct": "DesignTokens"
+  },
+  "documents": {
+    "README": "ai/README.md",
+    "USAGE": "ai/USAGE.md",
+    "INTEGRATION": "ai/INTEGRATION.md",
+    "EXAMPLES": "ai/EXAMPLES.md",
+    "COMPATIBILITY": "ai/COMPATIBILITY.md",
+    "MIGRATION": "ai/MIGRATION.md"
+  },
+  "compatibility": "ai/COMPATIBILITY.md",
+  "changelog": "CHANGELOG.md",
+  "tokenSchema": {
+    "version": "1.0.0",
+    "source": "tokens/colors.json"
+  },
+  "examples": [
+    {
+      "id": "js-data",
+      "path": "examples/data/usage.mjs",
+      "language": "javascript",
+      "doc": "ai/EXAMPLES.md"
+    },
+    {
+      "id": "ts-data",
+      "path": "examples/data/usage.ts",
+      "language": "typescript",
+      "doc": "ai/EXAMPLES.md"
+    },
+    {
+      "id": "swift-data",
+      "path": "examples/data/swift/Sources/TokenExample/main.swift",
+      "language": "swift",
+      "doc": "ai/EXAMPLES.md"
+    },
+    {
+      "id": "swift-manifest",
+      "path": "examples/data/swift/Package.swift",
+      "language": "swift",
+      "doc": "ai/INTEGRATION.md#swift-revision"
+    },
+    {
+      "id": "migration",
+      "path": "examples/data/migration.mjs",
+      "language": "javascript",
+      "doc": "ai/MIGRATION.md"
+    },
+    {
+      "id": "legacy-synthetic",
+      "path": "examples/data/legacy-colors.json",
+      "language": "json",
+      "doc": "ai/MIGRATION.md"
+    }
+  ],
+  "surfaces": [
+    {
+      "path": "dist/index.js",
+      "format": "javascript",
+      "sha256": "c4bf36b6f5d36be55410654eda51771f715a9d7e016d332f6553fa36bbd94f98",
+      "symbols": [
+        "brandColor",
+        "brandIDs",
+        "color",
+        "colorSpace",
+        "schemaVersion",
+        "seriesColor",
+        "seriesIDs",
+        "tokenIDs"
+      ],
+      "doc": "ai/USAGE.md#public-data-api"
+    },
+    {
+      "path": "dist/index.d.ts",
+      "format": "typescript",
+      "sha256": "1eefb7ff3a1512bc98a4ab6a21b4da581172c84d19044ce1e187a6c1cc096eb0",
+      "symbols": [
+        "BrandID",
+        "BrandRole",
+        "RGBA",
+        "SeriesID",
+        "Theme",
+        "TokenID",
+        "brandColor",
+        "brandIDs",
+        "color",
+        "colorSpace",
+        "schemaVersion",
+        "seriesColor",
+        "seriesIDs",
+        "tokenIDs"
+      ],
+      "doc": "ai/USAGE.md#public-data-api"
+    },
+    {
+      "path": "dist/colors.css",
+      "format": "asset",
+      "sha256": "c00605860577f63770b8034921f4135cb315c7556defcd6b58ba82a2b5a7fe90",
+      "symbols": [],
+      "doc": "ai/USAGE.md#public-data-api"
+    },
+    {
+      "path": "dist/resolved.json",
+      "format": "asset",
+      "sha256": "0824da541b899e90b75410c07593faa57371d72440a2e2d288e6af2658d62112",
+      "symbols": [],
+      "doc": "ai/USAGE.md#public-data-api"
+    },
+    {
+      "path": "tokens/colors.json",
+      "format": "asset",
+      "sha256": "a907ee91887ea40050ed93aedb8d3194088b2376955993b12a6c03ca7cd06d22",
+      "symbols": [],
+      "doc": "ai/USAGE.md#public-data-api"
+    },
+    {
+      "path": "tokens/schema.json",
+      "format": "asset",
+      "sha256": "c38fe99ce29d50e8babdbb5c484d3db10aef37e8395d9276a07983d27a8d6ba9",
+      "symbols": [],
+      "doc": "ai/USAGE.md#public-data-api"
+    },
+    {
+      "path": "Sources/DesignTokens/DesignTokens.swift",
+      "format": "swift",
+      "sha256": "60bc761b94d73f6afac7ea4179868a3ba51a1eab1739be38a78b66f84812bc66",
+      "symbols": [
+        "BrandRole",
+        "DesignTokens",
+        "RGBA",
+        "SeriesColor",
+        "Theme",
+        "TokenError",
+        "a",
+        "b",
+        "brandColor",
+        "brandIDs",
+        "color",
+        "colorSpace",
+        "contrast",
+        "g",
+        "id",
+        "ids",
+        "init",
+        "r",
+        "relativeLuminance",
+        "schemaVersion",
+        "seriesColor",
+        "seriesIDs"
+      ],
+      "doc": "ai/USAGE.md#public-data-api"
+    },
+    {
+      "path": "Sources/DesignTokens/GeneratedColors.swift",
+      "format": "asset",
+      "sha256": "9f731c59f06c39e50cece43f27c055017693edfde70c6ba400560220a705f3ab",
+      "symbols": [],
+      "doc": "ai/USAGE.md#public-data-api"
+    },
+    {
+      "path": "Package.swift",
+      "format": "asset",
+      "sha256": "a27b199b5f9b58ae2666d00daa4e64be3f603fb46bbb5ed5e81da9d621ed2b8f",
+      "symbols": [],
+      "doc": "ai/USAGE.md#public-data-api"
+    }
+  ]
+}

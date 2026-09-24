@@ -1,0 +1,755 @@
+{
+  "schemaVersion": "1.0.0",
+  "colorSpace": "srgb",
+  "upstream": {
+    "package": "@nocoo/basalt",
+    "version": "2.1.8",
+    "license": "MIT",
+    "url": "https://www.npmjs.com/package/@nocoo/basalt/v/2.1.8"
+  },
+  "tokens": [
+    {
+      "id": "foundation.background",
+      "layer": "foundation",
+      "values": {
+        "light": {
+          "r": 238,
+          "g": 239,
+          "b": 242,
+          "a": 1
+        },
+        "dark": {
+          "r": 23,
+          "g": 23,
+          "b": 23,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "basalt",
+        "locator": "dist/styles/tokens.css#--basalt-background",
+        "upstreamHsl": {
+          "light": "220 14% 94%",
+          "dark": "0 0% 9%"
+        }
+      }
+    },
+    {
+      "id": "foundation.foreground",
+      "layer": "foundation",
+      "values": {
+        "light": {
+          "r": 31,
+          "g": 31,
+          "b": 31,
+          "a": 1
+        },
+        "dark": {
+          "r": 237,
+          "g": 237,
+          "b": 237,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "basalt",
+        "locator": "dist/styles/tokens.css#--basalt-foreground",
+        "upstreamHsl": {
+          "light": "0 0% 12%",
+          "dark": "0 0% 93%"
+        }
+      }
+    },
+    {
+      "id": "foundation.card",
+      "layer": "foundation",
+      "values": {
+        "light": {
+          "r": 246,
+          "g": 247,
+          "b": 248,
+          "a": 1
+        },
+        "dark": {
+          "r": 27,
+          "g": 27,
+          "b": 27,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "basalt",
+        "locator": "dist/styles/tokens.css#--basalt-card",
+        "upstreamHsl": {
+          "light": "220 14% 97%",
+          "dark": "0 0% 10.6%"
+        }
+      }
+    },
+    {
+      "id": "foundation.muted-foreground",
+      "layer": "foundation",
+      "values": {
+        "light": {
+          "r": 102,
+          "g": 102,
+          "b": 102,
+          "a": 1
+        },
+        "dark": {
+          "r": 161,
+          "g": 161,
+          "b": 161,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "basalt",
+        "locator": "dist/styles/tokens.css#--basalt-muted-foreground",
+        "upstreamHsl": {
+          "light": "0 0% 40%",
+          "dark": "0 0% 63%"
+        }
+      }
+    },
+    {
+      "id": "foundation.primary",
+      "layer": "foundation",
+      "values": {
+        "light": {
+          "r": 10,
+          "g": 96,
+          "b": 153,
+          "a": 1
+        },
+        "dark": {
+          "r": 110,
+          "g": 192,
+          "b": 247,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "basalt",
+        "locator": "dist/styles/tokens.css#--basalt-primary",
+        "upstreamHsl": {
+          "light": "204 88% 32%",
+          "dark": "204 90% 70%"
+        }
+      }
+    },
+    {
+      "id": "foundation.primary-foreground",
+      "layer": "foundation",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        },
+        "dark": {
+          "r": 26,
+          "g": 26,
+          "b": 26,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "basalt",
+        "locator": "dist/styles/tokens.css#--basalt-primary-foreground",
+        "upstreamHsl": {
+          "light": "0 0% 100%",
+          "dark": "0 0% 10%"
+        }
+      }
+    },
+    {
+      "id": "foundation.info",
+      "layer": "foundation",
+      "values": {
+        "light": {
+          "r": 27,
+          "g": 71,
+          "b": 167,
+          "a": 1
+        },
+        "dark": {
+          "r": 126,
+          "g": 170,
+          "b": 241,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "basalt",
+        "locator": "dist/styles/tokens.css#--basalt-info",
+        "upstreamHsl": {
+          "light": "221 72% 38%",
+          "dark": "217 80% 72%"
+        }
+      }
+    },
+    {
+      "id": "foundation.info-foreground",
+      "layer": "foundation",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        },
+        "dark": {
+          "r": 26,
+          "g": 26,
+          "b": 26,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "basalt",
+        "locator": "dist/styles/tokens.css#--basalt-info-foreground",
+        "upstreamHsl": {
+          "light": "0 0% 100%",
+          "dark": "0 0% 10%"
+        }
+      }
+    },
+    {
+      "id": "foundation.warning",
+      "layer": "foundation",
+      "values": {
+        "light": {
+          "r": 158,
+          "g": 87,
+          "b": 26,
+          "a": 1
+        },
+        "dark": {
+          "r": 239,
+          "g": 178,
+          "b": 108,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "basalt",
+        "locator": "dist/styles/tokens.css#--basalt-warning",
+        "upstreamHsl": {
+          "light": "28 72% 36%",
+          "dark": "32 80% 68%"
+        }
+      }
+    },
+    {
+      "id": "foundation.warning-foreground",
+      "layer": "foundation",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        },
+        "dark": {
+          "r": 26,
+          "g": 26,
+          "b": 26,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "basalt",
+        "locator": "dist/styles/tokens.css#--basalt-warning-foreground",
+        "upstreamHsl": {
+          "light": "0 0% 100%",
+          "dark": "0 0% 10%"
+        }
+      }
+    },
+    {
+      "id": "foundation.danger",
+      "layer": "foundation",
+      "values": {
+        "light": {
+          "r": 173,
+          "g": 31,
+          "b": 31,
+          "a": 1
+        },
+        "dark": {
+          "r": 236,
+          "g": 121,
+          "b": 121,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "basalt",
+        "locator": "dist/styles/tokens.css#--basalt-danger",
+        "upstreamHsl": {
+          "light": "0 70% 40%",
+          "dark": "0 75% 70%"
+        }
+      }
+    },
+    {
+      "id": "foundation.danger-foreground",
+      "layer": "foundation",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        },
+        "dark": {
+          "r": 26,
+          "g": 26,
+          "b": 26,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "basalt",
+        "locator": "dist/styles/tokens.css#--basalt-danger-foreground",
+        "upstreamHsl": {
+          "light": "0 0% 100%",
+          "dark": "0 0% 10%"
+        }
+      }
+    },
+    {
+      "id": "foundation.chart-blue",
+      "layer": "foundation",
+      "values": {
+        "light": {
+          "r": 73,
+          "g": 175,
+          "b": 243,
+          "a": 1
+        },
+        "dark": {
+          "r": 110,
+          "g": 192,
+          "b": 247,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "basalt",
+        "locator": "dist/styles/tokens.css#--basalt-chart-blue",
+        "upstreamHsl": {
+          "light": "204 88% 62%",
+          "dark": "204 90% 70%"
+        }
+      }
+    },
+    {
+      "id": "foundation.chart-pink",
+      "layer": "foundation",
+      "values": {
+        "light": {
+          "r": 246,
+          "g": 121,
+          "b": 152,
+          "a": 1
+        },
+        "dark": {
+          "r": 248,
+          "g": 145,
+          "b": 171,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "basalt",
+        "locator": "dist/styles/tokens.css#--basalt-chart-pink",
+        "upstreamHsl": {
+          "light": "345 88% 72%",
+          "dark": "345 88% 77%"
+        }
+      }
+    },
+    {
+      "id": "foundation.chart-green",
+      "layer": "foundation",
+      "values": {
+        "light": {
+          "r": 115,
+          "g": 214,
+          "b": 102,
+          "a": 1
+        },
+        "dark": {
+          "r": 144,
+          "g": 223,
+          "b": 134,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "basalt",
+        "locator": "dist/styles/tokens.css#--basalt-chart-green",
+        "upstreamHsl": {
+          "light": "113 58% 62%",
+          "dark": "113 58% 70%"
+        }
+      }
+    },
+    {
+      "id": "brand.ocean.accent",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "ref": "foundation.primary"
+        },
+        "dark": {
+          "ref": "foundation.primary"
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "specs/001-shared-colors/spec.md",
+        "note": "Generic semantic mapping; no business meaning inferred from hue."
+      }
+    },
+    {
+      "id": "brand.ocean.on-accent",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "ref": "foundation.primary-foreground"
+        },
+        "dark": {
+          "ref": "foundation.primary-foreground"
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "specs/001-shared-colors/spec.md",
+        "note": "Generic semantic mapping; no business meaning inferred from hue."
+      }
+    },
+    {
+      "id": "brand.graphite.accent",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "ref": "foundation.foreground"
+        },
+        "dark": {
+          "ref": "foundation.foreground"
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "specs/001-shared-colors/spec.md",
+        "note": "Generic semantic mapping; no business meaning inferred from hue."
+      }
+    },
+    {
+      "id": "brand.graphite.on-accent",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "ref": "foundation.background"
+        },
+        "dark": {
+          "ref": "foundation.background"
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "specs/001-shared-colors/spec.md",
+        "note": "Generic semantic mapping; no business meaning inferred from hue."
+      }
+    },
+    {
+      "id": "status.info",
+      "layer": "status",
+      "values": {
+        "light": {
+          "ref": "foundation.info"
+        },
+        "dark": {
+          "ref": "foundation.info"
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "specs/001-shared-colors/spec.md",
+        "note": "Generic semantic mapping; no business meaning inferred from hue."
+      }
+    },
+    {
+      "id": "status.on-info",
+      "layer": "status",
+      "values": {
+        "light": {
+          "ref": "foundation.info-foreground"
+        },
+        "dark": {
+          "ref": "foundation.info-foreground"
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "specs/001-shared-colors/spec.md",
+        "note": "Generic semantic mapping; no business meaning inferred from hue."
+      }
+    },
+    {
+      "id": "status.warning",
+      "layer": "status",
+      "values": {
+        "light": {
+          "ref": "foundation.warning"
+        },
+        "dark": {
+          "ref": "foundation.warning"
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "specs/001-shared-colors/spec.md",
+        "note": "Generic semantic mapping; no business meaning inferred from hue."
+      }
+    },
+    {
+      "id": "status.on-warning",
+      "layer": "status",
+      "values": {
+        "light": {
+          "ref": "foundation.warning-foreground"
+        },
+        "dark": {
+          "ref": "foundation.warning-foreground"
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "specs/001-shared-colors/spec.md",
+        "note": "Generic semantic mapping; no business meaning inferred from hue."
+      }
+    },
+    {
+      "id": "status.critical",
+      "layer": "status",
+      "values": {
+        "light": {
+          "ref": "foundation.danger"
+        },
+        "dark": {
+          "ref": "foundation.danger"
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "specs/001-shared-colors/spec.md",
+        "note": "Generic semantic mapping; no business meaning inferred from hue."
+      }
+    },
+    {
+      "id": "status.on-critical",
+      "layer": "status",
+      "values": {
+        "light": {
+          "ref": "foundation.danger-foreground"
+        },
+        "dark": {
+          "ref": "foundation.danger-foreground"
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "specs/001-shared-colors/spec.md",
+        "note": "Generic semantic mapping; no business meaning inferred from hue."
+      }
+    },
+    {
+      "id": "product.surface.canvas",
+      "layer": "product",
+      "semanticId": "product.surface.canvas",
+      "values": {
+        "light": {
+          "ref": "foundation.background"
+        },
+        "dark": {
+          "ref": "foundation.background"
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "specs/001-shared-colors/spec.md",
+        "note": "Generic semantic mapping; no business meaning inferred from hue."
+      }
+    },
+    {
+      "id": "product.surface.raised",
+      "layer": "product",
+      "semanticId": "product.surface.raised",
+      "values": {
+        "light": {
+          "ref": "foundation.card"
+        },
+        "dark": {
+          "ref": "foundation.card"
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "specs/001-shared-colors/spec.md",
+        "note": "Generic semantic mapping; no business meaning inferred from hue."
+      }
+    },
+    {
+      "id": "product.text.primary",
+      "layer": "product",
+      "semanticId": "product.text.primary",
+      "values": {
+        "light": {
+          "ref": "foundation.foreground"
+        },
+        "dark": {
+          "ref": "foundation.foreground"
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "specs/001-shared-colors/spec.md",
+        "note": "Generic semantic mapping; no business meaning inferred from hue."
+      }
+    },
+    {
+      "id": "product.text.secondary",
+      "layer": "product",
+      "semanticId": "product.text.secondary",
+      "values": {
+        "light": {
+          "ref": "foundation.muted-foreground"
+        },
+        "dark": {
+          "ref": "foundation.muted-foreground"
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "specs/001-shared-colors/spec.md",
+        "note": "Generic semantic mapping; no business meaning inferred from hue."
+      }
+    },
+    {
+      "id": "product.series.cobalt",
+      "layer": "product",
+      "semanticId": "product.series.cobalt",
+      "values": {
+        "light": {
+          "ref": "foundation.chart-blue"
+        },
+        "dark": {
+          "ref": "foundation.chart-blue"
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "specs/001-shared-colors/spec.md",
+        "note": "Generic semantic mapping; no business meaning inferred from hue."
+      }
+    },
+    {
+      "id": "product.series.rose",
+      "layer": "product",
+      "semanticId": "product.series.rose",
+      "values": {
+        "light": {
+          "ref": "foundation.chart-pink"
+        },
+        "dark": {
+          "ref": "foundation.chart-pink"
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "specs/001-shared-colors/spec.md",
+        "note": "Generic semantic mapping; no business meaning inferred from hue."
+      }
+    },
+    {
+      "id": "product.series.leaf",
+      "layer": "product",
+      "semanticId": "product.series.leaf",
+      "values": {
+        "light": {
+          "ref": "foundation.chart-green"
+        },
+        "dark": {
+          "ref": "foundation.chart-green"
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "specs/001-shared-colors/spec.md",
+        "note": "Generic semantic mapping; no business meaning inferred from hue."
+      }
+    }
+  ],
+  "brands": {
+    "ocean": {
+      "accent": "brand.ocean.accent",
+      "onAccent": "brand.ocean.on-accent"
+    },
+    "graphite": {
+      "accent": "brand.graphite.accent",
+      "onAccent": "brand.graphite.on-accent"
+    }
+  },
+  "contrastPairs": [
+    {
+      "foreground": "product.text.primary",
+      "background": "product.surface.canvas",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.text.primary",
+      "background": "product.surface.raised",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.text.secondary",
+      "background": "product.surface.canvas",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.text.secondary",
+      "background": "product.surface.raised",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "status.on-info",
+      "background": "status.info",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "status.on-warning",
+      "background": "status.warning",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "status.on-critical",
+      "background": "status.critical",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.ocean.on-accent",
+      "background": "brand.ocean.accent",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.graphite.on-accent",
+      "background": "brand.graphite.accent",
+      "minimum": 4.5
+    }
+  ]
+}

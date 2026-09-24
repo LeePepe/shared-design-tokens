@@ -1,0 +1,17 @@
+{
+  "version": "synthetic-local-colors-v0",
+  "modes": {
+    "light": {
+      "foreground": {"r": 31, "g": 31, "b": 31, "a": 1},
+      "canvas": {"r": 238, "g": 239, "b": 242, "a": 1},
+      "synthetic-alpha": {"r": 73, "g": 175, "b": 243, "a": 1},
+      "synthetic-beta": {"r": 246, "g": 121, "b": 152, "a": 1}
+    },
+    "dark": {
+      "foreground": {"r": 237, "g": 237, "b": 237, "a": 1},
+      "canvas": {"r": 23, "g": 23, "b": 23, "a": 1},
+      "synthetic-alpha": {"r": 110, "g": 192, "b": 247, "a": 1},
+      "synthetic-beta": {"r": 248, "g": 145, "b": 171, "a": 1}
+    }
+  }
+}

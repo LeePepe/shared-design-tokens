@@ -1,0 +1,282 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/LeePepe/design-system/schema/colors-v1.json",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0.0"
+    },
+    "colorSpace": {
+      "const": "srgb"
+    },
+    "upstream": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "package": {
+          "const": "@nocoo/basalt"
+        },
+        "version": {
+          "const": "2.1.8"
+        },
+        "license": {
+          "const": "MIT"
+        },
+        "url": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "package",
+        "version",
+        "license",
+        "url"
+      ]
+    },
+    "tokens": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^(foundation|brand|status|product)\\.[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+          },
+          "layer": {
+            "enum": [
+              "foundation",
+              "brand",
+              "status",
+              "product"
+            ]
+          },
+          "semanticId": {
+            "type": "string",
+            "pattern": "^(foundation|brand|status|product)\\.[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+          },
+          "values": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "light": {
+                "oneOf": [
+                  {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "r": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 255
+                      },
+                      "g": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 255
+                      },
+                      "b": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 255
+                      },
+                      "a": {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 1
+                      }
+                    },
+                    "required": [
+                      "r",
+                      "g",
+                      "b",
+                      "a"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "ref": {
+                        "type": "string",
+                        "pattern": "^(foundation|brand|status|product)\\.[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+                      }
+                    },
+                    "required": [
+                      "ref"
+                    ]
+                  }
+                ]
+              },
+              "dark": {
+                "oneOf": [
+                  {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "r": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 255
+                      },
+                      "g": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 255
+                      },
+                      "b": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 255
+                      },
+                      "a": {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 1
+                      }
+                    },
+                    "required": [
+                      "r",
+                      "g",
+                      "b",
+                      "a"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "ref": {
+                        "type": "string",
+                        "pattern": "^(foundation|brand|status|product)\\.[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+                      }
+                    },
+                    "required": [
+                      "ref"
+                    ]
+                  }
+                ]
+              }
+            },
+            "required": [
+              "light",
+              "dark"
+            ]
+          },
+          "provenance": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "source": {
+                "enum": [
+                  "basalt",
+                  "local"
+                ]
+              },
+              "locator": {
+                "type": "string",
+                "minLength": 1
+              },
+              "note": {
+                "type": "string",
+                "minLength": 1
+              },
+              "upstreamHsl": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "light": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "dark": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "light",
+                  "dark"
+                ]
+              }
+            },
+            "required": [
+              "source",
+              "locator"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "layer",
+          "values",
+          "provenance"
+        ]
+      }
+    },
+    "brands": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": {
+        "pattern": "^[a-z][a-z0-9-]*$"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "accent": {
+            "type": "string",
+            "pattern": "^(foundation|brand|status|product)\\.[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+          },
+          "onAccent": {
+            "type": "string",
+            "pattern": "^(foundation|brand|status|product)\\.[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+          }
+        },
+        "required": [
+          "accent",
+          "onAccent"
+        ]
+      }
+    },
+    "contrastPairs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "foreground": {
+            "type": "string",
+            "pattern": "^(foundation|brand|status|product)\\.[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+          },
+          "background": {
+            "type": "string",
+            "pattern": "^(foundation|brand|status|product)\\.[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+          },
+          "minimum": {
+            "type": "number",
+            "minimum": 4.5,
+            "maximum": 21
+          }
+        },
+        "required": [
+          "foreground",
+          "background",
+          "minimum"
+        ]
+      }
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "colorSpace",
+    "upstream",
+    "tokens",
+    "brands",
+    "contrastPairs"
+  ]
+}
