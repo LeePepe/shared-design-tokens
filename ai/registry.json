@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "package": {
     "name": "@leepepe/design-tokens",
-    "version": "0.1.0-candidate.1",
+    "version": "0.1.0",
     "swiftProduct": "DesignTokens"
   },
   "documents": {

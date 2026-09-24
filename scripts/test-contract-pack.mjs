@@ -10,7 +10,7 @@ import {createHash} from 'node:crypto';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const dir = mkdtempSync(join(process.env.TOKENS_EVIDENCE_DIR || tmpdir(), 'tokens-contract-'));
 const expectedName = '@leepepe/design-tokens';
-const expectedVersion = '0.1.0-candidate.1';
+const expectedVersion = '0.1.0';
 const digest = bytes => createHash('sha256').update(bytes).digest('hex');
 const receipt = {expectedName, expectedVersion, directory: dir, commands: [], negatives: []};
 console.log(`Contract evidence: ${dir}`);
