@@ -6,4 +6,4 @@ Published artifact: https://www.npmjs.com/package/@nocoo/basalt/v/2.1.8
 
 The complete upstream license is preserved at `tokens/upstream/basalt-2.1.8/LICENSE` and travels in the npm pack. Audited package declarations/CSS are under that directory; they are evidence, NOT a runtime theme imported or exported by this library. Individual audited file URLs and SHA-256 digests are in `manifest.json`.
 
-Local source is private and UNLICENSED; this does not alter the MIT rights/notice of the derived upstream material.
+Local source is MIT-licensed (see LICENSE); this does not alter the MIT rights/notice of the derived upstream material.

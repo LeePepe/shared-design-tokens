@@ -1,5 +1,9 @@
 # Migration and rollback
 
+## 0.1.0 to 0.1.1
+
+Licensing metadata only; no runtime, color or API change. Bump the pin to exact `0.1.1` (Swift: `exact: "0.1.1"`; npm: tarball built from tag `v0.1.1`). Roll back by pinning back to `0.1.0`.
+
 ## Synthetic local adapter v0 to 0.1.0
 
 This first migration is a declared synthetic teaching fixture, not an inventory of any product's old colors. [legacy-colors.json](../examples/data/legacy-colors.json) is the fixed `synthetic-local-colors-v0` baseline: explicit light/dark foreground/canvas values and two stable local series keys. [migration.mjs](../examples/data/migration.mjs) implements the old local lookup, the semantic-token adapter, expected-behavior comparisons, and rollback. It uses only the public npm API.

@@ -1,10 +1,10 @@
 {
   "name": "@leepepe/design-tokens",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "type": "module",
   "description": "Platform-neutral pinned color data; no UI",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "engines": {
     "node": ">=22"
   },
@@ -44,7 +44,7 @@
     "test:browser": "node --test tests/browser.test.mjs",
     "test:consumer": "node scripts/test-consumer.mjs",
     "test:pack": "node scripts/test-pack.mjs",
-    "check:ai": "node scripts/check-ai-contract.mjs --root . --expected-name @leepepe/design-tokens --expected-version 0.1.0",
+    "check:ai": "node scripts/check-ai-contract.mjs --root . --expected-name @leepepe/design-tokens --expected-version 0.1.1",
     "test:ai-checker": "node --test tests/ai-checker.test.mjs",
     "test:contract": "node scripts/test-contract-pack.mjs",
     "test:swift-consumer": "node scripts/test-swift-consumer.mjs"
