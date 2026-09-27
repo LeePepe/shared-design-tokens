@@ -3,7 +3,7 @@
 # layer (leaf `owns`) or one `support` exclusion; `scripts/context/audit` checks it.
 layer: _root
 support:
-  - patterns: ["*.md", ".gitignore", "docs/**", "specs/**", ".github/**", ".githooks/**", "scripts/verify", "scripts/ci/**"]
+  - patterns: ["*.md", "LICENSE", ".gitignore", "docs/**", "specs/**", ".github/**", ".githooks/**", "scripts/verify", "scripts/ci/**"]
     reason: documentation, specs and CI wiring; checked by the contract audit and workflow-lint, not a layer gate
 red_lines:
   - Dependencies point only in the direction listed in the table below.
