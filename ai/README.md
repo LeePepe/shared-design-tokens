@@ -1,6 +1,6 @@
 # DesignTokens contract
 
-Release `v0.1.0` of `@leepepe/design-tokens` (Git tag; not published to the npm registry); Swift product/module `DesignTokens`, package manifest name `DesignSystem`, SwiftPM identity `shared-design-tokens` (`https://github.com/LeePepe/shared-design-tokens`).
+Release `v0.1.1` of `@leepepe/design-tokens` (Git tag; not published to the npm registry); Swift product/module `DesignTokens`, package manifest name `DesignSystem`, SwiftPM identity `shared-design-tokens` (`https://github.com/LeePepe/shared-design-tokens`).
 
 | Task | Read next | Completion criterion |
 |---|---|---|

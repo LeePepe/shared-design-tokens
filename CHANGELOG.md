@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.1 — license metadata now MIT; LICENSE file included (Git tag `v0.1.1`)
+
+- `package.json` / `package-lock.json` license changes from `UNLICENSED` to `MIT`, matching `LICENSE`.
+- The repository `LICENSE` (MIT) ships in this tag; the `v0.1.0` tag had none.
+- No runtime API, token ID, color value or generated artifact changes.
+- Swift consumers pin `exact: "0.1.1"`; npm consumers install the tarball built from tag `v0.1.1` (no npm registry publication; `package.json` stays `private`).
+
 ## 0.1.0 — first release (Git tag `v0.1.0`)
 
 - First immutable release of the candidate.1 color data and contract; no runtime API, token ID, color value or generated artifact changes.
