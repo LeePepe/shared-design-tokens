@@ -1,6 +1,6 @@
 # shared-design-tokens — color data
 
-Release `0.1.1` (Git tag `v0.1.1`) of `@leepepe/design-tokens` / Swift `DesignTokens`. This version ships **color data only**, not UI components. `tokens/colors.json` is the editable source of truth; JSON Schema and deterministic generation produce JS/TS, scoped CSS, resolved JSON and Swift. Agents: start with [AGENTS.md](AGENTS.md).
+Release `0.1.1` (Git tag `v0.1.1`) of `@leepepe/design-tokens` / Swift `DesignTokens`. This version ships **color data only** and no UI components. `tokens/colors.json` is the editable source of truth; JSON Schema and deterministic generation produce JS/TS, scoped CSS, resolved JSON and Swift. Agents: start with [AGENTS.md](AGENTS.md).
 
 ## Start here
 
