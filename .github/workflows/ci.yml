@@ -1,6 +1,6 @@
-# Caller of the shared-ci fail-closed quality gate. The only check the ruleset
-# needs is `quality / aggregate`; it fails unless every selected lane passed on
-# the PR head SHA. Lanes:
+# Caller of the shared-ci fail-closed quality gate. `quality / aggregate` fails
+# unless every selected lane passed on the PR head SHA. The separate review.yml
+# caller runs Codex review on this repository's self-hosted runner. Lanes:
 #   verify  macOS: scripts/verify --all (contract checks, Tokens and Swift layers)
 #   test    Linux: scripts/verify --layer Tokens (keeps the ubuntu Node/Chrome coverage)
 #   contract, workflow-lint: shared-ci audits at the pinned SHA
@@ -24,7 +24,7 @@ concurrency:
 
 jobs:
   quality:
-    uses: LeePepe/shared-ci/.github/workflows/quality.yml@761fe6b0b3ca5e2c57d244182d495ab8041851fa
+    uses: LeePepe/shared-ci/.github/workflows/quality.yml@6e354f476bc53d68f0f09fc231d5cd938466af9c
     with:
       runs-on: macos-15
       setup-command: scripts/ci/setup.sh
