@@ -14,8 +14,8 @@ follows the protocol below. Tool-specific files (CLAUDE.md etc.) only point here
 
 ## Protocol
 
-Follow `LeePepe/shared-ci@6e354f476bc53d68f0f09fc231d5cd938466af9c/ai/agent-protocol.md`
-(https://github.com/LeePepe/shared-ci/blob/6e354f476bc53d68f0f09fc231d5cd938466af9c/ai/agent-protocol.md).
+Follow `LeePepe/shared-ci@42d1704a5690ab5890657feaadb8929384632766/ai/agent-protocol.md`
+(https://github.com/LeePepe/shared-ci/blob/42d1704a5690ab5890657feaadb8929384632766/ai/agent-protocol.md).
 It must be the same SHA as the `uses:` pins in `.github/workflows/`.
 
 ## Verify
@@ -65,7 +65,7 @@ Linux, contract audit, workflow-lint and the PR-body check.
 
 ## Dependencies
 
-- `shared-ci` `6e354f476bc53d68f0f09fc231d5cd938466af9c` — https://github.com/LeePepe/shared-ci/blob/6e354f476bc53d68f0f09fc231d5cd938466af9c/ai/
+- `shared-ci` `42d1704a5690ab5890657feaadb8929384632766` — https://github.com/LeePepe/shared-ci/blob/42d1704a5690ab5890657feaadb8929384632766/ai/
 
 Runtime dependencies: none. Dev tools are exact pins in `package-lock.json`.
 
