@@ -33,4 +33,15 @@ do {
 } catch TokenError.missingSeriesBinding(let key) {
     try check(key == "missing-synthetic-key")
 }
+try check(StyleTokens.spacing("spacing.lg") == 16)
+try check(StyleTokens.typography("typography.body").size == 17)
+try check(StyleTokens.curve("curve.standard").x1 == 0.2)
+let shadow = try StyleTokens.shadow("shadow.small")
+try check(DesignTokens.color(shadow.colorToken, theme: .light).a == 1)
+do {
+    _ = try StyleTokens.spacing("radius.small")
+    throw ExampleFailure.assertion
+} catch StyleTokenError.unknownToken(let id) {
+    try check(id == "radius.small")
+}
 print("PASS Swift data: \(assertions) assertions")

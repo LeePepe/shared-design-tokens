@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "private": true,
   "type": "module",
-  "description": "Platform-neutral pinned color data; no UI",
+  "description": "Platform-neutral pinned color and style data; no UI",
   "license": "MIT",
   "engines": {
     "node": ">=22"
@@ -32,7 +32,14 @@
     "./colors.css": "./dist/colors.css",
     "./resolved.json": "./dist/resolved.json",
     "./source.json": "./tokens/colors.json",
-    "./schema.json": "./tokens/schema.json"
+    "./schema.json": "./tokens/schema.json",
+    "./styles": {
+      "types": "./dist/styles.d.ts",
+      "import": "./dist/styles.js"
+    },
+    "./styles.resolved.json": "./dist/styles.resolved.json",
+    "./styles.source.json": "./tokens/styles.json",
+    "./styles.schema.json": "./tokens/styles.schema.json"
   },
   "sideEffects": [
     "./dist/colors.css"

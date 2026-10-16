@@ -13,7 +13,7 @@ function run(command,args,cwd=fixture) {
 try {
   // Copy consumer deliverables only; no symlink backdoor to repository devDependencies.
   const installed=join(fixture,'node_modules/@leepepe/design-tokens'); mkdirSync(join(installed,'dist'),{recursive:true});
-  for(const f of ['package.json','dist/index.js','dist/index.d.ts','dist/colors.ts']) copyFileSync(join(root,f),join(installed,f));
+  for(const f of ['package.json','dist/index.js','dist/index.d.ts','dist/colors.ts','dist/styles.js','dist/styles.d.ts']) copyFileSync(join(root,f),join(installed,f));
   writeFileSync(join(fixture,'package.json'),JSON.stringify({type:'module',private:true}));
   copyFileSync(join(root,'tests/consumer/consumer.ts'),join(fixture,'consumer.ts'));
   run(process.execPath,[join(root,'node_modules/typescript/bin/tsc'),'--strict','--target','ES2022','--module','NodeNext','--moduleResolution','NodeNext','--outDir','out','consumer.ts']);

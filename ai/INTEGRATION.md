@@ -45,3 +45,7 @@ The [checker](../scripts/check-ai-contract.mjs) is a development tool; run it wi
 | `AI_EXPORT_SHAPE`, `AI_EXPORT_UNREGISTERED`, `AI_SWIFT_PRODUCT` | Restore declared public exports/product and corresponding surfaces |
 
 Invalid color values/IDs and generation drift are tested by the existing source/runtime suites, not a general schema validator inside this checker. Unknown policy fields are rejected, but that is not Owner exception or rule-downgrade enforcement. Read [bounded checker semantics](../docs/ai-checker.md) before interpreting a pass. Fingerprints and a PR-owned registry are integrity evidence, not a trusted external policy baseline.
+
+## Unreleased style candidate
+
+The immutable v0.1.1 recipes above remain color-only. Style APIs in this working tree need a separately authorized minor release before remote exact-version adoption. For review, the existing exact-local-commit Swift harness also executes style lookups, and the packed TS consumer compiles/runs `/styles`. This evidence verifies candidate bytes without creating a tag or pretending an unreleased version resolves remotely.

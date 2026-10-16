@@ -18,4 +18,37 @@ Store identity-to-series bindings in the consumer, independently of brand, sort 
 
 JS throws on unknown IDs, invalid themes/brands/roles, absent bindings and non-series binding values; no fallback or token alias is installed. TypeScript rejects illegal literals at compile time; untrusted runtime input still needs validation. Swift uses typed themes and roles; its exact error cases are defined in `TokenError` in the linked facade. RGBA initialization rejects invalid/nonfinite values and contrast rejects translucency. A consumer must handle errors explicitly rather than substitute an arbitrary color.
 
-Implemented: immutable color data and producer-local integrity checks. Planned elsewhere: independent Apple NativeDesignKit/SPM repository. Out of scope: UI, persistence, product migration, shared-ci policy/approval/downgrade checks, publication and network resolution.
+Implemented: immutable color and unreleased style data and producer-local integrity checks. Planned elsewhere: independent Apple NativeDesignKit/SPM repository. Out of scope: UI, persistence, product migration, shared-ci policy/approval/downgrade checks, publication and network resolution.
+
+## Style foundations (unreleased)
+
+This addition is available only from the reviewed source candidate, not tag v0.1.1. The [Swift facade](../Sources/DesignTokens/StyleTokens.swift) exposes `StyleTokens` and immutable Equatable/Sendable `TypographyToken`, `CubicBezierToken`, `SpringToken`, `ShadowToken`. The [ESM implementation](../dist/styles.js) and [declarations](../dist/styles.d.ts) are exported through `/styles`. File-readable assets are `/styles.resolved.json`, `/styles.source.json`, `/styles.schema.json`; no style CSS theme or framework adapter is emitted.
+
+Both APIs expose category lookups and sorted category ID arrays for `spacing`, `dimension`, `radius`, `border`, `opacity`, `duration`, `stagger`, `typography`, `curve`, `spring` and `shadow`. Scalar categories return numbers/Double. Structured types contain:
+
+| Type | Data |
+| --- | --- |
+| TypographyToken | size, weight, lineHeight, tracking, relativeTo, monospacedDigits |
+| CubicBezierToken | x1, y1, x2, y2 |
+| SpringToken | response, dampingFraction, blendDuration |
+| ShadowToken | colorToken, opacity, radius, x, y |
+
+Lengths are logical units; adapters map them to native points or web CSS pixels and apply appropriate Dynamic Type/user scaling. Font weight uses the 100–900 CSS scale. `relativeTo` identifies the type role (`largeTitle`, `title`, `title2`, `title3`, `headline`, `body`, `callout`, `subheadline`, `footnote`, `caption`, `caption2`); adapters supply the actual font. Durations/stagger/spring response/blend are seconds. Opacity/damping/curve coordinates are unitless. Curve x coordinates lie in 0…1; y may overshoot. Shadow colorToken is resolved with the existing explicit-theme color API; opacity composes with that color's alpha. A shadow's color role does not imply a text contrast guarantee.
+
+```swift
+let gap = try StyleTokens.spacing("spacing.lg")
+let body = try StyleTokens.typography("typography.body")
+let shadow = try StyleTokens.shadow("shadow.small")
+let shadowColor = try DesignTokens.color(shadow.colorToken, theme: .dark)
+```
+
+```ts
+import {spacing, typography, shadow} from '@leepepe/design-tokens/styles';
+import {color} from '@leepepe/design-tokens';
+const gap = spacing('spacing.lg');
+const body = typography('typography.body');
+const shadowSpec = shadow('shadow.small');
+const shadowColor = color(shadowSpec.colorToken, 'dark');
+```
+
+JS data is deeply frozen and TypeScript style IDs are category-specific literal unions. Swift throws `StyleTokenError.unknownToken(originalID)` for missing or wrong-category IDs, leaving existing `TokenError` unchanged; JS throws `Error` with `unknown style token`. There is no arbitrary style-construction API, default theme, mutable registry or fallback. Current values have original project provenance; Basalt remains Web rendering/theme authority.

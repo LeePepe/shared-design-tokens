@@ -21,7 +21,7 @@ gate:
   ai: npm run check:ai
   contract: npm run test:contract
 red_lines:
-  - tokens/colors.json is the only editable color authority; generated files are never hand-edited.
+  - tokens/colors.json and tokens/styles.json are the only editable color and non-color style authorities; generated files are never hand-edited.
   - Unknown IDs, missing modes, invalid colors or references and generation drift fail closed.
   - CSS is exclusively --lp-* variables under explicit data-lp-theme selectors; no global or Basalt overrides.
   - The runtime package has zero dependencies; Ajv and TypeScript stay dev-only.
@@ -33,9 +33,10 @@ Source of truth, validation, generation and the shipped AI contract for
 `@leepepe/design-tokens`.
 
 - **Source:** `tokens/colors.json` against `tokens/schema.json`; audited
-  upstream snapshot in `tokens/upstream/`.
+  upstream snapshot in `tokens/upstream/`. Non-color style source:
+  `tokens/styles.json` against `tokens/styles.schema.json` (logical units and seconds).
 - **Generator:** `scripts/generate.mjs` (with `scripts/source.mjs`) writes
-  `dist/` and `Sources/DesignTokens/GeneratedColors.swift`; `generate:check`
+  `dist/`, `Sources/DesignTokens/GeneratedColors.swift` and `GeneratedStyles.swift`; `generate:check`
   fails on drift.
 - **Contract:** `ai/` travels with the package; `scripts/check-ai-contract.mjs`
   is the bounded checker ([scope](../../ai-checker.md)).

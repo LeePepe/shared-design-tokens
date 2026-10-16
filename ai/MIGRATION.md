@@ -1,5 +1,9 @@
 # Migration and rollback
 
+## Unreleased style addition
+
+Existing color consumers need no code change. Native/web style adopters must wait for a separately authorized minor release and exact-version upgrade; v0.1.1 has no `StyleTokens` or `/styles`. Local candidate fixtures bind source/docs to a reviewed exact commit only. To roll back an adopting consumer, remove its style API usage and restore its previous exact provider pin and adapter together; never patch generated values or rewrite v0.1.1.
+
 ## 0.1.0 to 0.1.1
 
 Licensing metadata only; no runtime, color or API change. Bump the pin to exact `0.1.1` (Swift: `exact: "0.1.1"`; npm: tarball built from tag `v0.1.1`). Roll back by pinning back to `0.1.0`.

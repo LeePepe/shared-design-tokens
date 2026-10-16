@@ -12,14 +12,15 @@ gate:
   consumer: bash -c 'npm run test:swift-consumer -- "$(git rev-parse HEAD)"'
 red_lines:
   - The DesignTokens target never imports UIKit, AppKit or SwiftUI; Foundation only.
-  - GeneratedColors.swift comes from the Tokens generator; never edit it by hand.
+  - GeneratedColors.swift and GeneratedStyles.swift come from the Tokens generator; never edit it by hand.
   - Public values are immutable Sendable data; no native Color objects.
 ---
 
 # Swift
 
 SwiftPM package `DesignSystem`, product and module `DesignTokens`, declared
-floors iOS 15 / macOS 12 / watchOS 8 (data only). Tests live in
+floors iOS 15 / macOS 12 / watchOS 8 (data only). `StyleTokens` adds typed
+immutable non-color values without importing UI frameworks. Tests live in
 `tests/DesignTokensTests` (explicit test target path).
 
 The `consumer` gate resolves `examples/data/swift` as an external package

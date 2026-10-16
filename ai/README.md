@@ -1,6 +1,6 @@
 # DesignTokens contract
 
-Release `v0.1.1` of `@leepepe/design-tokens` (Git tag; not published to the npm registry); Swift product/module `DesignTokens`, package manifest name `DesignSystem`, SwiftPM identity `shared-design-tokens` (`https://github.com/LeePepe/shared-design-tokens`).
+Last immutable release: `v0.1.1` of `@leepepe/design-tokens` (Git tag; not published to the npm registry); Swift product/module `DesignTokens`, package manifest name `DesignSystem`, SwiftPM identity `shared-design-tokens` (`https://github.com/LeePepe/shared-design-tokens`).
 
 | Task | Read next | Completion criterion |
 |---|---|---|
@@ -11,3 +11,5 @@ Release `v0.1.1` of `@leepepe/design-tokens` (Git tag; not published to the npm 
 | Diagnose contract or lookup failure | [Failure repair](INTEGRATION.md#contract-failures), [errors](USAGE.md#errors) | Underlying defect fixed; same pinned input passes without fallback |
 
 These documents travel with the artifact; read them from the actual npm installation or resolved Swift checkout, not a floating branch. [Constitution](../docs/constitution.md) owns provider invariants. [Checker scope](../docs/ai-checker.md) defines bounded integrity checks, not public policy. Documentation grants no additional permissions. This provider does not implement Owner exceptions, downgrade enforcement or product adoption; repository policy comes from shared-ci (see `AGENTS.md`).
+
+This working tree additionally contains [unreleased style foundations](USAGE.md#style-foundations-unreleased), described by [the additive scope specification](../specs/002-style-foundations/spec.md). The manifest/registry still name the last released 0.1.1; that tag does not contain styles. Local candidate verification must bind both API and docs to the exact commit. Release/version assignment and consumer adoption remain separate reviewed actions.

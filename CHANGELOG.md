@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased — additive style foundations
+
+- Add authoritative `tokens/styles.json` and strict style schema: typography, spacing, dimensions/hit targets, radius, border, opacity, shadow, duration, curve, spring and stagger data.
+- Generate immutable Swift `StyleTokens` and JS/TS `/styles` data APIs plus resolved JSON. Styles fail closed on unknown/wrong-category IDs; existing color data/APIs/errors are unchanged.
+- Extend source, packed and exact-revision consumer checks. No UI imports, new runtime dependencies, platform-floor changes, release, tag or registry publication.
+- This expands the historical color-only scope; contracts and source ownership are revised for Owner review. The last release remains v0.1.1, which has no style API. A separately authorized minor release and exact consumer upgrade are still required.
+
 ## 0.1.1 — license metadata now MIT; LICENSE file included (Git tag `v0.1.1`)
 
 - `package.json` / `package-lock.json` license changes from `UNLICENSED` to `MIT`, matching `LICENSE`.

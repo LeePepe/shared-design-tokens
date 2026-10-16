@@ -1,6 +1,6 @@
 # AGENTS.md — shared-design-tokens
 
-Platform-neutral, pinned color data (`@leepepe/design-tokens` npm package and
+Platform-neutral, pinned color and style data (`@leepepe/design-tokens` npm package and
 `DesignTokens` SwiftPM product); no UI. Every agent that edits this repository
 follows the protocol below. Tool-specific files (CLAUDE.md etc.) only point here.
 
@@ -10,7 +10,8 @@ follows the protocol below. Tool-specific files (CLAUDE.md etc.) only point here
 2. `docs/architecture/tech-context.md` — layer table: layer → paths → depends_on
 3. The leaf `tech-context.md` of every layer you touch (`Tokens`, `Swift`)
 4. Feature intent and acceptance: `specs/001-shared-colors/`; consumer-facing
-   contract: `ai/README.md` (it ships with every release)
+   contract: `ai/README.md` (it ships with every release); additive style scope:
+   `specs/002-style-foundations/spec.md`
 
 ## Protocol
 
@@ -46,11 +47,13 @@ Linux, contract audit, workflow-lint and the PR-body check.
 
 ## Red lines
 
-- Color data only: the Swift target never imports UIKit, AppKit or SwiftUI; no
+- Data only: the Swift target never imports UIKit, AppKit or SwiftUI; no
   business data, screens, services or native components here. Native UI lives
   in `LeePepe/shared-design-system`, which consumes this package by exact version.
 - `tokens/colors.json` is the only editable color authority; generated files
-  (`dist/`, `GeneratedColors.swift`) are reproducible and never hand-tuned.
+  (`dist/`, `GeneratedColors.swift`, `GeneratedStyles.swift`) are reproducible
+  and never hand-tuned. `tokens/styles.json` is the only editable non-color style
+  authority; it contains no UI implementations.
 - Unknown IDs, missing modes, invalid colors or references and generation drift
   fail closed; no silent fallbacks.
 - Basalt stays the Web theme authority; this package emits only `--lp-*`
