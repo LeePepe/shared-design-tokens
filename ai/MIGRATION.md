@@ -1,6 +1,6 @@
 # Migration and rollback
 
-## Unreleased style addition
+## Style adoption
 
 Existing color consumers need no code change. Native/web style adopters pin exact 0.2.0 after verifying its immutable release; v0.1.1 has no `StyleTokens` or `/styles`. Local candidate fixtures bind source/docs to a reviewed exact commit only. To roll back an adopting consumer, remove its style API usage and restore its previous exact provider pin and adapter together; never patch generated values or rewrite v0.1.1.
 

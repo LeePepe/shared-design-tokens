@@ -46,7 +46,7 @@ The [checker](../scripts/check-ai-contract.mjs) is a development tool; run it wi
 
 Invalid color values/IDs and generation drift are tested by the existing source/runtime suites, not a general schema validator inside this checker. Unknown policy fields are rejected, but that is not Owner exception or rule-downgrade enforcement. Read [bounded checker semantics](../docs/ai-checker.md) before interpreting a pass. Fingerprints and a PR-owned registry are integrity evidence, not a trusted external policy baseline.
 
-## Unreleased style candidate
+## Candidate and release evidence
 
 Version 0.2.0 includes styles and five explicit Strata palettes. The release
 notes bind tag, commit, tarball digest and external consumer evidence. Before

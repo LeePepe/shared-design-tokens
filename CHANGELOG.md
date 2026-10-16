@@ -6,12 +6,9 @@
 - Add brand-independent semantic text/status/chart colors and declared opaque contrast pairs. Existing colors/brands/series and runtime APIs remain unchanged.
 - Immutable tag, artifact digest and external consumer verification are recorded in release notes. Native UI acceptance remains consumer-owned.
 
-
-## Unreleased — additive style foundations
-
 - Add authoritative `tokens/styles.json` and strict style schema: typography, spacing, dimensions/hit targets, radius, border, opacity, shadow, duration, curve, spring and stagger data.
 - Generate immutable Swift `StyleTokens` and JS/TS `/styles` data APIs plus resolved JSON. Styles fail closed on unknown/wrong-category IDs; existing color data/APIs/errors are unchanged.
-- Extend source, packed and exact-revision consumer checks. No UI imports, new runtime dependencies, platform-floor changes, release, tag or registry publication.
+- Extend source, packed and exact-revision consumer checks. No UI imports, new runtime dependencies or platform-floor changes; npm registry publication remains disabled.
 - Expands the historical color-only scope while preserving all legacy data and APIs. Version 0.1.1 has no style API; consumers adopt exact 0.2.0 after release verification.
 
 ## 0.1.1 — license metadata now MIT; LICENSE file included (Git tag `v0.1.1`)

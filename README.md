@@ -87,7 +87,7 @@ After intentional source changes: `npm run generate`, then repeat the gates. Gen
 
 CI has read-only permissions and no provider credentials. Its presence does not establish required checks or prove a hosted run. All current execution evidence is from the local host, not iOS/macOS UI validation.
 
-## Unreleased style foundations
+## Style foundations (0.2.0)
 
 `tokens/styles.json` is the editable non-color style authority. Its schema validates finite values, units, complete categories, provenance and semantic shadow-color references. The same deterministic generator writes `dist/styles.js`, `dist/styles.d.ts`, `dist/styles.resolved.json` and `Sources/DesignTokens/GeneratedStyles.swift`. Existing color outputs remain byte-identical.
 

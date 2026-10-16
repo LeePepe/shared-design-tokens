@@ -6,7 +6,7 @@ All data is synthetic. There is no UI/demo, business repository, network service
 |---|---|---|
 | [JS data](../examples/data/usage.mjs) | Light/dark, valid/invalid IDs, brand-independent identity across sorting/filtering | `node examples/data/usage.mjs` in source or installed package |
 | [TS data](../examples/data/usage.ts) | Strict public API typing, expected compile-time invalid-ID rejection, emitted runtime checks | Installed-artifact recipe in [integration](INTEGRATION.md#npm-artifact) |
-| [Swift data](../examples/data/swift/Sources/TokenExample/main.swift) | Public DesignTokens product, both modes/brands, typed color/style errors, stable series and unreleased style data | Source harness: `npm run test:swift-consumer -- <full-local-SHA>` |
+| [Swift data](../examples/data/swift/Sources/TokenExample/main.swift) | Public DesignTokens product, both modes/brands, typed color/style errors, stable series and 0.2.0 style data | Source harness: `npm run test:swift-consumer -- <full-local-SHA>` |
 | [Migration](../examples/data/migration.mjs) with [legacy fixture](../examples/data/legacy-colors.json) | Synthetic local adapter v0 to semantic bindings, equality and rollback | `node examples/data/migration.mjs` |
 
 Provider maintainer commands: `npm run test:ai-checker` tests the checker against synthetic packages before use; `npm run check:ai` checks source linkage; `npm run test:contract` packs and installs a fresh artifact, checks it, compiles/runs shipped examples and tests deliberately damaged copies. Each command must exit zero. Existing `npm run test:pack` separately runs installed CSS in a real browser; neither is visual acceptance.
