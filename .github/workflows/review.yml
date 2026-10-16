@@ -29,6 +29,7 @@ jobs:
       codex-bin: /opt/homebrew/bin/codex
       rules-file: AGENTS.md
       owner-user-id: "13819054"
+      max-diff-bytes: 500000
 
   codex-review-gate:
     if: ${{ always() }}
