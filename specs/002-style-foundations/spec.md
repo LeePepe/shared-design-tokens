@@ -56,3 +56,8 @@ The manifest version remains the last released 0.1.1 while the working tree is
 unreleased; v0.1.1 itself does not contain styles. A separately authorized minor
 release must assign a new immutable version and update its version-matched
 contracts before remote exact-version consumption.
+
+The companion Strata addition now prepares authorized version 0.2.0 metadata;
+the historical no-release implementation scope above does not itself publish it.
+Required checks, review and external consumer verification still precede the
+immutable release. No release policy or registry permission changes.

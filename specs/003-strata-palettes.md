@@ -37,10 +37,9 @@ packed consumers, exact committed Swift consumer and all existing gates remain.
 ## Release boundary
 
 This source candidate does not issue a release, tag or registry publication.
-The last immutable release and manifest metadata remain 0.1.1 until a separately
-reviewed and authorized release assignment. Proposed additive release is 0.2.0
-(including already merged style foundations). Native candidate evidence may use
-an isolated bare Git mirror with a local-only v0.2.0 tag at the frozen candidate
-SHA; it must state candidate provenance and cannot establish remote release
-resolution. A committed consumer pin upgrade requires that release before its
-remote required checks can pass. Release policy is unchanged.
+Version 0.2.0 metadata is prepared following companion-release authorization;
+publication still waits required exact-head checks, review and external consumer
+evidence. Native candidate evidence may use an isolated bare Git mirror with a
+local-only v0.2.0 tag at the frozen candidate SHA and must label that provenance.
+Remote released-dependency verification starts only after the immutable release
+is available. Release policy and npm publication restrictions are unchanged.

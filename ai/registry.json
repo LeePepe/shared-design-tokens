@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "package": {
     "name": "@leepepe/design-tokens",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "swiftProduct": "DesignTokens"
   },
   "documents": {
@@ -199,7 +199,7 @@
         "typography",
         "typographyIDs"
       ],
-      "doc": "ai/USAGE.md#style-foundations-unreleased"
+      "doc": "ai/USAGE.md#style-foundations-020"
     },
     {
       "path": "dist/styles.d.ts",
@@ -248,28 +248,28 @@
         "typography",
         "typographyIDs"
       ],
-      "doc": "ai/USAGE.md#style-foundations-unreleased"
+      "doc": "ai/USAGE.md#style-foundations-020"
     },
     {
       "path": "dist/styles.resolved.json",
       "format": "asset",
       "sha256": "772a99933fb7f2cee3fc19e2c72f2e7357464e6c3d9960d5b676a27f5f240eeb",
       "symbols": [],
-      "doc": "ai/USAGE.md#style-foundations-unreleased"
+      "doc": "ai/USAGE.md#style-foundations-020"
     },
     {
       "path": "tokens/styles.json",
       "format": "asset",
       "sha256": "12f9cae1101b106f54026678a04aef57f2a3f7bc050c6e3b646910df7c8524df",
       "symbols": [],
-      "doc": "ai/USAGE.md#style-foundations-unreleased"
+      "doc": "ai/USAGE.md#style-foundations-020"
     },
     {
       "path": "tokens/styles.schema.json",
       "format": "asset",
       "sha256": "45698b3f57418314bf10a8986ec5b88b69d30c5967e864db494ba3cb8a760d57",
       "symbols": [],
-      "doc": "ai/USAGE.md#style-foundations-unreleased"
+      "doc": "ai/USAGE.md#style-foundations-020"
     },
     {
       "path": "Sources/DesignTokens/StyleTokens.swift",
@@ -322,14 +322,14 @@
         "y1",
         "y2"
       ],
-      "doc": "ai/USAGE.md#style-foundations-unreleased"
+      "doc": "ai/USAGE.md#style-foundations-020"
     },
     {
       "path": "Sources/DesignTokens/GeneratedStyles.swift",
       "format": "asset",
       "sha256": "f7a9e4b7d4e04a77fd850470d6cbe20b946327416b7c59fb98083aa0bd99277c",
       "symbols": [],
-      "doc": "ai/USAGE.md#style-foundations-unreleased"
+      "doc": "ai/USAGE.md#style-foundations-020"
     }
   ]
 }

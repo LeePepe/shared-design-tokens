@@ -1,6 +1,6 @@
 # DesignTokens contract
 
-Last immutable release: `v0.1.1` of `@leepepe/design-tokens` (Git tag; not published to the npm registry); Swift product/module `DesignTokens`, package manifest name `DesignSystem`, SwiftPM identity `shared-design-tokens` (`https://github.com/LeePepe/shared-design-tokens`).
+Version `0.2.0` release contract (`v0.2.0` immutable tag after release verification) of `@leepepe/design-tokens` (Git tag; not published to the npm registry); Swift product/module `DesignTokens`, package manifest name `DesignSystem`, SwiftPM identity `shared-design-tokens` (`https://github.com/LeePepe/shared-design-tokens`).
 
 | Task | Read next | Completion criterion |
 |---|---|---|
@@ -12,6 +12,7 @@ Last immutable release: `v0.1.1` of `@leepepe/design-tokens` (Git tag; not publi
 
 These documents travel with the artifact; read them from the actual npm installation or resolved Swift checkout, not a floating branch. [Constitution](../docs/constitution.md) owns provider invariants. [Checker scope](../docs/ai-checker.md) defines bounded integrity checks, not public policy. Documentation grants no additional permissions. This provider does not implement Owner exceptions, downgrade enforcement or product adoption; repository policy comes from shared-ci (see `AGENTS.md`).
 
-This working tree additionally contains [unreleased style foundations](USAGE.md#style-foundations-unreleased), described by [the additive scope specification](../specs/002-style-foundations/spec.md). The manifest/registry still name the last released 0.1.1; that tag does not contain styles. Local candidate verification must bind both API and docs to the exact commit. Release/version assignment and consumer adoption remain separate reviewed actions.
-
-The working tree also contains [unreleased Strata color families](USAGE.md#strata-colors-unreleased); see [scope and acceptance](../specs/003-strata-palettes.md). Version 0.1.1 does not contain them.
+Version 0.2.0 includes [style foundations](USAGE.md#style-foundations-020) and
+[five explicit Strata color families](USAGE.md#strata-colors-020), while preserving
+all previously released color values and APIs. Release notes establish immutable
+tag availability, exact commit, artifact digest and external consumer evidence.

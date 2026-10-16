@@ -18,11 +18,11 @@ Store identity-to-series bindings in the consumer, independently of brand, sort 
 
 JS throws on unknown IDs, invalid themes/brands/roles, absent bindings and non-series binding values; no fallback or token alias is installed. TypeScript rejects illegal literals at compile time; untrusted runtime input still needs validation. Swift uses typed themes and roles; its exact error cases are defined in `TokenError` in the linked facade. RGBA initialization rejects invalid/nonfinite values and contrast rejects translucency. A consumer must handle errors explicitly rather than substitute an arbitrary color.
 
-Implemented: immutable color and unreleased style data and producer-local integrity checks. Planned elsewhere: independent Apple NativeDesignKit/SPM repository. Out of scope: UI, persistence, product migration, shared-ci policy/approval/downgrade checks, publication and network resolution.
+Implemented: immutable color and style data and producer-local integrity checks. Planned elsewhere: independent Apple NativeDesignKit/SPM repository. Out of scope: UI, persistence, product migration, shared-ci policy/approval/downgrade checks, publication and network resolution.
 
-## Style foundations (unreleased)
+## Style foundations (0.2.0)
 
-This addition is available only from the reviewed source candidate, not tag v0.1.1. The [Swift facade](../Sources/DesignTokens/StyleTokens.swift) exposes `StyleTokens` and immutable Equatable/Sendable `TypographyToken`, `CubicBezierToken`, `SpringToken`, `ShadowToken`. The [ESM implementation](../dist/styles.js) and [declarations](../dist/styles.d.ts) are exported through `/styles`. File-readable assets are `/styles.resolved.json`, `/styles.source.json`, `/styles.schema.json`; no style CSS theme or framework adapter is emitted.
+Available in version 0.2.0; absent from v0.1.1. The [Swift facade](../Sources/DesignTokens/StyleTokens.swift) exposes `StyleTokens` and immutable Equatable/Sendable `TypographyToken`, `CubicBezierToken`, `SpringToken`, `ShadowToken`. The [ESM implementation](../dist/styles.js) and [declarations](../dist/styles.d.ts) are exported through `/styles`. File-readable assets are `/styles.resolved.json`, `/styles.source.json`, `/styles.schema.json`; no style CSS theme or framework adapter is emitted.
 
 Both APIs expose category lookups and sorted category ID arrays for `spacing`, `dimension`, `radius`, `border`, `opacity`, `duration`, `stagger`, `typography`, `curve`, `spring` and `shadow`. Scalar categories return numbers/Double. Structured types contain:
 
@@ -53,14 +53,14 @@ const shadowColor = color(shadowSpec.colorToken, 'dark');
 
 JS data is deeply frozen and TypeScript style IDs are category-specific literal unions. Swift throws `StyleTokenError.unknownToken(originalID)` for missing or wrong-category IDs, leaving existing `TokenError` unchanged; JS throws `Error` with `unknown style token`. There is no arbitrary style-construction API, default theme, mutable registry or fallback. Current values have original project provenance; Basalt remains Web rendering/theme authority.
 
-## Strata colors (unreleased)
+## Strata colors (0.2.0)
 
 The [additive color specification](../specs/003-strata-palettes.md) defines five
 explicit brands: `strata-blue`, `strata-green`, `strata-pink`, `strata-yellow`,
 `strata-purple`. Existing `brandColor(brand, accent/onAccent, theme)` resolves
 primary and on-brand text. Existing `color(id, theme)` reads further named roles;
 no schema or runtime lookup API changes. Legacy ocean/graphite and all existing
-series IDs retain their values and meaning. This candidate is absent from v0.1.1.
+series IDs retain their values and meaning. This addition is absent from v0.1.1.
 
 | Prefix | Roles |
 | --- | --- |
