@@ -27,8 +27,8 @@ test('five explicit families retain named primary, neutral and material roles in
   }
   assert.deepEqual(color('brand.strata-blue.primary','light'),{r:40,g:89,b:188,a:1});
   assert.deepEqual(color('product.strata.purple.surface.card','dark'),{r:50,g:44,b:60,a:1});
-  assert.equal(color('product.strata.blue.material.panel','light').a,158/255);
-  assert.equal(color('product.strata.purple.material.content','dark').a,209/255);
+  assert.equal(color('product.strata.blue.material.panel','light').a,.62);
+  assert.equal(color('product.strata.purple.material.content','dark').a,.82);
   assert.throws(()=>brandColor('strata-orange','accent','light'),/unknown brand/);
 });
 test('declared Strata contrast remains a fail-closed source gate',()=>{

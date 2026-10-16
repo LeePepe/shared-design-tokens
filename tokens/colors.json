@@ -714,7 +714,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.brand.seed",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -737,7 +737,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.brand.seedInk",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -760,7 +760,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.brand.primary",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -783,7 +783,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.brand.hover",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -806,7 +806,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.brand.active",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -829,7 +829,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.brand.subtle",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -852,7 +852,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.brand.text",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -875,7 +875,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.text.onBrand",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -899,7 +899,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.surface.page",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -923,7 +923,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.surface.region",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -947,7 +947,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.surface.card",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -971,7 +971,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.surface.inset",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -995,7 +995,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.surface.hover",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1019,7 +1019,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.surface.selected",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1031,19 +1031,19 @@
           "r": 242,
           "g": 244,
           "b": 246,
-          "a": 0.6196078431372549
+          "a": 0.62
         },
         "dark": {
           "r": 29,
           "g": 36,
           "b": 44,
-          "a": 0.7215686274509804
+          "a": 0.72
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.panel",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1055,19 +1055,19 @@
           "r": 255,
           "g": 255,
           "b": 255,
-          "a": 0.7019607843137254
+          "a": 0.7
         },
         "dark": {
           "r": 39,
           "g": 49,
           "b": 60,
-          "a": 0.8196078431372549
+          "a": 0.82
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.content",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1079,19 +1079,19 @@
           "r": 255,
           "g": 255,
           "b": 255,
-          "a": 0.6392156862745098
+          "a": 0.64
         },
         "dark": {
           "r": 39,
           "g": 49,
           "b": 60,
-          "a": 0.8509803921568627
+          "a": 0.85
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.control",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1103,7 +1103,7 @@
           "r": 130,
           "g": 184,
           "b": 228,
-          "a": 0.3411764705882353
+          "a": 0.34
         },
         "dark": {
           "r": 130,
@@ -1115,7 +1115,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambient",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1127,19 +1127,19 @@
           "r": 130,
           "g": 184,
           "b": 228,
-          "a": 0.1803921568627451
+          "a": 0.18
         },
         "dark": {
           "r": 130,
           "g": 184,
           "b": 228,
-          "a": 0.12156862745098039
+          "a": 0.12
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambientSoft",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1151,19 +1151,19 @@
           "r": 130,
           "g": 184,
           "b": 228,
-          "a": 0.4196078431372549
+          "a": 0.42
         },
         "dark": {
           "r": 130,
           "g": 184,
           "b": 228,
-          "a": 0.2784313725490196
+          "a": 0.28
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambientEdge",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1186,7 +1186,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.brand.seed",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1209,7 +1209,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.brand.seedInk",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1232,7 +1232,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.brand.primary",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1255,7 +1255,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.brand.hover",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1278,7 +1278,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.brand.active",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1301,7 +1301,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.brand.subtle",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1324,7 +1324,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.brand.text",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1347,7 +1347,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.text.onBrand",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1371,7 +1371,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.surface.page",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1395,7 +1395,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.surface.region",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1419,7 +1419,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.surface.card",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1443,7 +1443,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.surface.inset",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1467,7 +1467,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.surface.hover",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1491,7 +1491,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.surface.selected",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1503,19 +1503,19 @@
           "r": 241,
           "g": 244,
           "b": 239,
-          "a": 0.6196078431372549
+          "a": 0.62
         },
         "dark": {
           "r": 31,
           "g": 40,
           "b": 34,
-          "a": 0.7215686274509804
+          "a": 0.72
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.panel",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1527,19 +1527,19 @@
           "r": 255,
           "g": 255,
           "b": 255,
-          "a": 0.7019607843137254
+          "a": 0.7
         },
         "dark": {
           "r": 42,
           "g": 53,
           "b": 45,
-          "a": 0.8196078431372549
+          "a": 0.82
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.content",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1551,19 +1551,19 @@
           "r": 255,
           "g": 255,
           "b": 255,
-          "a": 0.6392156862745098
+          "a": 0.64
         },
         "dark": {
           "r": 42,
           "g": 53,
           "b": 45,
-          "a": 0.8509803921568627
+          "a": 0.85
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.control",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1575,7 +1575,7 @@
           "r": 153,
           "g": 205,
           "b": 164,
-          "a": 0.3411764705882353
+          "a": 0.34
         },
         "dark": {
           "r": 153,
@@ -1587,7 +1587,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambient",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1599,19 +1599,19 @@
           "r": 153,
           "g": 205,
           "b": 164,
-          "a": 0.1803921568627451
+          "a": 0.18
         },
         "dark": {
           "r": 153,
           "g": 205,
           "b": 164,
-          "a": 0.12156862745098039
+          "a": 0.12
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambientSoft",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1623,19 +1623,19 @@
           "r": 153,
           "g": 205,
           "b": 164,
-          "a": 0.4196078431372549
+          "a": 0.42
         },
         "dark": {
           "r": 153,
           "g": 205,
           "b": 164,
-          "a": 0.2784313725490196
+          "a": 0.28
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambientEdge",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1658,7 +1658,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.brand.seed",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1681,7 +1681,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.brand.seedInk",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1704,7 +1704,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.brand.primary",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1727,7 +1727,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.brand.hover",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1750,7 +1750,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.brand.active",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1773,7 +1773,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.brand.subtle",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1796,7 +1796,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.brand.text",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1819,7 +1819,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.text.onBrand",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1843,7 +1843,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.surface.page",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1867,7 +1867,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.surface.region",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1891,7 +1891,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.surface.card",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1915,7 +1915,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.surface.inset",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1939,7 +1939,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.surface.hover",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1963,7 +1963,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.surface.selected",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1975,19 +1975,19 @@
           "r": 246,
           "g": 241,
           "b": 243,
-          "a": 0.6196078431372549
+          "a": 0.62
         },
         "dark": {
           "r": 42,
           "g": 34,
           "b": 39,
-          "a": 0.7215686274509804
+          "a": 0.72
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.panel",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -1999,19 +1999,19 @@
           "r": 255,
           "g": 255,
           "b": 255,
-          "a": 0.7019607843137254
+          "a": 0.7
         },
         "dark": {
           "r": 56,
           "g": 45,
           "b": 52,
-          "a": 0.8196078431372549
+          "a": 0.82
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.content",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2023,19 +2023,19 @@
           "r": 255,
           "g": 255,
           "b": 255,
-          "a": 0.6392156862745098
+          "a": 0.64
         },
         "dark": {
           "r": 56,
           "g": 45,
           "b": 52,
-          "a": 0.8509803921568627
+          "a": 0.85
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.control",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2047,7 +2047,7 @@
           "r": 233,
           "g": 164,
           "b": 184,
-          "a": 0.3411764705882353
+          "a": 0.34
         },
         "dark": {
           "r": 233,
@@ -2059,7 +2059,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambient",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2071,19 +2071,19 @@
           "r": 233,
           "g": 164,
           "b": 184,
-          "a": 0.1803921568627451
+          "a": 0.18
         },
         "dark": {
           "r": 233,
           "g": 164,
           "b": 184,
-          "a": 0.12156862745098039
+          "a": 0.12
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambientSoft",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2095,19 +2095,19 @@
           "r": 233,
           "g": 164,
           "b": 184,
-          "a": 0.4196078431372549
+          "a": 0.42
         },
         "dark": {
           "r": 233,
           "g": 164,
           "b": 184,
-          "a": 0.2784313725490196
+          "a": 0.28
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambientEdge",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2130,7 +2130,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.brand.seed",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2153,7 +2153,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.brand.seedInk",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2176,7 +2176,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.brand.primary",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2199,7 +2199,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.brand.hover",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2222,7 +2222,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.brand.active",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2245,7 +2245,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.brand.subtle",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2268,7 +2268,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.brand.text",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2291,7 +2291,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.text.onBrand",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2315,7 +2315,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.surface.page",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2339,7 +2339,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.surface.region",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2363,7 +2363,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.surface.card",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2387,7 +2387,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.surface.inset",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2411,7 +2411,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.surface.hover",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2435,7 +2435,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.surface.selected",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2447,19 +2447,19 @@
           "r": 246,
           "g": 244,
           "b": 237,
-          "a": 0.6196078431372549
+          "a": 0.62
         },
         "dark": {
           "r": 41,
           "g": 39,
           "b": 31,
-          "a": 0.7215686274509804
+          "a": 0.72
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.panel",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2471,19 +2471,19 @@
           "r": 255,
           "g": 255,
           "b": 255,
-          "a": 0.7019607843137254
+          "a": 0.7
         },
         "dark": {
           "r": 54,
           "g": 51,
           "b": 40,
-          "a": 0.8196078431372549
+          "a": 0.82
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.content",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2495,19 +2495,19 @@
           "r": 255,
           "g": 255,
           "b": 255,
-          "a": 0.6392156862745098
+          "a": 0.64
         },
         "dark": {
           "r": 54,
           "g": 51,
           "b": 40,
-          "a": 0.8509803921568627
+          "a": 0.85
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.control",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2519,7 +2519,7 @@
           "r": 237,
           "g": 212,
           "b": 125,
-          "a": 0.3411764705882353
+          "a": 0.34
         },
         "dark": {
           "r": 237,
@@ -2531,7 +2531,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambient",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2543,19 +2543,19 @@
           "r": 237,
           "g": 212,
           "b": 125,
-          "a": 0.1803921568627451
+          "a": 0.18
         },
         "dark": {
           "r": 237,
           "g": 212,
           "b": 125,
-          "a": 0.12156862745098039
+          "a": 0.12
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambientSoft",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2567,19 +2567,19 @@
           "r": 237,
           "g": 212,
           "b": 125,
-          "a": 0.4196078431372549
+          "a": 0.42
         },
         "dark": {
           "r": 237,
           "g": 212,
           "b": 125,
-          "a": 0.2784313725490196
+          "a": 0.28
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambientEdge",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2602,7 +2602,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.brand.seed",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2625,7 +2625,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.brand.seedInk",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2648,7 +2648,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.brand.primary",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2671,7 +2671,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.brand.hover",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2694,7 +2694,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.brand.active",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2717,7 +2717,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.brand.subtle",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2740,7 +2740,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.brand.text",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2763,7 +2763,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.text.onBrand",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2787,7 +2787,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.surface.page",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2811,7 +2811,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.surface.region",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2835,7 +2835,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.surface.card",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2859,7 +2859,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.surface.inset",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2883,7 +2883,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.surface.hover",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2907,7 +2907,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.surface.selected",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2919,19 +2919,19 @@
           "r": 244,
           "g": 241,
           "b": 247,
-          "a": 0.6196078431372549
+          "a": 0.62
         },
         "dark": {
           "r": 37,
           "g": 33,
           "b": 45,
-          "a": 0.7215686274509804
+          "a": 0.72
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.panel",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2943,19 +2943,19 @@
           "r": 255,
           "g": 255,
           "b": 255,
-          "a": 0.7019607843137254
+          "a": 0.7
         },
         "dark": {
           "r": 50,
           "g": 44,
           "b": 60,
-          "a": 0.8196078431372549
+          "a": 0.82
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.content",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2967,19 +2967,19 @@
           "r": 255,
           "g": 255,
           "b": 255,
-          "a": 0.6392156862745098
+          "a": 0.64
         },
         "dark": {
           "r": 50,
           "g": 44,
           "b": 60,
-          "a": 0.8509803921568627
+          "a": 0.85
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.control",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -2991,7 +2991,7 @@
           "r": 183,
           "g": 164,
           "b": 219,
-          "a": 0.3411764705882353
+          "a": 0.34
         },
         "dark": {
           "r": 183,
@@ -3003,7 +3003,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambient",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -3015,19 +3015,19 @@
           "r": 183,
           "g": 164,
           "b": 219,
-          "a": 0.1803921568627451
+          "a": 0.18
         },
         "dark": {
           "r": 183,
           "g": 164,
           "b": 219,
-          "a": 0.12156862745098039
+          "a": 0.12
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambientSoft",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -3039,19 +3039,19 @@
           "r": 183,
           "g": 164,
           "b": 219,
-          "a": 0.4196078431372549
+          "a": 0.42
         },
         "dark": {
           "r": 183,
           "g": 164,
           "b": 219,
-          "a": 0.2784313725490196
+          "a": 0.28
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambientEdge",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -3075,7 +3075,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.text.primary",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -3099,7 +3099,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.text.secondary",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -3123,7 +3123,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.border",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -3146,7 +3146,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.status.success",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -3169,7 +3169,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.status.successSurface",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -3192,7 +3192,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.status.warning",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -3215,7 +3215,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.status.warningSurface",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -3238,7 +3238,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.status.error",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -3261,7 +3261,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.status.errorSurface",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -3285,7 +3285,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.chart.primary",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -3309,7 +3309,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.chart.secondary",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -3333,7 +3333,7 @@
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.chart.tertiary",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -3345,19 +3345,19 @@
           "r": 255,
           "g": 255,
           "b": 255,
-          "a": 0.7803921568627451
+          "a": 0.78
         },
         "dark": {
           "r": 255,
           "g": 255,
           "b": 255,
-          "a": 0.1607843137254902
+          "a": 0.16
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.edge",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -3369,19 +3369,19 @@
           "r": 255,
           "g": 255,
           "b": 255,
-          "a": 0.7215686274509804
+          "a": 0.72
         },
         "dark": {
           "r": 255,
           "g": 255,
           "b": 255,
-          "a": 0.12156862745098039
+          "a": 0.12
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.highlight",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -3393,19 +3393,19 @@
           "r": 255,
           "g": 255,
           "b": 255,
-          "a": 0.6392156862745098
+          "a": 0.64
         },
         "dark": {
           "r": 255,
           "g": 255,
           "b": 255,
-          "a": 0.09019607843137255
+          "a": 0.09
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.innerEdge",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     },
     {
@@ -3417,19 +3417,19 @@
           "r": 56,
           "g": 75,
           "b": 99,
-          "a": 0.06274509803921569
+          "a": 0.06
         },
         "dark": {
           "r": 0,
           "g": 0,
           "b": 0,
-          "a": 0.2196078431372549
+          "a": 0.22
         }
       },
       "provenance": {
         "source": "local",
         "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.shade",
-        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data."
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
       }
     }
   ],

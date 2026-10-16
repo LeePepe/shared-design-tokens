@@ -26,7 +26,8 @@ prototype. This scope expands color data without changing runtime API or schema.
 ## Acceptance
 
 Declared opaque text/surface, brand on-primary/hover/active, seed and status pairs
-must reach 4.5 in both modes. Translucent material colors retain source alpha;
+must reach 4.5 in both modes. Translucent material colors preserve intended percentage alpha (two-decimal
+normalization of the reference hex serialization, with exact RGB);
 actual material composition/readability belongs to the native consumer and its
 runtime evidence. Tests lock the prior source payload, cover all five families,
 mode-sensitive surfaces and material roles, verify exact source reference values,

@@ -873,7 +873,7 @@ export const colors = {
       "r": 130,
       "g": 184,
       "b": 228,
-      "a": 0.3411764705882353
+      "a": 0.34
     },
     "dark": {
       "r": 130,
@@ -887,13 +887,13 @@ export const colors = {
       "r": 130,
       "g": 184,
       "b": 228,
-      "a": 0.4196078431372549
+      "a": 0.42
     },
     "dark": {
       "r": 130,
       "g": 184,
       "b": 228,
-      "a": 0.2784313725490196
+      "a": 0.28
     }
   },
   "product.strata.blue.material.ambient-soft": {
@@ -901,13 +901,13 @@ export const colors = {
       "r": 130,
       "g": 184,
       "b": 228,
-      "a": 0.1803921568627451
+      "a": 0.18
     },
     "dark": {
       "r": 130,
       "g": 184,
       "b": 228,
-      "a": 0.12156862745098039
+      "a": 0.12
     }
   },
   "product.strata.blue.material.content": {
@@ -915,13 +915,13 @@ export const colors = {
       "r": 255,
       "g": 255,
       "b": 255,
-      "a": 0.7019607843137254
+      "a": 0.7
     },
     "dark": {
       "r": 39,
       "g": 49,
       "b": 60,
-      "a": 0.8196078431372549
+      "a": 0.82
     }
   },
   "product.strata.blue.material.control": {
@@ -929,13 +929,13 @@ export const colors = {
       "r": 255,
       "g": 255,
       "b": 255,
-      "a": 0.6392156862745098
+      "a": 0.64
     },
     "dark": {
       "r": 39,
       "g": 49,
       "b": 60,
-      "a": 0.8509803921568627
+      "a": 0.85
     }
   },
   "product.strata.blue.material.panel": {
@@ -943,13 +943,13 @@ export const colors = {
       "r": 242,
       "g": 244,
       "b": 246,
-      "a": 0.6196078431372549
+      "a": 0.62
     },
     "dark": {
       "r": 29,
       "g": 36,
       "b": 44,
-      "a": 0.7215686274509804
+      "a": 0.72
     }
   },
   "product.strata.blue.surface.card": {
@@ -1097,7 +1097,7 @@ export const colors = {
       "r": 153,
       "g": 205,
       "b": 164,
-      "a": 0.3411764705882353
+      "a": 0.34
     },
     "dark": {
       "r": 153,
@@ -1111,13 +1111,13 @@ export const colors = {
       "r": 153,
       "g": 205,
       "b": 164,
-      "a": 0.4196078431372549
+      "a": 0.42
     },
     "dark": {
       "r": 153,
       "g": 205,
       "b": 164,
-      "a": 0.2784313725490196
+      "a": 0.28
     }
   },
   "product.strata.green.material.ambient-soft": {
@@ -1125,13 +1125,13 @@ export const colors = {
       "r": 153,
       "g": 205,
       "b": 164,
-      "a": 0.1803921568627451
+      "a": 0.18
     },
     "dark": {
       "r": 153,
       "g": 205,
       "b": 164,
-      "a": 0.12156862745098039
+      "a": 0.12
     }
   },
   "product.strata.green.material.content": {
@@ -1139,13 +1139,13 @@ export const colors = {
       "r": 255,
       "g": 255,
       "b": 255,
-      "a": 0.7019607843137254
+      "a": 0.7
     },
     "dark": {
       "r": 42,
       "g": 53,
       "b": 45,
-      "a": 0.8196078431372549
+      "a": 0.82
     }
   },
   "product.strata.green.material.control": {
@@ -1153,13 +1153,13 @@ export const colors = {
       "r": 255,
       "g": 255,
       "b": 255,
-      "a": 0.6392156862745098
+      "a": 0.64
     },
     "dark": {
       "r": 42,
       "g": 53,
       "b": 45,
-      "a": 0.8509803921568627
+      "a": 0.85
     }
   },
   "product.strata.green.material.panel": {
@@ -1167,13 +1167,13 @@ export const colors = {
       "r": 241,
       "g": 244,
       "b": 239,
-      "a": 0.6196078431372549
+      "a": 0.62
     },
     "dark": {
       "r": 31,
       "g": 40,
       "b": 34,
-      "a": 0.7215686274509804
+      "a": 0.72
     }
   },
   "product.strata.green.surface.card": {
@@ -1265,13 +1265,13 @@ export const colors = {
       "r": 255,
       "g": 255,
       "b": 255,
-      "a": 0.7803921568627451
+      "a": 0.78
     },
     "dark": {
       "r": 255,
       "g": 255,
       "b": 255,
-      "a": 0.1607843137254902
+      "a": 0.16
     }
   },
   "product.strata.material.highlight": {
@@ -1279,13 +1279,13 @@ export const colors = {
       "r": 255,
       "g": 255,
       "b": 255,
-      "a": 0.7215686274509804
+      "a": 0.72
     },
     "dark": {
       "r": 255,
       "g": 255,
       "b": 255,
-      "a": 0.12156862745098039
+      "a": 0.12
     }
   },
   "product.strata.material.inner-edge": {
@@ -1293,13 +1293,13 @@ export const colors = {
       "r": 255,
       "g": 255,
       "b": 255,
-      "a": 0.6392156862745098
+      "a": 0.64
     },
     "dark": {
       "r": 255,
       "g": 255,
       "b": 255,
-      "a": 0.09019607843137255
+      "a": 0.09
     }
   },
   "product.strata.material.shadow": {
@@ -1307,13 +1307,13 @@ export const colors = {
       "r": 56,
       "g": 75,
       "b": 99,
-      "a": 0.06274509803921569
+      "a": 0.06
     },
     "dark": {
       "r": 0,
       "g": 0,
       "b": 0,
-      "a": 0.2196078431372549
+      "a": 0.22
     }
   },
   "product.strata.pink.material.ambient": {
@@ -1321,7 +1321,7 @@ export const colors = {
       "r": 233,
       "g": 164,
       "b": 184,
-      "a": 0.3411764705882353
+      "a": 0.34
     },
     "dark": {
       "r": 233,
@@ -1335,13 +1335,13 @@ export const colors = {
       "r": 233,
       "g": 164,
       "b": 184,
-      "a": 0.4196078431372549
+      "a": 0.42
     },
     "dark": {
       "r": 233,
       "g": 164,
       "b": 184,
-      "a": 0.2784313725490196
+      "a": 0.28
     }
   },
   "product.strata.pink.material.ambient-soft": {
@@ -1349,13 +1349,13 @@ export const colors = {
       "r": 233,
       "g": 164,
       "b": 184,
-      "a": 0.1803921568627451
+      "a": 0.18
     },
     "dark": {
       "r": 233,
       "g": 164,
       "b": 184,
-      "a": 0.12156862745098039
+      "a": 0.12
     }
   },
   "product.strata.pink.material.content": {
@@ -1363,13 +1363,13 @@ export const colors = {
       "r": 255,
       "g": 255,
       "b": 255,
-      "a": 0.7019607843137254
+      "a": 0.7
     },
     "dark": {
       "r": 56,
       "g": 45,
       "b": 52,
-      "a": 0.8196078431372549
+      "a": 0.82
     }
   },
   "product.strata.pink.material.control": {
@@ -1377,13 +1377,13 @@ export const colors = {
       "r": 255,
       "g": 255,
       "b": 255,
-      "a": 0.6392156862745098
+      "a": 0.64
     },
     "dark": {
       "r": 56,
       "g": 45,
       "b": 52,
-      "a": 0.8509803921568627
+      "a": 0.85
     }
   },
   "product.strata.pink.material.panel": {
@@ -1391,13 +1391,13 @@ export const colors = {
       "r": 246,
       "g": 241,
       "b": 243,
-      "a": 0.6196078431372549
+      "a": 0.62
     },
     "dark": {
       "r": 42,
       "g": 34,
       "b": 39,
-      "a": 0.7215686274509804
+      "a": 0.72
     }
   },
   "product.strata.pink.surface.card": {
@@ -1489,7 +1489,7 @@ export const colors = {
       "r": 183,
       "g": 164,
       "b": 219,
-      "a": 0.3411764705882353
+      "a": 0.34
     },
     "dark": {
       "r": 183,
@@ -1503,13 +1503,13 @@ export const colors = {
       "r": 183,
       "g": 164,
       "b": 219,
-      "a": 0.4196078431372549
+      "a": 0.42
     },
     "dark": {
       "r": 183,
       "g": 164,
       "b": 219,
-      "a": 0.2784313725490196
+      "a": 0.28
     }
   },
   "product.strata.purple.material.ambient-soft": {
@@ -1517,13 +1517,13 @@ export const colors = {
       "r": 183,
       "g": 164,
       "b": 219,
-      "a": 0.1803921568627451
+      "a": 0.18
     },
     "dark": {
       "r": 183,
       "g": 164,
       "b": 219,
-      "a": 0.12156862745098039
+      "a": 0.12
     }
   },
   "product.strata.purple.material.content": {
@@ -1531,13 +1531,13 @@ export const colors = {
       "r": 255,
       "g": 255,
       "b": 255,
-      "a": 0.7019607843137254
+      "a": 0.7
     },
     "dark": {
       "r": 50,
       "g": 44,
       "b": 60,
-      "a": 0.8196078431372549
+      "a": 0.82
     }
   },
   "product.strata.purple.material.control": {
@@ -1545,13 +1545,13 @@ export const colors = {
       "r": 255,
       "g": 255,
       "b": 255,
-      "a": 0.6392156862745098
+      "a": 0.64
     },
     "dark": {
       "r": 50,
       "g": 44,
       "b": 60,
-      "a": 0.8509803921568627
+      "a": 0.85
     }
   },
   "product.strata.purple.material.panel": {
@@ -1559,13 +1559,13 @@ export const colors = {
       "r": 244,
       "g": 241,
       "b": 247,
-      "a": 0.6196078431372549
+      "a": 0.62
     },
     "dark": {
       "r": 37,
       "g": 33,
       "b": 45,
-      "a": 0.7215686274509804
+      "a": 0.72
     }
   },
   "product.strata.purple.surface.card": {
@@ -1685,7 +1685,7 @@ export const colors = {
       "r": 237,
       "g": 212,
       "b": 125,
-      "a": 0.3411764705882353
+      "a": 0.34
     },
     "dark": {
       "r": 237,
@@ -1699,13 +1699,13 @@ export const colors = {
       "r": 237,
       "g": 212,
       "b": 125,
-      "a": 0.4196078431372549
+      "a": 0.42
     },
     "dark": {
       "r": 237,
       "g": 212,
       "b": 125,
-      "a": 0.2784313725490196
+      "a": 0.28
     }
   },
   "product.strata.yellow.material.ambient-soft": {
@@ -1713,13 +1713,13 @@ export const colors = {
       "r": 237,
       "g": 212,
       "b": 125,
-      "a": 0.1803921568627451
+      "a": 0.18
     },
     "dark": {
       "r": 237,
       "g": 212,
       "b": 125,
-      "a": 0.12156862745098039
+      "a": 0.12
     }
   },
   "product.strata.yellow.material.content": {
@@ -1727,13 +1727,13 @@ export const colors = {
       "r": 255,
       "g": 255,
       "b": 255,
-      "a": 0.7019607843137254
+      "a": 0.7
     },
     "dark": {
       "r": 54,
       "g": 51,
       "b": 40,
-      "a": 0.8196078431372549
+      "a": 0.82
     }
   },
   "product.strata.yellow.material.control": {
@@ -1741,13 +1741,13 @@ export const colors = {
       "r": 255,
       "g": 255,
       "b": 255,
-      "a": 0.6392156862745098
+      "a": 0.64
     },
     "dark": {
       "r": 54,
       "g": 51,
       "b": 40,
-      "a": 0.8509803921568627
+      "a": 0.85
     }
   },
   "product.strata.yellow.material.panel": {
@@ -1755,13 +1755,13 @@ export const colors = {
       "r": 246,
       "g": 244,
       "b": 237,
-      "a": 0.6196078431372549
+      "a": 0.62
     },
     "dark": {
       "r": 41,
       "g": 39,
       "b": 31,
-      "a": 0.7215686274509804
+      "a": 0.72
     }
   },
   "product.strata.yellow.surface.card": {

@@ -61,7 +61,7 @@
     {
       "path": "dist/index.js",
       "format": "javascript",
-      "sha256": "278869ee1eeb98372ea62098061a0c650b9205c6df1a40ed3fd4345be2e4bd5e",
+      "sha256": "9f1795076116c3ca7221186ed7ee3f16a60012eb533e65638488a1c22995b265",
       "symbols": [
         "brandColor",
         "brandIDs",
@@ -99,21 +99,21 @@
     {
       "path": "dist/colors.css",
       "format": "asset",
-      "sha256": "875c82cfc2a5ece17515412c7615b3241f3442bfce8f31190d3a0f541d1ee9bc",
+      "sha256": "9f3310e74704a076694f105bf621409e56328e9deeffebae84607b7fe9b1209b",
       "symbols": [],
       "doc": "ai/USAGE.md#public-data-api"
     },
     {
       "path": "dist/resolved.json",
       "format": "asset",
-      "sha256": "891efa2637e5d86997270544606de9c49678e420036cfc1054f4fdbc556c131b",
+      "sha256": "ddef0632c72c3afa3af3de63c027eb95fece9cebfe7672bf203ebf31dcd6128c",
       "symbols": [],
       "doc": "ai/USAGE.md#public-data-api"
     },
     {
       "path": "tokens/colors.json",
       "format": "asset",
-      "sha256": "d1f58174c872f774f0dcb319d808f6142f7d12ca0d762347632d9c5deca051fa",
+      "sha256": "16c410441df239fafa4a8354c12adf9017cd263dd2a1d6c702f411dbd4f76fd3",
       "symbols": [],
       "doc": "ai/USAGE.md#public-data-api"
     },
@@ -157,7 +157,7 @@
     {
       "path": "Sources/DesignTokens/GeneratedColors.swift",
       "format": "asset",
-      "sha256": "ced8104421f3095500b424af9816c7f66cd76561f4910bed170c03903cac0394",
+      "sha256": "5aa9b1dc1161a447b37051af0942a09bf6e36ec91e939a12f57e05872205abc7",
       "symbols": [],
       "doc": "ai/USAGE.md#public-data-api"
     },
