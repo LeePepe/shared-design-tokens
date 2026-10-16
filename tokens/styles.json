@@ -1,0 +1,648 @@
+{
+  "schemaVersion": "1.0.0",
+  "units": {
+    "length": "logical-unit",
+    "duration": "second",
+    "weight": "css-weight"
+  },
+  "tokens": [
+    {
+      "id": "spacing.none",
+      "value": 0,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "spacing.xs",
+      "value": 4,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "spacing.sm",
+      "value": 8,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "spacing.md",
+      "value": 12,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "spacing.lg",
+      "value": 16,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "spacing.xl",
+      "value": 24,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "spacing.xxl",
+      "value": 32,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "spacing.xxxl",
+      "value": 48,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "dimension.icon.small",
+      "value": 14,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "dimension.icon.medium",
+      "value": 18,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "dimension.icon.large",
+      "value": 24,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "dimension.control.compact",
+      "value": 28,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "dimension.control.regular",
+      "value": 36,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "dimension.control.large",
+      "value": 44,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "dimension.hit.minimum",
+      "value": 44,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "dimension.avatar.small",
+      "value": 24,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "dimension.avatar.medium",
+      "value": 40,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "dimension.avatar.large",
+      "value": 64,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "dimension.content.readable",
+      "value": 680,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "dimension.grid.minimum",
+      "value": 180,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "radius.none",
+      "value": 0,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "radius.small",
+      "value": 6,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "radius.medium",
+      "value": 12,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "radius.large",
+      "value": 20,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "radius.pill",
+      "value": 999,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "border.none",
+      "value": 0,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "border.hairline",
+      "value": 0.5,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "border.regular",
+      "value": 1,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "border.strong",
+      "value": 2,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "opacity.disabled",
+      "value": 0.45,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "opacity.overlay",
+      "value": 0.4,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "opacity.subtle",
+      "value": 0.12,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "opacity.full",
+      "value": 1,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "duration.instant",
+      "value": 0,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "duration.fast",
+      "value": 0.16,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "duration.standard",
+      "value": 0.3,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "duration.slow",
+      "value": 0.5,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "duration.emphasis",
+      "value": 1.2,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "stagger.tight",
+      "value": 0.016666666666666666,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "stagger.standard",
+      "value": 0.06666666666666667,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "stagger.relaxed",
+      "value": 0.1,
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "typography.large-title",
+      "value": {
+        "size": 34,
+        "weight": 700,
+        "lineHeight": 41,
+        "tracking": 0.25,
+        "relativeTo": "largeTitle",
+        "monospacedDigits": false
+      },
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "typography.title",
+      "value": {
+        "size": 28,
+        "weight": 700,
+        "lineHeight": 34,
+        "tracking": 0.2,
+        "relativeTo": "title",
+        "monospacedDigits": false
+      },
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "typography.title2",
+      "value": {
+        "size": 22,
+        "weight": 600,
+        "lineHeight": 28,
+        "tracking": 0,
+        "relativeTo": "title2",
+        "monospacedDigits": false
+      },
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "typography.title3",
+      "value": {
+        "size": 20,
+        "weight": 600,
+        "lineHeight": 25,
+        "tracking": 0,
+        "relativeTo": "title3",
+        "monospacedDigits": false
+      },
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "typography.headline",
+      "value": {
+        "size": 17,
+        "weight": 600,
+        "lineHeight": 22,
+        "tracking": 0,
+        "relativeTo": "headline",
+        "monospacedDigits": false
+      },
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "typography.body",
+      "value": {
+        "size": 17,
+        "weight": 400,
+        "lineHeight": 22,
+        "tracking": 0,
+        "relativeTo": "body",
+        "monospacedDigits": false
+      },
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "typography.callout",
+      "value": {
+        "size": 16,
+        "weight": 400,
+        "lineHeight": 21,
+        "tracking": 0,
+        "relativeTo": "callout",
+        "monospacedDigits": false
+      },
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "typography.subheadline",
+      "value": {
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 20,
+        "tracking": 0,
+        "relativeTo": "subheadline",
+        "monospacedDigits": false
+      },
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "typography.footnote",
+      "value": {
+        "size": 13,
+        "weight": 400,
+        "lineHeight": 18,
+        "tracking": 0,
+        "relativeTo": "footnote",
+        "monospacedDigits": false
+      },
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "typography.caption",
+      "value": {
+        "size": 12,
+        "weight": 400,
+        "lineHeight": 16,
+        "tracking": 0,
+        "relativeTo": "caption",
+        "monospacedDigits": false
+      },
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "typography.caption2",
+      "value": {
+        "size": 11,
+        "weight": 400,
+        "lineHeight": 13,
+        "tracking": 0,
+        "relativeTo": "caption2",
+        "monospacedDigits": false
+      },
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "typography.number",
+      "value": {
+        "size": 40,
+        "weight": 600,
+        "lineHeight": 48,
+        "tracking": 0,
+        "relativeTo": "largeTitle",
+        "monospacedDigits": true
+      },
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "curve.standard",
+      "value": {
+        "x1": 0.2,
+        "y1": 0.7,
+        "x2": 0.2,
+        "y2": 1
+      },
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "curve.enter",
+      "value": {
+        "x1": 0.16,
+        "y1": 1,
+        "x2": 0.3,
+        "y2": 1
+      },
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "curve.exit",
+      "value": {
+        "x1": 0.4,
+        "y1": 0,
+        "x2": 1,
+        "y2": 1
+      },
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "curve.linear",
+      "value": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 1,
+        "y2": 1
+      },
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "spring.standard",
+      "value": {
+        "response": 0.4,
+        "dampingFraction": 0.85,
+        "blendDuration": 0
+      },
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "spring.gentle",
+      "value": {
+        "response": 0.6,
+        "dampingFraction": 0.9,
+        "blendDuration": 0
+      },
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "spring.snappy",
+      "value": {
+        "response": 0.28,
+        "dampingFraction": 0.82,
+        "blendDuration": 0
+      },
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "shadow.small",
+      "value": {
+        "colorToken": "product.text.primary",
+        "opacity": 0.08,
+        "radius": 4,
+        "x": 0,
+        "y": 2
+      },
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "shadow.medium",
+      "value": {
+        "colorToken": "product.text.primary",
+        "opacity": 0.12,
+        "radius": 12,
+        "x": 0,
+        "y": 4
+      },
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    },
+    {
+      "id": "shadow.large",
+      "value": {
+        "colorToken": "product.text.primary",
+        "opacity": 0.18,
+        "radius": 24,
+        "x": 0,
+        "y": 8
+      },
+      "provenance": {
+        "source": "project",
+        "note": "Original platform-neutral foundation values; native and web adapters own rendering."
+      }
+    }
+  ]
+}

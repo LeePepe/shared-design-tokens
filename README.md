@@ -1,6 +1,6 @@
-# shared-design-tokens — color data
+# shared-design-tokens — color and style data
 
-Release `0.1.1` (Git tag `v0.1.1`) of `@leepepe/design-tokens` / Swift `DesignTokens`. This version ships **color data only**, not UI components. `tokens/colors.json` is the editable source of truth; JSON Schema and deterministic generation produce JS/TS, scoped CSS, resolved JSON and Swift. Agents: start with [AGENTS.md](AGENTS.md).
+Release `0.1.1` (Git tag `v0.1.1`) of `@leepepe/design-tokens` / Swift `DesignTokens`. That immutable release ships color data only. This working tree adds **unreleased style data** under [the additive specification](specs/002-style-foundations/spec.md); it supplies no UI components. `tokens/colors.json` is the editable source of truth; JSON Schema and deterministic generation produce JS/TS, scoped CSS, resolved JSON and Swift. Agents: start with [AGENTS.md](AGENTS.md).
 
 ## Start here
 
@@ -83,6 +83,12 @@ npm run test:swift-consumer -- "$(git rev-parse HEAD)"
 
 Browser tests use Node standard library to launch an isolated, short-lived headless Chrome/Chromium, load the delivered CSS and compare computed sRGB RGBA for every token in both themes, inheritance, nesting and invalid boundaries. A duplicate wrong declaration proves the gate detects winning overrides. Set `CHROME_BIN` to an executable, or use standard Chrome/Chromium commands on PATH / the standard macOS application location (Windows installation paths are also searched, not locally verified). Missing browsers and invalid explicit overrides fail, never skip. `npm run test:browser` runs this suite alone; `test:pack` also checks the CSS exported by the actually installed tarball. No UI framework, server or screenshot test is used.
 
-After intentional source changes: `npm run generate`, then repeat the gates. Generator supports `--check`, `--source <file>`, `--out <directory>`; `--check` never repairs files. Tests regenerate into an empty temporary directory, compare every output byte, and prove missing/drifted/invalid input exits nonzero. npm packing installs into an isolated consumer, type-checks positive and negative APIs and runs actual emitted JS.
+After intentional source changes: `npm run generate`, then repeat the gates. Generator supports `--check`, `--source <color-file>`, `--styles-source <style-file>`, `--out <directory>`; `--check` never repairs files. Tests regenerate into an empty temporary directory, compare every output byte, and prove missing/drifted/invalid input exits nonzero. npm packing installs into an isolated consumer, type-checks positive and negative APIs and runs actual emitted JS.
 
 CI has read-only permissions and no provider credentials. Its presence does not establish required checks or prove a hosted run. All current execution evidence is from the local host, not iOS/macOS UI validation.
+
+## Unreleased style foundations
+
+`tokens/styles.json` is the editable non-color style authority. Its schema validates finite values, units, complete categories, provenance and semantic shadow-color references. The same deterministic generator writes `dist/styles.js`, `dist/styles.d.ts`, `dist/styles.resolved.json` and `Sources/DesignTokens/GeneratedStyles.swift`. Existing color outputs remain byte-identical.
+
+The additive `/styles` subpath and Swift `StyleTokens` expose throwing category lookups, with no fallback. Read [style usage](ai/USAGE.md#style-foundations-unreleased) for signatures and units. Current v0.1.1 consumers do not receive these APIs; validate a reviewed exact commit locally until a separately authorized release assigns a new immutable version. Do not change a consumer exact-version pin to an unreleased version.

@@ -1,0 +1,558 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Platform-neutral style source",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "units",
+    "tokens"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0.0"
+    },
+    "units": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "length",
+        "duration",
+        "weight"
+      ],
+      "properties": {
+        "length": {
+          "const": "logical-unit"
+        },
+        "duration": {
+          "const": "second"
+        },
+        "weight": {
+          "const": "css-weight"
+        }
+      }
+    },
+    "tokens": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "value",
+              "provenance"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^spacing\\.[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+              },
+              "value": {
+                "type": "number",
+                "minimum": 0
+              },
+              "provenance": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source",
+                  "note"
+                ],
+                "properties": {
+                  "source": {
+                    "const": "project"
+                  },
+                  "note": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "value",
+              "provenance"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^dimension\\.[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+              },
+              "value": {
+                "type": "number",
+                "minimum": 0
+              },
+              "provenance": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source",
+                  "note"
+                ],
+                "properties": {
+                  "source": {
+                    "const": "project"
+                  },
+                  "note": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "value",
+              "provenance"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^radius\\.[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+              },
+              "value": {
+                "type": "number",
+                "minimum": 0
+              },
+              "provenance": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source",
+                  "note"
+                ],
+                "properties": {
+                  "source": {
+                    "const": "project"
+                  },
+                  "note": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "value",
+              "provenance"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^border\\.[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+              },
+              "value": {
+                "type": "number",
+                "minimum": 0
+              },
+              "provenance": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source",
+                  "note"
+                ],
+                "properties": {
+                  "source": {
+                    "const": "project"
+                  },
+                  "note": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "value",
+              "provenance"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^opacity\\.[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+              },
+              "value": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "provenance": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source",
+                  "note"
+                ],
+                "properties": {
+                  "source": {
+                    "const": "project"
+                  },
+                  "note": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "value",
+              "provenance"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^duration\\.[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+              },
+              "value": {
+                "type": "number",
+                "minimum": 0
+              },
+              "provenance": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source",
+                  "note"
+                ],
+                "properties": {
+                  "source": {
+                    "const": "project"
+                  },
+                  "note": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "value",
+              "provenance"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^stagger\\.[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+              },
+              "value": {
+                "type": "number",
+                "minimum": 0
+              },
+              "provenance": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source",
+                  "note"
+                ],
+                "properties": {
+                  "source": {
+                    "const": "project"
+                  },
+                  "note": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "value",
+              "provenance"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^typography\\.[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+              },
+              "value": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "size",
+                  "weight",
+                  "lineHeight",
+                  "tracking",
+                  "relativeTo",
+                  "monospacedDigits"
+                ],
+                "properties": {
+                  "size": {
+                    "type": "number",
+                    "exclusiveMinimum": 0
+                  },
+                  "weight": {
+                    "type": "integer",
+                    "minimum": 100,
+                    "maximum": 900,
+                    "multipleOf": 100
+                  },
+                  "lineHeight": {
+                    "type": "number",
+                    "exclusiveMinimum": 0
+                  },
+                  "tracking": {
+                    "type": "number"
+                  },
+                  "relativeTo": {
+                    "enum": [
+                      "largeTitle",
+                      "title",
+                      "title2",
+                      "title3",
+                      "headline",
+                      "body",
+                      "callout",
+                      "subheadline",
+                      "footnote",
+                      "caption",
+                      "caption2"
+                    ]
+                  },
+                  "monospacedDigits": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "provenance": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source",
+                  "note"
+                ],
+                "properties": {
+                  "source": {
+                    "const": "project"
+                  },
+                  "note": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "value",
+              "provenance"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^curve\\.[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+              },
+              "value": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "x1",
+                  "y1",
+                  "x2",
+                  "y2"
+                ],
+                "properties": {
+                  "x1": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "y1": {
+                    "type": "number"
+                  },
+                  "x2": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "y2": {
+                    "type": "number"
+                  }
+                }
+              },
+              "provenance": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source",
+                  "note"
+                ],
+                "properties": {
+                  "source": {
+                    "const": "project"
+                  },
+                  "note": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "value",
+              "provenance"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^spring\\.[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+              },
+              "value": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "response",
+                  "dampingFraction",
+                  "blendDuration"
+                ],
+                "properties": {
+                  "response": {
+                    "type": "number",
+                    "exclusiveMinimum": 0
+                  },
+                  "dampingFraction": {
+                    "type": "number",
+                    "exclusiveMinimum": 0,
+                    "maximum": 1
+                  },
+                  "blendDuration": {
+                    "type": "number",
+                    "minimum": 0
+                  }
+                }
+              },
+              "provenance": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source",
+                  "note"
+                ],
+                "properties": {
+                  "source": {
+                    "const": "project"
+                  },
+                  "note": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "value",
+              "provenance"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^shadow\\.[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+              },
+              "value": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "colorToken",
+                  "opacity",
+                  "radius",
+                  "x",
+                  "y"
+                ],
+                "properties": {
+                  "colorToken": {
+                    "type": "string",
+                    "pattern": "^[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*$"
+                  },
+                  "opacity": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "radius": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "x": {
+                    "type": "number"
+                  },
+                  "y": {
+                    "type": "number"
+                  }
+                }
+              },
+              "provenance": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source",
+                  "note"
+                ],
+                "properties": {
+                  "source": {
+                    "const": "project"
+                  },
+                  "note": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
