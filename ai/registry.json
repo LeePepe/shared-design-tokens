@@ -61,7 +61,7 @@
     {
       "path": "dist/index.js",
       "format": "javascript",
-      "sha256": "c4bf36b6f5d36be55410654eda51771f715a9d7e016d332f6553fa36bbd94f98",
+      "sha256": "278869ee1eeb98372ea62098061a0c650b9205c6df1a40ed3fd4345be2e4bd5e",
       "symbols": [
         "brandColor",
         "brandIDs",
@@ -77,7 +77,7 @@
     {
       "path": "dist/index.d.ts",
       "format": "typescript",
-      "sha256": "1eefb7ff3a1512bc98a4ab6a21b4da581172c84d19044ce1e187a6c1cc096eb0",
+      "sha256": "2df4f1a41f68accc7a951a0c08cf800d11265046260c515d77c8bd877b7eb4fa",
       "symbols": [
         "BrandID",
         "BrandRole",
@@ -99,21 +99,21 @@
     {
       "path": "dist/colors.css",
       "format": "asset",
-      "sha256": "c00605860577f63770b8034921f4135cb315c7556defcd6b58ba82a2b5a7fe90",
+      "sha256": "875c82cfc2a5ece17515412c7615b3241f3442bfce8f31190d3a0f541d1ee9bc",
       "symbols": [],
       "doc": "ai/USAGE.md#public-data-api"
     },
     {
       "path": "dist/resolved.json",
       "format": "asset",
-      "sha256": "0824da541b899e90b75410c07593faa57371d72440a2e2d288e6af2658d62112",
+      "sha256": "891efa2637e5d86997270544606de9c49678e420036cfc1054f4fdbc556c131b",
       "symbols": [],
       "doc": "ai/USAGE.md#public-data-api"
     },
     {
       "path": "tokens/colors.json",
       "format": "asset",
-      "sha256": "a907ee91887ea40050ed93aedb8d3194088b2376955993b12a6c03ca7cd06d22",
+      "sha256": "d1f58174c872f774f0dcb319d808f6142f7d12ca0d762347632d9c5deca051fa",
       "symbols": [],
       "doc": "ai/USAGE.md#public-data-api"
     },
@@ -157,7 +157,7 @@
     {
       "path": "Sources/DesignTokens/GeneratedColors.swift",
       "format": "asset",
-      "sha256": "9f731c59f06c39e50cece43f27c055017693edfde70c6ba400560220a705f3ab",
+      "sha256": "ced8104421f3095500b424af9816c7f66cd76561f4910bed170c03903cac0394",
       "symbols": [],
       "doc": "ai/USAGE.md#public-data-api"
     },

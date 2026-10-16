@@ -63,3 +63,27 @@ final class DesignTokensTests: XCTestCase {
         XCTAssertThrowsError(try RGBA(red: 0, green: 256, blue: 0))
     }
 }
+
+final class StrataColorTests: XCTestCase {
+    func testFiveExplicitFamiliesAndOpaqueReadability() throws {
+        let families = ["blue", "green", "pink", "yellow", "purple"]
+        for mode in Theme.allCases {
+            for family in families {
+                let prefix = "brand.strata-\(family)."
+                let primary = try DesignTokens.color(prefix + "primary", theme: mode)
+                XCTAssertEqual(try DesignTokens.brandColor("strata-" + family, role: .accent, theme: mode), primary)
+                let onAccent = try DesignTokens.brandColor("strata-" + family, role: .onAccent, theme: mode)
+                for state in ["primary", "hover", "active"] {
+                    XCTAssertGreaterThanOrEqual(try onAccent.contrast(with: DesignTokens.color(prefix + state, theme: mode)), 4.5)
+                }
+                let secondary = try DesignTokens.color("product.strata.text.secondary", theme: mode)
+                for role in ["page", "region", "card", "inset", "hover", "selected"] {
+                    XCTAssertGreaterThanOrEqual(try secondary.contrast(with: DesignTokens.color("product.strata.\(family).surface.\(role)", theme: mode)), 4.5)
+                }
+            }
+        }
+        XCTAssertEqual(try DesignTokens.color("brand.strata-blue.primary", theme: .light), try RGBA(red: 40, green: 89, blue: 188))
+        XCTAssertEqual(try DesignTokens.color("product.strata.purple.surface.card", theme: .dark), try RGBA(red: 50, green: 44, blue: 60))
+        XCTAssertThrowsError(try DesignTokens.brandColor("strata-orange", role: .accent, theme: .light))
+    }
+}

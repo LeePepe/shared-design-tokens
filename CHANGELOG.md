@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased — Strata color families
+
+- Add five explicit Strata brands, six family-sensitive neutral surfaces, brand states and material RGBA roles from approved custom Strata v0.2.
+- Add brand-independent semantic text/status/chart colors and declared opaque contrast pairs. Existing colors/brands/series and runtime APIs remain unchanged.
+- Source candidate only; no release, remote version resolution or native UI acceptance is claimed.
+
+
 ## Unreleased — additive style foundations
 
 - Add authoritative `tokens/styles.json` and strict style schema: typography, spacing, dimensions/hit targets, radius, border, opacity, shadow, duration, curve, spring and stagger data.

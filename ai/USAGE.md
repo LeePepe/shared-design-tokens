@@ -52,3 +52,28 @@ const shadowColor = color(shadowSpec.colorToken, 'dark');
 ```
 
 JS data is deeply frozen and TypeScript style IDs are category-specific literal unions. Swift throws `StyleTokenError.unknownToken(originalID)` for missing or wrong-category IDs, leaving existing `TokenError` unchanged; JS throws `Error` with `unknown style token`. There is no arbitrary style-construction API, default theme, mutable registry or fallback. Current values have original project provenance; Basalt remains Web rendering/theme authority.
+
+## Strata colors (unreleased)
+
+The [additive color specification](../specs/003-strata-palettes.md) defines five
+explicit brands: `strata-blue`, `strata-green`, `strata-pink`, `strata-yellow`,
+`strata-purple`. Existing `brandColor(brand, accent/onAccent, theme)` resolves
+primary and on-brand text. Existing `color(id, theme)` reads further named roles;
+no schema or runtime lookup API changes. Legacy ocean/graphite and all existing
+series IDs retain their values and meaning. This candidate is absent from v0.1.1.
+
+| Prefix | Roles |
+| --- | --- |
+| `brand.strata-<family>.` | seed, seed-ink, primary, hover, active, subtle, text, on-accent |
+| `product.strata.<family>.surface.` | page, region, card, inset, hover, selected |
+| `product.strata.<family>.material.` | panel, content, control, ambient, ambient-soft, ambient-edge |
+| `product.strata.text.` | primary, secondary |
+| `status.strata.` | success, warning, error and corresponding `-surface` |
+| `product.strata.chart.` | primary, secondary, tertiary |
+| `product.strata.material.` | edge, highlight, inner-edge, shadow |
+
+`product.strata.border` is the decorative border color. Named chart colors are
+presentation roles, not series identities or status labels. Material values are
+RGBA data, not native blur or a composited text contrast guarantee. The provider
+declares opaque normal-text pairs in both modes; consumers verify actual
+translucent composites. This does not change Basalt Web theme authority.

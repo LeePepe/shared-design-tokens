@@ -9,3 +9,5 @@ The existing [version policy](../docs/compatibility.md#api--version-contract) ow
 Before any upgrade, pin the reviewed artifact/revision, read its [changelog](../CHANGELOG.md) and [migration](MIGRATION.md), run the same consumer fixture against old and new inputs, and retain the old lockfile/artifact for rollback. Source candidate tests, remote resolution, release and product acceptance remain separate evidence.
 
 The working-tree style addition is unreleased and absent from v0.1.1. It is an additive minor-release candidate, preserves old colors and APIs, and retains data-only platform floors. Style source schema is 1.0.0, independent of color/registry schemas. Use reviewed exact-commit candidate evidence before any separately authorized version assignment; do not claim v0.1.1 provides styles.
+
+Strata color families are additive unreleased data for a proposed 0.2.0 candidate. No old ID, value, brand or series changes. Exact candidate mirror tests do not establish released-dependency resolution.
