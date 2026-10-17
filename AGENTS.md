@@ -19,6 +19,11 @@ Follow `LeePepe/shared-ci@42d1704a5690ab5890657feaadb8929384632766/ai/agent-prot
 (https://github.com/LeePepe/shared-ci/blob/42d1704a5690ab5890657feaadb8929384632766/ai/agent-protocol.md).
 It must be the same SHA as the `uses:` pins in `.github/workflows/`.
 
+## Development authority
+
+Provider development authority is quiescent. Follow the authoritative notice in
+[`docs/constitution.md`](docs/constitution.md#development-authority) before making changes.
+
 ## Verify
 
 ```sh
