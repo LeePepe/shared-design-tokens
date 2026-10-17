@@ -27,7 +27,7 @@ try {
   receipt.tree = run('git', ['rev-parse', `${revision}^{tree}`]).trim();
   const mirror = join(dir, 'tokens-provider.git');
   run('git', ['clone', '--bare', '--no-hardlinks', '--', root, mirror]);
-  assert.equal(run('git', ['remote', 'get-url', 'origin'], mirror).trim(), root);
+  assert.equal(run('git', ['--git-dir', mirror, 'remote', 'get-url', 'origin'], mirror).trim(), root);
   receipt.repository = pathToFileURL(mirror).href;
   const consumer = join(dir, 'consumer');
   const prefix = 'examples/data/swift/';
