@@ -52,7 +52,12 @@ layout, screen or business state.
 This is an additive provider scope revision requiring Owner review of the
 constitution/index/layer contracts and manifest. It does not reduce existing
 validation, policy or gates, add runtime dependencies, or change platform floors.
-The manifest version remains the last released 0.1.1 while the working tree is
-unreleased; v0.1.1 itself does not contain styles. A separately authorized minor
-release must assign a new immutable version and update its version-matched
-contracts before remote exact-version consumption.
+The last immutable release is v0.1.1, which does not contain styles. The working
+tree prepares unreleased 0.2.0 manifest metadata and version-matched contracts
+for the companion Strata addition.
+
+This PR does not publish a release. Required exact-head checks, review,
+applicable Owner approval and external consumer verification still precede the
+separate immutable release and remote exact-version consumption. These
+specifications describe prepared implementation and metadata; they do not
+establish approval. No release policy or registry permission changes.

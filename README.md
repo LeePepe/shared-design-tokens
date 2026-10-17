@@ -1,6 +1,6 @@
 # shared-design-tokens — color and style data
 
-Release `0.1.1` (Git tag `v0.1.1`) of `@leepepe/design-tokens` / Swift `DesignTokens`. That immutable release ships color data only. This working tree adds **unreleased style data** under [the additive specification](specs/002-style-foundations/spec.md); it supplies no UI components. `tokens/colors.json` is the editable source of truth; JSON Schema and deterministic generation produce JS/TS, scoped CSS, resolved JSON and Swift. Agents: start with [AGENTS.md](AGENTS.md).
+Version `0.2.0` (immutable Git tag `v0.2.0` after release verification) of `@leepepe/design-tokens` / Swift `DesignTokens`. This version adds platform-neutral style data under [the additive specification](specs/002-style-foundations/spec.md); it supplies no UI components. `tokens/colors.json` is the editable source of truth; JSON Schema and deterministic generation produce JS/TS, scoped CSS, resolved JSON and Swift. Agents: start with [AGENTS.md](AGENTS.md).
 
 ## Start here
 
@@ -25,7 +25,7 @@ Nine declared opaque text/surface or on-color pairs are contrast-gated at >=4.5 
 
 ## Web / TypeScript consumer
 
-Install the tarball built from tag `v0.1.1` at an exact version; nothing is published to the npm registry. The runtime package has **zero dependencies**, including no React. Ajv/TypeScript are generator/test dev dependencies only.
+Install the tarball built from tag `v0.2.0` at an exact version; nothing is published to the npm registry. The runtime package has **zero dependencies**, including no React. Ajv/TypeScript are generator/test dev dependencies only.
 
 ```ts
 import {color, brandColor, seriesColor, type SeriesID} from '@leepepe/design-tokens';
@@ -48,7 +48,7 @@ Public exports: root ESM + `.d.ts`, `/colors.css`, `/resolved.json`, `/source.js
 
 ## Swift data consumer
 
-Pin `.package(url: "https://github.com/LeePepe/shared-design-tokens.git", exact: "0.1.1")` and consume `.product(name: "DesignTokens", package: "shared-design-tokens")`. CI also verifies an external package resolving a local Git mirror of the exact commit, not a source-path dependency; see [Swift integration](ai/INTEGRATION.md#swift-revision).
+Pin `.package(url: "https://github.com/LeePepe/shared-design-tokens.git", exact: "0.2.0")` and consume `.product(name: "DesignTokens", package: "shared-design-tokens")`. CI also verifies an external package resolving a local Git mirror of the exact commit, not a source-path dependency; see [Swift integration](ai/INTEGRATION.md#swift-revision).
 
 ```swift
 import DesignTokens
@@ -87,8 +87,8 @@ After intentional source changes: `npm run generate`, then repeat the gates. Gen
 
 CI has read-only permissions and no provider credentials. Its presence does not establish required checks or prove a hosted run. All current execution evidence is from the local host, not iOS/macOS UI validation.
 
-## Unreleased style foundations
+## Style foundations (0.2.0)
 
 `tokens/styles.json` is the editable non-color style authority. Its schema validates finite values, units, complete categories, provenance and semantic shadow-color references. The same deterministic generator writes `dist/styles.js`, `dist/styles.d.ts`, `dist/styles.resolved.json` and `Sources/DesignTokens/GeneratedStyles.swift`. Existing color outputs remain byte-identical.
 
-The additive `/styles` subpath and Swift `StyleTokens` expose throwing category lookups, with no fallback. Read [style usage](ai/USAGE.md#style-foundations-unreleased) for signatures and units. Current v0.1.1 consumers do not receive these APIs; validate a reviewed exact commit locally until a separately authorized release assigns a new immutable version. Do not change a consumer exact-version pin to an unreleased version.
+The additive `/styles` subpath and Swift `StyleTokens` expose throwing category lookups, with no fallback. Read [style usage](ai/USAGE.md#style-foundations-020) for signatures and units. Version 0.2.0 includes these APIs and five Strata color families. Verify immutable tag availability and release-note evidence before consumer adoption. Local exact-commit candidate tests do not establish released remote resolution.

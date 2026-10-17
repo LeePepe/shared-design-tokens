@@ -1,8 +1,8 @@
 # Migration and rollback
 
-## Unreleased style addition
+## Style adoption
 
-Existing color consumers need no code change. Native/web style adopters must wait for a separately authorized minor release and exact-version upgrade; v0.1.1 has no `StyleTokens` or `/styles`. Local candidate fixtures bind source/docs to a reviewed exact commit only. To roll back an adopting consumer, remove its style API usage and restore its previous exact provider pin and adapter together; never patch generated values or rewrite v0.1.1.
+Existing color consumers need no code change. Native/web style adopters pin exact 0.2.0 after verifying its immutable release; v0.1.1 has no `StyleTokens` or `/styles`. Local candidate fixtures bind source/docs to a reviewed exact commit only. To roll back an adopting consumer, remove its style API usage and restore its previous exact provider pin and adapter together; never patch generated values or rewrite v0.1.1.
 
 ## 0.1.0 to 0.1.1
 
@@ -23,3 +23,11 @@ No state is persisted or transformed; rollback in this fixture is fully reversib
 ## Candidate.0 or candidate.1 to 0.1.0
 
 Runtime/color data is unchanged. Replace the candidate revision pin with the exact `0.1.0` release (Swift: `exact: "0.1.0"`, package identity `shared-design-tokens`), update matching contract docs, then run artifact and consumer checks. There are no token deprecations, renames or fallback aliases. Roll back to the exact candidate.0 artifact/revision and matching docs; candidate.1-specific contract tooling will no longer be available there. See [changelog](../CHANGELOG.md) and [existing provider rollback](../docs/compatibility.md#rollback).
+
+## 0.1.1 to 0.2.0
+
+Legacy colors, brands, series and lookup errors remain unchanged. Style use is
+additive. New native palettes use explicit `strata-*` brand IDs; never rename
+ocean/graphite to mimic the new families. Read the named role table in Usage.
+Rollback removes new role/style usage and restores the previous exact provider
+pin and consumer adapter together; never modify a released tag.

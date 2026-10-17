@@ -59,6 +59,566 @@ const data = {
         "a": 1
       }
     },
+    "brand.strata-blue.active": {
+      "light": {
+        "r": 24,
+        "g": 61,
+        "b": 139,
+        "a": 1
+      },
+      "dark": {
+        "r": 127,
+        "g": 180,
+        "b": 226,
+        "a": 1
+      }
+    },
+    "brand.strata-blue.hover": {
+      "light": {
+        "r": 32,
+        "g": 76,
+        "b": 166,
+        "a": 1
+      },
+      "dark": {
+        "r": 172,
+        "g": 212,
+        "b": 246,
+        "a": 1
+      }
+    },
+    "brand.strata-blue.on-accent": {
+      "light": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 1
+      },
+      "dark": {
+        "r": 32,
+        "g": 28,
+        "b": 40,
+        "a": 1
+      }
+    },
+    "brand.strata-blue.primary": {
+      "light": {
+        "r": 40,
+        "g": 89,
+        "b": 188,
+        "a": 1
+      },
+      "dark": {
+        "r": 148,
+        "g": 197,
+        "b": 240,
+        "a": 1
+      }
+    },
+    "brand.strata-blue.seed": {
+      "light": {
+        "r": 130,
+        "g": 184,
+        "b": 228,
+        "a": 1
+      },
+      "dark": {
+        "r": 130,
+        "g": 184,
+        "b": 228,
+        "a": 1
+      }
+    },
+    "brand.strata-blue.seed-ink": {
+      "light": {
+        "r": 35,
+        "g": 40,
+        "b": 49,
+        "a": 1
+      },
+      "dark": {
+        "r": 35,
+        "g": 40,
+        "b": 49,
+        "a": 1
+      }
+    },
+    "brand.strata-blue.subtle": {
+      "light": {
+        "r": 234,
+        "g": 240,
+        "b": 251,
+        "a": 1
+      },
+      "dark": {
+        "r": 37,
+        "g": 57,
+        "b": 76,
+        "a": 1
+      }
+    },
+    "brand.strata-blue.text": {
+      "light": {
+        "r": 40,
+        "g": 89,
+        "b": 188,
+        "a": 1
+      },
+      "dark": {
+        "r": 172,
+        "g": 212,
+        "b": 246,
+        "a": 1
+      }
+    },
+    "brand.strata-green.active": {
+      "light": {
+        "r": 18,
+        "g": 71,
+        "b": 47,
+        "a": 1
+      },
+      "dark": {
+        "r": 140,
+        "g": 200,
+        "b": 155,
+        "a": 1
+      }
+    },
+    "brand.strata-green.hover": {
+      "light": {
+        "r": 26,
+        "g": 87,
+        "b": 59,
+        "a": 1
+      },
+      "dark": {
+        "r": 184,
+        "g": 228,
+        "b": 193,
+        "a": 1
+      }
+    },
+    "brand.strata-green.on-accent": {
+      "light": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 1
+      },
+      "dark": {
+        "r": 32,
+        "g": 28,
+        "b": 40,
+        "a": 1
+      }
+    },
+    "brand.strata-green.primary": {
+      "light": {
+        "r": 35,
+        "g": 103,
+        "b": 71,
+        "a": 1
+      },
+      "dark": {
+        "r": 163,
+        "g": 216,
+        "b": 176,
+        "a": 1
+      }
+    },
+    "brand.strata-green.seed": {
+      "light": {
+        "r": 153,
+        "g": 205,
+        "b": 164,
+        "a": 1
+      },
+      "dark": {
+        "r": 153,
+        "g": 205,
+        "b": 164,
+        "a": 1
+      }
+    },
+    "brand.strata-green.seed-ink": {
+      "light": {
+        "r": 35,
+        "g": 40,
+        "b": 49,
+        "a": 1
+      },
+      "dark": {
+        "r": 35,
+        "g": 40,
+        "b": 49,
+        "a": 1
+      }
+    },
+    "brand.strata-green.subtle": {
+      "light": {
+        "r": 232,
+        "g": 242,
+        "b": 234,
+        "a": 1
+      },
+      "dark": {
+        "r": 41,
+        "g": 63,
+        "b": 50,
+        "a": 1
+      }
+    },
+    "brand.strata-green.text": {
+      "light": {
+        "r": 35,
+        "g": 103,
+        "b": 71,
+        "a": 1
+      },
+      "dark": {
+        "r": 184,
+        "g": 228,
+        "b": 193,
+        "a": 1
+      }
+    },
+    "brand.strata-pink.active": {
+      "light": {
+        "r": 114,
+        "g": 37,
+        "b": 69,
+        "a": 1
+      },
+      "dark": {
+        "r": 223,
+        "g": 155,
+        "b": 178,
+        "a": 1
+      }
+    },
+    "brand.strata-pink.hover": {
+      "light": {
+        "r": 135,
+        "g": 48,
+        "b": 83,
+        "a": 1
+      },
+      "dark": {
+        "r": 246,
+        "g": 196,
+        "b": 212,
+        "a": 1
+      }
+    },
+    "brand.strata-pink.on-accent": {
+      "light": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 1
+      },
+      "dark": {
+        "r": 32,
+        "g": 28,
+        "b": 40,
+        "a": 1
+      }
+    },
+    "brand.strata-pink.primary": {
+      "light": {
+        "r": 156,
+        "g": 60,
+        "b": 99,
+        "a": 1
+      },
+      "dark": {
+        "r": 239,
+        "g": 176,
+        "b": 197,
+        "a": 1
+      }
+    },
+    "brand.strata-pink.seed": {
+      "light": {
+        "r": 233,
+        "g": 164,
+        "b": 184,
+        "a": 1
+      },
+      "dark": {
+        "r": 233,
+        "g": 164,
+        "b": 184,
+        "a": 1
+      }
+    },
+    "brand.strata-pink.seed-ink": {
+      "light": {
+        "r": 35,
+        "g": 40,
+        "b": 49,
+        "a": 1
+      },
+      "dark": {
+        "r": 35,
+        "g": 40,
+        "b": 49,
+        "a": 1
+      }
+    },
+    "brand.strata-pink.subtle": {
+      "light": {
+        "r": 247,
+        "g": 234,
+        "b": 240,
+        "a": 1
+      },
+      "dark": {
+        "r": 73,
+        "g": 50,
+        "b": 61,
+        "a": 1
+      }
+    },
+    "brand.strata-pink.text": {
+      "light": {
+        "r": 156,
+        "g": 60,
+        "b": 99,
+        "a": 1
+      },
+      "dark": {
+        "r": 246,
+        "g": 196,
+        "b": 212,
+        "a": 1
+      }
+    },
+    "brand.strata-purple.active": {
+      "light": {
+        "r": 73,
+        "g": 48,
+        "b": 125,
+        "a": 1
+      },
+      "dark": {
+        "r": 179,
+        "g": 156,
+        "b": 217,
+        "a": 1
+      }
+    },
+    "brand.strata-purple.hover": {
+      "light": {
+        "r": 90,
+        "g": 59,
+        "b": 149,
+        "a": 1
+      },
+      "dark": {
+        "r": 215,
+        "g": 200,
+        "b": 243,
+        "a": 1
+      }
+    },
+    "brand.strata-purple.on-accent": {
+      "light": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 1
+      },
+      "dark": {
+        "r": 32,
+        "g": 28,
+        "b": 40,
+        "a": 1
+      }
+    },
+    "brand.strata-purple.primary": {
+      "light": {
+        "r": 105,
+        "g": 71,
+        "b": 170,
+        "a": 1
+      },
+      "dark": {
+        "r": 198,
+        "g": 179,
+        "b": 234,
+        "a": 1
+      }
+    },
+    "brand.strata-purple.seed": {
+      "light": {
+        "r": 183,
+        "g": 164,
+        "b": 219,
+        "a": 1
+      },
+      "dark": {
+        "r": 183,
+        "g": 164,
+        "b": 219,
+        "a": 1
+      }
+    },
+    "brand.strata-purple.seed-ink": {
+      "light": {
+        "r": 35,
+        "g": 40,
+        "b": 49,
+        "a": 1
+      },
+      "dark": {
+        "r": 35,
+        "g": 40,
+        "b": 49,
+        "a": 1
+      }
+    },
+    "brand.strata-purple.subtle": {
+      "light": {
+        "r": 240,
+        "g": 235,
+        "b": 247,
+        "a": 1
+      },
+      "dark": {
+        "r": 61,
+        "g": 51,
+        "b": 78,
+        "a": 1
+      }
+    },
+    "brand.strata-purple.text": {
+      "light": {
+        "r": 105,
+        "g": 71,
+        "b": 170,
+        "a": 1
+      },
+      "dark": {
+        "r": 215,
+        "g": 200,
+        "b": 243,
+        "a": 1
+      }
+    },
+    "brand.strata-yellow.active": {
+      "light": {
+        "r": 77,
+        "g": 57,
+        "b": 6,
+        "a": 1
+      },
+      "dark": {
+        "r": 215,
+        "g": 186,
+        "b": 100,
+        "a": 1
+      }
+    },
+    "brand.strata-yellow.hover": {
+      "light": {
+        "r": 96,
+        "g": 72,
+        "b": 9,
+        "a": 1
+      },
+      "dark": {
+        "r": 240,
+        "g": 223,
+        "b": 164,
+        "a": 1
+      }
+    },
+    "brand.strata-yellow.on-accent": {
+      "light": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 1
+      },
+      "dark": {
+        "r": 32,
+        "g": 28,
+        "b": 40,
+        "a": 1
+      }
+    },
+    "brand.strata-yellow.primary": {
+      "light": {
+        "r": 113,
+        "g": 86,
+        "b": 11,
+        "a": 1
+      },
+      "dark": {
+        "r": 231,
+        "g": 207,
+        "b": 130,
+        "a": 1
+      }
+    },
+    "brand.strata-yellow.seed": {
+      "light": {
+        "r": 237,
+        "g": 212,
+        "b": 125,
+        "a": 1
+      },
+      "dark": {
+        "r": 237,
+        "g": 212,
+        "b": 125,
+        "a": 1
+      }
+    },
+    "brand.strata-yellow.seed-ink": {
+      "light": {
+        "r": 35,
+        "g": 40,
+        "b": 49,
+        "a": 1
+      },
+      "dark": {
+        "r": 35,
+        "g": 40,
+        "b": 49,
+        "a": 1
+      }
+    },
+    "brand.strata-yellow.subtle": {
+      "light": {
+        "r": 245,
+        "g": 239,
+        "b": 217,
+        "a": 1
+      },
+      "dark": {
+        "r": 68,
+        "g": 61,
+        "b": 39,
+        "a": 1
+      }
+    },
+    "brand.strata-yellow.text": {
+      "light": {
+        "r": 113,
+        "g": 86,
+        "b": 11,
+        "a": 1
+      },
+      "dark": {
+        "r": 240,
+        "g": 223,
+        "b": 164,
+        "a": 1
+      }
+    },
     "foundation.background": {
       "light": {
         "r": 238,
@@ -311,6 +871,986 @@ const data = {
         "a": 1
       }
     },
+    "product.strata.blue.material.ambient": {
+      "light": {
+        "r": 130,
+        "g": 184,
+        "b": 228,
+        "a": 0.34
+      },
+      "dark": {
+        "r": 130,
+        "g": 184,
+        "b": 228,
+        "a": 0.2
+      }
+    },
+    "product.strata.blue.material.ambient-edge": {
+      "light": {
+        "r": 130,
+        "g": 184,
+        "b": 228,
+        "a": 0.42
+      },
+      "dark": {
+        "r": 130,
+        "g": 184,
+        "b": 228,
+        "a": 0.28
+      }
+    },
+    "product.strata.blue.material.ambient-soft": {
+      "light": {
+        "r": 130,
+        "g": 184,
+        "b": 228,
+        "a": 0.18
+      },
+      "dark": {
+        "r": 130,
+        "g": 184,
+        "b": 228,
+        "a": 0.12
+      }
+    },
+    "product.strata.blue.material.content": {
+      "light": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 0.7
+      },
+      "dark": {
+        "r": 39,
+        "g": 49,
+        "b": 60,
+        "a": 0.82
+      }
+    },
+    "product.strata.blue.material.control": {
+      "light": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 0.64
+      },
+      "dark": {
+        "r": 39,
+        "g": 49,
+        "b": 60,
+        "a": 0.85
+      }
+    },
+    "product.strata.blue.material.panel": {
+      "light": {
+        "r": 242,
+        "g": 244,
+        "b": 246,
+        "a": 0.62
+      },
+      "dark": {
+        "r": 29,
+        "g": 36,
+        "b": 44,
+        "a": 0.72
+      }
+    },
+    "product.strata.blue.surface.card": {
+      "light": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 1
+      },
+      "dark": {
+        "r": 39,
+        "g": 49,
+        "b": 60,
+        "a": 1
+      }
+    },
+    "product.strata.blue.surface.hover": {
+      "light": {
+        "r": 233,
+        "g": 237,
+        "b": 241,
+        "a": 1
+      },
+      "dark": {
+        "r": 48,
+        "g": 60,
+        "b": 72,
+        "a": 1
+      }
+    },
+    "product.strata.blue.surface.inset": {
+      "light": {
+        "r": 245,
+        "g": 247,
+        "b": 249,
+        "a": 1
+      },
+      "dark": {
+        "r": 32,
+        "g": 41,
+        "b": 51,
+        "a": 1
+      }
+    },
+    "product.strata.blue.surface.page": {
+      "light": {
+        "r": 233,
+        "g": 237,
+        "b": 240,
+        "a": 1
+      },
+      "dark": {
+        "r": 22,
+        "g": 27,
+        "b": 33,
+        "a": 1
+      }
+    },
+    "product.strata.blue.surface.region": {
+      "light": {
+        "r": 242,
+        "g": 244,
+        "b": 246,
+        "a": 1
+      },
+      "dark": {
+        "r": 29,
+        "g": 36,
+        "b": 44,
+        "a": 1
+      }
+    },
+    "product.strata.blue.surface.selected": {
+      "light": {
+        "r": 222,
+        "g": 228,
+        "b": 234,
+        "a": 1
+      },
+      "dark": {
+        "r": 57,
+        "g": 70,
+        "b": 83,
+        "a": 1
+      }
+    },
+    "product.strata.border": {
+      "light": {
+        "r": 194,
+        "g": 201,
+        "b": 210,
+        "a": 1
+      },
+      "dark": {
+        "r": 116,
+        "g": 109,
+        "b": 128,
+        "a": 1
+      }
+    },
+    "product.strata.chart.primary": {
+      "light": {
+        "r": 82,
+        "g": 122,
+        "b": 145,
+        "a": 1
+      },
+      "dark": {
+        "r": 157,
+        "g": 196,
+        "b": 214,
+        "a": 1
+      }
+    },
+    "product.strata.chart.secondary": {
+      "light": {
+        "r": 150,
+        "g": 129,
+        "b": 169,
+        "a": 1
+      },
+      "dark": {
+        "r": 191,
+        "g": 170,
+        "b": 214,
+        "a": 1
+      }
+    },
+    "product.strata.chart.tertiary": {
+      "light": {
+        "r": 178,
+        "g": 156,
+        "b": 102,
+        "a": 1
+      },
+      "dark": {
+        "r": 212,
+        "g": 191,
+        "b": 146,
+        "a": 1
+      }
+    },
+    "product.strata.green.material.ambient": {
+      "light": {
+        "r": 153,
+        "g": 205,
+        "b": 164,
+        "a": 0.34
+      },
+      "dark": {
+        "r": 153,
+        "g": 205,
+        "b": 164,
+        "a": 0.2
+      }
+    },
+    "product.strata.green.material.ambient-edge": {
+      "light": {
+        "r": 153,
+        "g": 205,
+        "b": 164,
+        "a": 0.42
+      },
+      "dark": {
+        "r": 153,
+        "g": 205,
+        "b": 164,
+        "a": 0.28
+      }
+    },
+    "product.strata.green.material.ambient-soft": {
+      "light": {
+        "r": 153,
+        "g": 205,
+        "b": 164,
+        "a": 0.18
+      },
+      "dark": {
+        "r": 153,
+        "g": 205,
+        "b": 164,
+        "a": 0.12
+      }
+    },
+    "product.strata.green.material.content": {
+      "light": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 0.7
+      },
+      "dark": {
+        "r": 42,
+        "g": 53,
+        "b": 45,
+        "a": 0.82
+      }
+    },
+    "product.strata.green.material.control": {
+      "light": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 0.64
+      },
+      "dark": {
+        "r": 42,
+        "g": 53,
+        "b": 45,
+        "a": 0.85
+      }
+    },
+    "product.strata.green.material.panel": {
+      "light": {
+        "r": 241,
+        "g": 244,
+        "b": 239,
+        "a": 0.62
+      },
+      "dark": {
+        "r": 31,
+        "g": 40,
+        "b": 34,
+        "a": 0.72
+      }
+    },
+    "product.strata.green.surface.card": {
+      "light": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 1
+      },
+      "dark": {
+        "r": 42,
+        "g": 53,
+        "b": 45,
+        "a": 1
+      }
+    },
+    "product.strata.green.surface.hover": {
+      "light": {
+        "r": 231,
+        "g": 236,
+        "b": 229,
+        "a": 1
+      },
+      "dark": {
+        "r": 51,
+        "g": 64,
+        "b": 54,
+        "a": 1
+      }
+    },
+    "product.strata.green.surface.inset": {
+      "light": {
+        "r": 245,
+        "g": 247,
+        "b": 243,
+        "a": 1
+      },
+      "dark": {
+        "r": 35,
+        "g": 45,
+        "b": 38,
+        "a": 1
+      }
+    },
+    "product.strata.green.surface.page": {
+      "light": {
+        "r": 233,
+        "g": 237,
+        "b": 232,
+        "a": 1
+      },
+      "dark": {
+        "r": 23,
+        "g": 29,
+        "b": 25,
+        "a": 1
+      }
+    },
+    "product.strata.green.surface.region": {
+      "light": {
+        "r": 241,
+        "g": 244,
+        "b": 239,
+        "a": 1
+      },
+      "dark": {
+        "r": 31,
+        "g": 40,
+        "b": 34,
+        "a": 1
+      }
+    },
+    "product.strata.green.surface.selected": {
+      "light": {
+        "r": 221,
+        "g": 229,
+        "b": 218,
+        "a": 1
+      },
+      "dark": {
+        "r": 60,
+        "g": 74,
+        "b": 63,
+        "a": 1
+      }
+    },
+    "product.strata.material.edge": {
+      "light": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 0.78
+      },
+      "dark": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 0.16
+      }
+    },
+    "product.strata.material.highlight": {
+      "light": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 0.72
+      },
+      "dark": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 0.12
+      }
+    },
+    "product.strata.material.inner-edge": {
+      "light": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 0.64
+      },
+      "dark": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 0.09
+      }
+    },
+    "product.strata.material.shadow": {
+      "light": {
+        "r": 56,
+        "g": 75,
+        "b": 99,
+        "a": 0.06
+      },
+      "dark": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0.22
+      }
+    },
+    "product.strata.pink.material.ambient": {
+      "light": {
+        "r": 233,
+        "g": 164,
+        "b": 184,
+        "a": 0.34
+      },
+      "dark": {
+        "r": 233,
+        "g": 164,
+        "b": 184,
+        "a": 0.2
+      }
+    },
+    "product.strata.pink.material.ambient-edge": {
+      "light": {
+        "r": 233,
+        "g": 164,
+        "b": 184,
+        "a": 0.42
+      },
+      "dark": {
+        "r": 233,
+        "g": 164,
+        "b": 184,
+        "a": 0.28
+      }
+    },
+    "product.strata.pink.material.ambient-soft": {
+      "light": {
+        "r": 233,
+        "g": 164,
+        "b": 184,
+        "a": 0.18
+      },
+      "dark": {
+        "r": 233,
+        "g": 164,
+        "b": 184,
+        "a": 0.12
+      }
+    },
+    "product.strata.pink.material.content": {
+      "light": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 0.7
+      },
+      "dark": {
+        "r": 56,
+        "g": 45,
+        "b": 52,
+        "a": 0.82
+      }
+    },
+    "product.strata.pink.material.control": {
+      "light": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 0.64
+      },
+      "dark": {
+        "r": 56,
+        "g": 45,
+        "b": 52,
+        "a": 0.85
+      }
+    },
+    "product.strata.pink.material.panel": {
+      "light": {
+        "r": 246,
+        "g": 241,
+        "b": 243,
+        "a": 0.62
+      },
+      "dark": {
+        "r": 42,
+        "g": 34,
+        "b": 39,
+        "a": 0.72
+      }
+    },
+    "product.strata.pink.surface.card": {
+      "light": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 1
+      },
+      "dark": {
+        "r": 56,
+        "g": 45,
+        "b": 52,
+        "a": 1
+      }
+    },
+    "product.strata.pink.surface.hover": {
+      "light": {
+        "r": 238,
+        "g": 230,
+        "b": 233,
+        "a": 1
+      },
+      "dark": {
+        "r": 68,
+        "g": 54,
+        "b": 63,
+        "a": 1
+      }
+    },
+    "product.strata.pink.surface.inset": {
+      "light": {
+        "r": 250,
+        "g": 245,
+        "b": 247,
+        "a": 1
+      },
+      "dark": {
+        "r": 48,
+        "g": 38,
+        "b": 44,
+        "a": 1
+      }
+    },
+    "product.strata.pink.surface.page": {
+      "light": {
+        "r": 239,
+        "g": 233,
+        "b": 235,
+        "a": 1
+      },
+      "dark": {
+        "r": 32,
+        "g": 25,
+        "b": 29,
+        "a": 1
+      }
+    },
+    "product.strata.pink.surface.region": {
+      "light": {
+        "r": 246,
+        "g": 241,
+        "b": 243,
+        "a": 1
+      },
+      "dark": {
+        "r": 42,
+        "g": 34,
+        "b": 39,
+        "a": 1
+      }
+    },
+    "product.strata.pink.surface.selected": {
+      "light": {
+        "r": 232,
+        "g": 221,
+        "b": 225,
+        "a": 1
+      },
+      "dark": {
+        "r": 77,
+        "g": 63,
+        "b": 71,
+        "a": 1
+      }
+    },
+    "product.strata.purple.material.ambient": {
+      "light": {
+        "r": 183,
+        "g": 164,
+        "b": 219,
+        "a": 0.34
+      },
+      "dark": {
+        "r": 183,
+        "g": 164,
+        "b": 219,
+        "a": 0.2
+      }
+    },
+    "product.strata.purple.material.ambient-edge": {
+      "light": {
+        "r": 183,
+        "g": 164,
+        "b": 219,
+        "a": 0.42
+      },
+      "dark": {
+        "r": 183,
+        "g": 164,
+        "b": 219,
+        "a": 0.28
+      }
+    },
+    "product.strata.purple.material.ambient-soft": {
+      "light": {
+        "r": 183,
+        "g": 164,
+        "b": 219,
+        "a": 0.18
+      },
+      "dark": {
+        "r": 183,
+        "g": 164,
+        "b": 219,
+        "a": 0.12
+      }
+    },
+    "product.strata.purple.material.content": {
+      "light": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 0.7
+      },
+      "dark": {
+        "r": 50,
+        "g": 44,
+        "b": 60,
+        "a": 0.82
+      }
+    },
+    "product.strata.purple.material.control": {
+      "light": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 0.64
+      },
+      "dark": {
+        "r": 50,
+        "g": 44,
+        "b": 60,
+        "a": 0.85
+      }
+    },
+    "product.strata.purple.material.panel": {
+      "light": {
+        "r": 244,
+        "g": 241,
+        "b": 247,
+        "a": 0.62
+      },
+      "dark": {
+        "r": 37,
+        "g": 33,
+        "b": 45,
+        "a": 0.72
+      }
+    },
+    "product.strata.purple.surface.card": {
+      "light": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 1
+      },
+      "dark": {
+        "r": 50,
+        "g": 44,
+        "b": 60,
+        "a": 1
+      }
+    },
+    "product.strata.purple.surface.hover": {
+      "light": {
+        "r": 235,
+        "g": 230,
+        "b": 240,
+        "a": 1
+      },
+      "dark": {
+        "r": 60,
+        "g": 53,
+        "b": 72,
+        "a": 1
+      }
+    },
+    "product.strata.purple.surface.inset": {
+      "light": {
+        "r": 248,
+        "g": 245,
+        "b": 250,
+        "a": 1
+      },
+      "dark": {
+        "r": 42,
+        "g": 37,
+        "b": 51,
+        "a": 1
+      }
+    },
+    "product.strata.purple.surface.page": {
+      "light": {
+        "r": 236,
+        "g": 233,
+        "b": 239,
+        "a": 1
+      },
+      "dark": {
+        "r": 28,
+        "g": 25,
+        "b": 34,
+        "a": 1
+      }
+    },
+    "product.strata.purple.surface.region": {
+      "light": {
+        "r": 244,
+        "g": 241,
+        "b": 247,
+        "a": 1
+      },
+      "dark": {
+        "r": 37,
+        "g": 33,
+        "b": 45,
+        "a": 1
+      }
+    },
+    "product.strata.purple.surface.selected": {
+      "light": {
+        "r": 226,
+        "g": 220,
+        "b": 233,
+        "a": 1
+      },
+      "dark": {
+        "r": 70,
+        "g": 62,
+        "b": 83,
+        "a": 1
+      }
+    },
+    "product.strata.text.primary": {
+      "light": {
+        "r": 35,
+        "g": 40,
+        "b": 49,
+        "a": 1
+      },
+      "dark": {
+        "r": 241,
+        "g": 241,
+        "b": 244,
+        "a": 1
+      }
+    },
+    "product.strata.text.secondary": {
+      "light": {
+        "r": 80,
+        "g": 88,
+        "b": 100,
+        "a": 1
+      },
+      "dark": {
+        "r": 202,
+        "g": 200,
+        "b": 209,
+        "a": 1
+      }
+    },
+    "product.strata.yellow.material.ambient": {
+      "light": {
+        "r": 237,
+        "g": 212,
+        "b": 125,
+        "a": 0.34
+      },
+      "dark": {
+        "r": 237,
+        "g": 212,
+        "b": 125,
+        "a": 0.2
+      }
+    },
+    "product.strata.yellow.material.ambient-edge": {
+      "light": {
+        "r": 237,
+        "g": 212,
+        "b": 125,
+        "a": 0.42
+      },
+      "dark": {
+        "r": 237,
+        "g": 212,
+        "b": 125,
+        "a": 0.28
+      }
+    },
+    "product.strata.yellow.material.ambient-soft": {
+      "light": {
+        "r": 237,
+        "g": 212,
+        "b": 125,
+        "a": 0.18
+      },
+      "dark": {
+        "r": 237,
+        "g": 212,
+        "b": 125,
+        "a": 0.12
+      }
+    },
+    "product.strata.yellow.material.content": {
+      "light": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 0.7
+      },
+      "dark": {
+        "r": 54,
+        "g": 51,
+        "b": 40,
+        "a": 0.82
+      }
+    },
+    "product.strata.yellow.material.control": {
+      "light": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 0.64
+      },
+      "dark": {
+        "r": 54,
+        "g": 51,
+        "b": 40,
+        "a": 0.85
+      }
+    },
+    "product.strata.yellow.material.panel": {
+      "light": {
+        "r": 246,
+        "g": 244,
+        "b": 237,
+        "a": 0.62
+      },
+      "dark": {
+        "r": 41,
+        "g": 39,
+        "b": 31,
+        "a": 0.72
+      }
+    },
+    "product.strata.yellow.surface.card": {
+      "light": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 1
+      },
+      "dark": {
+        "r": 54,
+        "g": 51,
+        "b": 40,
+        "a": 1
+      }
+    },
+    "product.strata.yellow.surface.hover": {
+      "light": {
+        "r": 238,
+        "g": 234,
+        "b": 221,
+        "a": 1
+      },
+      "dark": {
+        "r": 66,
+        "g": 62,
+        "b": 49,
+        "a": 1
+      }
+    },
+    "product.strata.yellow.surface.inset": {
+      "light": {
+        "r": 250,
+        "g": 248,
+        "b": 241,
+        "a": 1
+      },
+      "dark": {
+        "r": 45,
+        "g": 43,
+        "b": 34,
+        "a": 1
+      }
+    },
+    "product.strata.yellow.surface.page": {
+      "light": {
+        "r": 238,
+        "g": 236,
+        "b": 229,
+        "a": 1
+      },
+      "dark": {
+        "r": 32,
+        "g": 30,
+        "b": 23,
+        "a": 1
+      }
+    },
+    "product.strata.yellow.surface.region": {
+      "light": {
+        "r": 246,
+        "g": 244,
+        "b": 237,
+        "a": 1
+      },
+      "dark": {
+        "r": 41,
+        "g": 39,
+        "b": 31,
+        "a": 1
+      }
+    },
+    "product.strata.yellow.surface.selected": {
+      "light": {
+        "r": 229,
+        "g": 224,
+        "b": 209,
+        "a": 1
+      },
+      "dark": {
+        "r": 75,
+        "g": 71,
+        "b": 57,
+        "a": 1
+      }
+    },
     "product.surface.canvas": {
       "light": {
         "r": 238,
@@ -437,6 +1977,90 @@ const data = {
         "a": 1
       }
     },
+    "status.strata.error": {
+      "light": {
+        "r": 170,
+        "g": 54,
+        "b": 66,
+        "a": 1
+      },
+      "dark": {
+        "r": 240,
+        "g": 174,
+        "b": 184,
+        "a": 1
+      }
+    },
+    "status.strata.error-surface": {
+      "light": {
+        "r": 251,
+        "g": 236,
+        "b": 238,
+        "a": 1
+      },
+      "dark": {
+        "r": 73,
+        "g": 48,
+        "b": 57,
+        "a": 1
+      }
+    },
+    "status.strata.success": {
+      "light": {
+        "r": 39,
+        "g": 100,
+        "b": 66,
+        "a": 1
+      },
+      "dark": {
+        "r": 164,
+        "g": 216,
+        "b": 180,
+        "a": 1
+      }
+    },
+    "status.strata.success-surface": {
+      "light": {
+        "r": 234,
+        "g": 243,
+        "b": 236,
+        "a": 1
+      },
+      "dark": {
+        "r": 41,
+        "g": 62,
+        "b": 51,
+        "a": 1
+      }
+    },
+    "status.strata.warning": {
+      "light": {
+        "r": 121,
+        "g": 85,
+        "b": 6,
+        "a": 1
+      },
+      "dark": {
+        "r": 229,
+        "g": 205,
+        "b": 143,
+        "a": 1
+      }
+    },
+    "status.strata.warning-surface": {
+      "light": {
+        "r": 250,
+        "g": 241,
+        "b": 216,
+        "a": 1
+      },
+      "dark": {
+        "r": 66,
+        "g": 59,
+        "b": 40,
+        "a": 1
+      }
+    },
     "status.warning": {
       "light": {
         "r": 158,
@@ -460,6 +2084,26 @@ const data = {
     "ocean": {
       "accent": "brand.ocean.accent",
       "onAccent": "brand.ocean.on-accent"
+    },
+    "strata-blue": {
+      "accent": "brand.strata-blue.primary",
+      "onAccent": "brand.strata-blue.on-accent"
+    },
+    "strata-green": {
+      "accent": "brand.strata-green.primary",
+      "onAccent": "brand.strata-green.on-accent"
+    },
+    "strata-pink": {
+      "accent": "brand.strata-pink.primary",
+      "onAccent": "brand.strata-pink.on-accent"
+    },
+    "strata-purple": {
+      "accent": "brand.strata-purple.primary",
+      "onAccent": "brand.strata-purple.on-accent"
+    },
+    "strata-yellow": {
+      "accent": "brand.strata-yellow.primary",
+      "onAccent": "brand.strata-yellow.on-accent"
     }
   }
 };

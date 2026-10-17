@@ -693,6 +693,2744 @@
         "locator": "specs/001-shared-colors/spec.md",
         "note": "Generic semantic mapping; no business meaning inferred from hue."
       }
+    },
+    {
+      "id": "brand.strata-blue.seed",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 130,
+          "g": 184,
+          "b": 228,
+          "a": 1
+        },
+        "dark": {
+          "r": 130,
+          "g": 184,
+          "b": 228,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.brand.seed",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-blue.seed-ink",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 35,
+          "g": 40,
+          "b": 49,
+          "a": 1
+        },
+        "dark": {
+          "r": 35,
+          "g": 40,
+          "b": 49,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.brand.seedInk",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-blue.primary",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 40,
+          "g": 89,
+          "b": 188,
+          "a": 1
+        },
+        "dark": {
+          "r": 148,
+          "g": 197,
+          "b": 240,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.brand.primary",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-blue.hover",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 32,
+          "g": 76,
+          "b": 166,
+          "a": 1
+        },
+        "dark": {
+          "r": 172,
+          "g": 212,
+          "b": 246,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.brand.hover",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-blue.active",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 24,
+          "g": 61,
+          "b": 139,
+          "a": 1
+        },
+        "dark": {
+          "r": 127,
+          "g": 180,
+          "b": 226,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.brand.active",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-blue.subtle",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 234,
+          "g": 240,
+          "b": 251,
+          "a": 1
+        },
+        "dark": {
+          "r": 37,
+          "g": 57,
+          "b": 76,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.brand.subtle",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-blue.text",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 40,
+          "g": 89,
+          "b": 188,
+          "a": 1
+        },
+        "dark": {
+          "r": 172,
+          "g": 212,
+          "b": 246,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.brand.text",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-blue.on-accent",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        },
+        "dark": {
+          "r": 32,
+          "g": 28,
+          "b": 40,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.text.onBrand",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.blue.surface.page",
+      "layer": "product",
+      "semanticId": "product.strata.blue.surface.page",
+      "values": {
+        "light": {
+          "r": 233,
+          "g": 237,
+          "b": 240,
+          "a": 1
+        },
+        "dark": {
+          "r": 22,
+          "g": 27,
+          "b": 33,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.surface.page",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.blue.surface.region",
+      "layer": "product",
+      "semanticId": "product.strata.blue.surface.region",
+      "values": {
+        "light": {
+          "r": 242,
+          "g": 244,
+          "b": 246,
+          "a": 1
+        },
+        "dark": {
+          "r": 29,
+          "g": 36,
+          "b": 44,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.surface.region",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.blue.surface.card",
+      "layer": "product",
+      "semanticId": "product.strata.blue.surface.card",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        },
+        "dark": {
+          "r": 39,
+          "g": 49,
+          "b": 60,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.surface.card",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.blue.surface.inset",
+      "layer": "product",
+      "semanticId": "product.strata.blue.surface.inset",
+      "values": {
+        "light": {
+          "r": 245,
+          "g": 247,
+          "b": 249,
+          "a": 1
+        },
+        "dark": {
+          "r": 32,
+          "g": 41,
+          "b": 51,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.surface.inset",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.blue.surface.hover",
+      "layer": "product",
+      "semanticId": "product.strata.blue.surface.hover",
+      "values": {
+        "light": {
+          "r": 233,
+          "g": 237,
+          "b": 241,
+          "a": 1
+        },
+        "dark": {
+          "r": 48,
+          "g": 60,
+          "b": 72,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.surface.hover",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.blue.surface.selected",
+      "layer": "product",
+      "semanticId": "product.strata.blue.surface.selected",
+      "values": {
+        "light": {
+          "r": 222,
+          "g": 228,
+          "b": 234,
+          "a": 1
+        },
+        "dark": {
+          "r": 57,
+          "g": 70,
+          "b": 83,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.blue.surface.selected",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.blue.material.panel",
+      "layer": "product",
+      "semanticId": "product.strata.blue.material.panel",
+      "values": {
+        "light": {
+          "r": 242,
+          "g": 244,
+          "b": 246,
+          "a": 0.62
+        },
+        "dark": {
+          "r": 29,
+          "g": 36,
+          "b": 44,
+          "a": 0.72
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.panel",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.blue.material.content",
+      "layer": "product",
+      "semanticId": "product.strata.blue.material.content",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 0.7
+        },
+        "dark": {
+          "r": 39,
+          "g": 49,
+          "b": 60,
+          "a": 0.82
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.content",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.blue.material.control",
+      "layer": "product",
+      "semanticId": "product.strata.blue.material.control",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 0.64
+        },
+        "dark": {
+          "r": 39,
+          "g": 49,
+          "b": 60,
+          "a": 0.85
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.control",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.blue.material.ambient",
+      "layer": "product",
+      "semanticId": "product.strata.blue.material.ambient",
+      "values": {
+        "light": {
+          "r": 130,
+          "g": 184,
+          "b": 228,
+          "a": 0.34
+        },
+        "dark": {
+          "r": 130,
+          "g": 184,
+          "b": 228,
+          "a": 0.2
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambient",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.blue.material.ambient-soft",
+      "layer": "product",
+      "semanticId": "product.strata.blue.material.ambient-soft",
+      "values": {
+        "light": {
+          "r": 130,
+          "g": 184,
+          "b": 228,
+          "a": 0.18
+        },
+        "dark": {
+          "r": 130,
+          "g": 184,
+          "b": 228,
+          "a": 0.12
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambientSoft",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.blue.material.ambient-edge",
+      "layer": "product",
+      "semanticId": "product.strata.blue.material.ambient-edge",
+      "values": {
+        "light": {
+          "r": 130,
+          "g": 184,
+          "b": 228,
+          "a": 0.42
+        },
+        "dark": {
+          "r": 130,
+          "g": 184,
+          "b": 228,
+          "a": 0.28
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambientEdge",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-green.seed",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 153,
+          "g": 205,
+          "b": 164,
+          "a": 1
+        },
+        "dark": {
+          "r": 153,
+          "g": 205,
+          "b": 164,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.brand.seed",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-green.seed-ink",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 35,
+          "g": 40,
+          "b": 49,
+          "a": 1
+        },
+        "dark": {
+          "r": 35,
+          "g": 40,
+          "b": 49,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.brand.seedInk",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-green.primary",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 35,
+          "g": 103,
+          "b": 71,
+          "a": 1
+        },
+        "dark": {
+          "r": 163,
+          "g": 216,
+          "b": 176,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.brand.primary",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-green.hover",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 26,
+          "g": 87,
+          "b": 59,
+          "a": 1
+        },
+        "dark": {
+          "r": 184,
+          "g": 228,
+          "b": 193,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.brand.hover",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-green.active",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 18,
+          "g": 71,
+          "b": 47,
+          "a": 1
+        },
+        "dark": {
+          "r": 140,
+          "g": 200,
+          "b": 155,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.brand.active",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-green.subtle",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 232,
+          "g": 242,
+          "b": 234,
+          "a": 1
+        },
+        "dark": {
+          "r": 41,
+          "g": 63,
+          "b": 50,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.brand.subtle",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-green.text",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 35,
+          "g": 103,
+          "b": 71,
+          "a": 1
+        },
+        "dark": {
+          "r": 184,
+          "g": 228,
+          "b": 193,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.brand.text",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-green.on-accent",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        },
+        "dark": {
+          "r": 32,
+          "g": 28,
+          "b": 40,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.text.onBrand",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.green.surface.page",
+      "layer": "product",
+      "semanticId": "product.strata.green.surface.page",
+      "values": {
+        "light": {
+          "r": 233,
+          "g": 237,
+          "b": 232,
+          "a": 1
+        },
+        "dark": {
+          "r": 23,
+          "g": 29,
+          "b": 25,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.surface.page",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.green.surface.region",
+      "layer": "product",
+      "semanticId": "product.strata.green.surface.region",
+      "values": {
+        "light": {
+          "r": 241,
+          "g": 244,
+          "b": 239,
+          "a": 1
+        },
+        "dark": {
+          "r": 31,
+          "g": 40,
+          "b": 34,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.surface.region",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.green.surface.card",
+      "layer": "product",
+      "semanticId": "product.strata.green.surface.card",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        },
+        "dark": {
+          "r": 42,
+          "g": 53,
+          "b": 45,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.surface.card",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.green.surface.inset",
+      "layer": "product",
+      "semanticId": "product.strata.green.surface.inset",
+      "values": {
+        "light": {
+          "r": 245,
+          "g": 247,
+          "b": 243,
+          "a": 1
+        },
+        "dark": {
+          "r": 35,
+          "g": 45,
+          "b": 38,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.surface.inset",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.green.surface.hover",
+      "layer": "product",
+      "semanticId": "product.strata.green.surface.hover",
+      "values": {
+        "light": {
+          "r": 231,
+          "g": 236,
+          "b": 229,
+          "a": 1
+        },
+        "dark": {
+          "r": 51,
+          "g": 64,
+          "b": 54,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.surface.hover",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.green.surface.selected",
+      "layer": "product",
+      "semanticId": "product.strata.green.surface.selected",
+      "values": {
+        "light": {
+          "r": 221,
+          "g": 229,
+          "b": 218,
+          "a": 1
+        },
+        "dark": {
+          "r": 60,
+          "g": 74,
+          "b": 63,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.green.surface.selected",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.green.material.panel",
+      "layer": "product",
+      "semanticId": "product.strata.green.material.panel",
+      "values": {
+        "light": {
+          "r": 241,
+          "g": 244,
+          "b": 239,
+          "a": 0.62
+        },
+        "dark": {
+          "r": 31,
+          "g": 40,
+          "b": 34,
+          "a": 0.72
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.panel",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.green.material.content",
+      "layer": "product",
+      "semanticId": "product.strata.green.material.content",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 0.7
+        },
+        "dark": {
+          "r": 42,
+          "g": 53,
+          "b": 45,
+          "a": 0.82
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.content",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.green.material.control",
+      "layer": "product",
+      "semanticId": "product.strata.green.material.control",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 0.64
+        },
+        "dark": {
+          "r": 42,
+          "g": 53,
+          "b": 45,
+          "a": 0.85
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.control",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.green.material.ambient",
+      "layer": "product",
+      "semanticId": "product.strata.green.material.ambient",
+      "values": {
+        "light": {
+          "r": 153,
+          "g": 205,
+          "b": 164,
+          "a": 0.34
+        },
+        "dark": {
+          "r": 153,
+          "g": 205,
+          "b": 164,
+          "a": 0.2
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambient",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.green.material.ambient-soft",
+      "layer": "product",
+      "semanticId": "product.strata.green.material.ambient-soft",
+      "values": {
+        "light": {
+          "r": 153,
+          "g": 205,
+          "b": 164,
+          "a": 0.18
+        },
+        "dark": {
+          "r": 153,
+          "g": 205,
+          "b": 164,
+          "a": 0.12
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambientSoft",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.green.material.ambient-edge",
+      "layer": "product",
+      "semanticId": "product.strata.green.material.ambient-edge",
+      "values": {
+        "light": {
+          "r": 153,
+          "g": 205,
+          "b": 164,
+          "a": 0.42
+        },
+        "dark": {
+          "r": 153,
+          "g": 205,
+          "b": 164,
+          "a": 0.28
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambientEdge",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-pink.seed",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 233,
+          "g": 164,
+          "b": 184,
+          "a": 1
+        },
+        "dark": {
+          "r": 233,
+          "g": 164,
+          "b": 184,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.brand.seed",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-pink.seed-ink",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 35,
+          "g": 40,
+          "b": 49,
+          "a": 1
+        },
+        "dark": {
+          "r": 35,
+          "g": 40,
+          "b": 49,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.brand.seedInk",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-pink.primary",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 156,
+          "g": 60,
+          "b": 99,
+          "a": 1
+        },
+        "dark": {
+          "r": 239,
+          "g": 176,
+          "b": 197,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.brand.primary",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-pink.hover",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 135,
+          "g": 48,
+          "b": 83,
+          "a": 1
+        },
+        "dark": {
+          "r": 246,
+          "g": 196,
+          "b": 212,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.brand.hover",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-pink.active",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 114,
+          "g": 37,
+          "b": 69,
+          "a": 1
+        },
+        "dark": {
+          "r": 223,
+          "g": 155,
+          "b": 178,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.brand.active",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-pink.subtle",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 247,
+          "g": 234,
+          "b": 240,
+          "a": 1
+        },
+        "dark": {
+          "r": 73,
+          "g": 50,
+          "b": 61,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.brand.subtle",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-pink.text",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 156,
+          "g": 60,
+          "b": 99,
+          "a": 1
+        },
+        "dark": {
+          "r": 246,
+          "g": 196,
+          "b": 212,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.brand.text",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-pink.on-accent",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        },
+        "dark": {
+          "r": 32,
+          "g": 28,
+          "b": 40,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.text.onBrand",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.pink.surface.page",
+      "layer": "product",
+      "semanticId": "product.strata.pink.surface.page",
+      "values": {
+        "light": {
+          "r": 239,
+          "g": 233,
+          "b": 235,
+          "a": 1
+        },
+        "dark": {
+          "r": 32,
+          "g": 25,
+          "b": 29,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.surface.page",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.pink.surface.region",
+      "layer": "product",
+      "semanticId": "product.strata.pink.surface.region",
+      "values": {
+        "light": {
+          "r": 246,
+          "g": 241,
+          "b": 243,
+          "a": 1
+        },
+        "dark": {
+          "r": 42,
+          "g": 34,
+          "b": 39,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.surface.region",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.pink.surface.card",
+      "layer": "product",
+      "semanticId": "product.strata.pink.surface.card",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        },
+        "dark": {
+          "r": 56,
+          "g": 45,
+          "b": 52,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.surface.card",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.pink.surface.inset",
+      "layer": "product",
+      "semanticId": "product.strata.pink.surface.inset",
+      "values": {
+        "light": {
+          "r": 250,
+          "g": 245,
+          "b": 247,
+          "a": 1
+        },
+        "dark": {
+          "r": 48,
+          "g": 38,
+          "b": 44,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.surface.inset",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.pink.surface.hover",
+      "layer": "product",
+      "semanticId": "product.strata.pink.surface.hover",
+      "values": {
+        "light": {
+          "r": 238,
+          "g": 230,
+          "b": 233,
+          "a": 1
+        },
+        "dark": {
+          "r": 68,
+          "g": 54,
+          "b": 63,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.surface.hover",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.pink.surface.selected",
+      "layer": "product",
+      "semanticId": "product.strata.pink.surface.selected",
+      "values": {
+        "light": {
+          "r": 232,
+          "g": 221,
+          "b": 225,
+          "a": 1
+        },
+        "dark": {
+          "r": 77,
+          "g": 63,
+          "b": 71,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.pink.surface.selected",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.pink.material.panel",
+      "layer": "product",
+      "semanticId": "product.strata.pink.material.panel",
+      "values": {
+        "light": {
+          "r": 246,
+          "g": 241,
+          "b": 243,
+          "a": 0.62
+        },
+        "dark": {
+          "r": 42,
+          "g": 34,
+          "b": 39,
+          "a": 0.72
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.panel",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.pink.material.content",
+      "layer": "product",
+      "semanticId": "product.strata.pink.material.content",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 0.7
+        },
+        "dark": {
+          "r": 56,
+          "g": 45,
+          "b": 52,
+          "a": 0.82
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.content",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.pink.material.control",
+      "layer": "product",
+      "semanticId": "product.strata.pink.material.control",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 0.64
+        },
+        "dark": {
+          "r": 56,
+          "g": 45,
+          "b": 52,
+          "a": 0.85
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.control",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.pink.material.ambient",
+      "layer": "product",
+      "semanticId": "product.strata.pink.material.ambient",
+      "values": {
+        "light": {
+          "r": 233,
+          "g": 164,
+          "b": 184,
+          "a": 0.34
+        },
+        "dark": {
+          "r": 233,
+          "g": 164,
+          "b": 184,
+          "a": 0.2
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambient",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.pink.material.ambient-soft",
+      "layer": "product",
+      "semanticId": "product.strata.pink.material.ambient-soft",
+      "values": {
+        "light": {
+          "r": 233,
+          "g": 164,
+          "b": 184,
+          "a": 0.18
+        },
+        "dark": {
+          "r": 233,
+          "g": 164,
+          "b": 184,
+          "a": 0.12
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambientSoft",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.pink.material.ambient-edge",
+      "layer": "product",
+      "semanticId": "product.strata.pink.material.ambient-edge",
+      "values": {
+        "light": {
+          "r": 233,
+          "g": 164,
+          "b": 184,
+          "a": 0.42
+        },
+        "dark": {
+          "r": 233,
+          "g": 164,
+          "b": 184,
+          "a": 0.28
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambientEdge",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-yellow.seed",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 237,
+          "g": 212,
+          "b": 125,
+          "a": 1
+        },
+        "dark": {
+          "r": 237,
+          "g": 212,
+          "b": 125,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.brand.seed",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-yellow.seed-ink",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 35,
+          "g": 40,
+          "b": 49,
+          "a": 1
+        },
+        "dark": {
+          "r": 35,
+          "g": 40,
+          "b": 49,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.brand.seedInk",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-yellow.primary",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 113,
+          "g": 86,
+          "b": 11,
+          "a": 1
+        },
+        "dark": {
+          "r": 231,
+          "g": 207,
+          "b": 130,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.brand.primary",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-yellow.hover",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 96,
+          "g": 72,
+          "b": 9,
+          "a": 1
+        },
+        "dark": {
+          "r": 240,
+          "g": 223,
+          "b": 164,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.brand.hover",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-yellow.active",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 77,
+          "g": 57,
+          "b": 6,
+          "a": 1
+        },
+        "dark": {
+          "r": 215,
+          "g": 186,
+          "b": 100,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.brand.active",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-yellow.subtle",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 245,
+          "g": 239,
+          "b": 217,
+          "a": 1
+        },
+        "dark": {
+          "r": 68,
+          "g": 61,
+          "b": 39,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.brand.subtle",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-yellow.text",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 113,
+          "g": 86,
+          "b": 11,
+          "a": 1
+        },
+        "dark": {
+          "r": 240,
+          "g": 223,
+          "b": 164,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.brand.text",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-yellow.on-accent",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        },
+        "dark": {
+          "r": 32,
+          "g": 28,
+          "b": 40,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.text.onBrand",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.yellow.surface.page",
+      "layer": "product",
+      "semanticId": "product.strata.yellow.surface.page",
+      "values": {
+        "light": {
+          "r": 238,
+          "g": 236,
+          "b": 229,
+          "a": 1
+        },
+        "dark": {
+          "r": 32,
+          "g": 30,
+          "b": 23,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.surface.page",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.yellow.surface.region",
+      "layer": "product",
+      "semanticId": "product.strata.yellow.surface.region",
+      "values": {
+        "light": {
+          "r": 246,
+          "g": 244,
+          "b": 237,
+          "a": 1
+        },
+        "dark": {
+          "r": 41,
+          "g": 39,
+          "b": 31,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.surface.region",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.yellow.surface.card",
+      "layer": "product",
+      "semanticId": "product.strata.yellow.surface.card",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        },
+        "dark": {
+          "r": 54,
+          "g": 51,
+          "b": 40,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.surface.card",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.yellow.surface.inset",
+      "layer": "product",
+      "semanticId": "product.strata.yellow.surface.inset",
+      "values": {
+        "light": {
+          "r": 250,
+          "g": 248,
+          "b": 241,
+          "a": 1
+        },
+        "dark": {
+          "r": 45,
+          "g": 43,
+          "b": 34,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.surface.inset",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.yellow.surface.hover",
+      "layer": "product",
+      "semanticId": "product.strata.yellow.surface.hover",
+      "values": {
+        "light": {
+          "r": 238,
+          "g": 234,
+          "b": 221,
+          "a": 1
+        },
+        "dark": {
+          "r": 66,
+          "g": 62,
+          "b": 49,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.surface.hover",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.yellow.surface.selected",
+      "layer": "product",
+      "semanticId": "product.strata.yellow.surface.selected",
+      "values": {
+        "light": {
+          "r": 229,
+          "g": 224,
+          "b": 209,
+          "a": 1
+        },
+        "dark": {
+          "r": 75,
+          "g": 71,
+          "b": 57,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.yellow.surface.selected",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.yellow.material.panel",
+      "layer": "product",
+      "semanticId": "product.strata.yellow.material.panel",
+      "values": {
+        "light": {
+          "r": 246,
+          "g": 244,
+          "b": 237,
+          "a": 0.62
+        },
+        "dark": {
+          "r": 41,
+          "g": 39,
+          "b": 31,
+          "a": 0.72
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.panel",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.yellow.material.content",
+      "layer": "product",
+      "semanticId": "product.strata.yellow.material.content",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 0.7
+        },
+        "dark": {
+          "r": 54,
+          "g": 51,
+          "b": 40,
+          "a": 0.82
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.content",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.yellow.material.control",
+      "layer": "product",
+      "semanticId": "product.strata.yellow.material.control",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 0.64
+        },
+        "dark": {
+          "r": 54,
+          "g": 51,
+          "b": 40,
+          "a": 0.85
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.control",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.yellow.material.ambient",
+      "layer": "product",
+      "semanticId": "product.strata.yellow.material.ambient",
+      "values": {
+        "light": {
+          "r": 237,
+          "g": 212,
+          "b": 125,
+          "a": 0.34
+        },
+        "dark": {
+          "r": 237,
+          "g": 212,
+          "b": 125,
+          "a": 0.2
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambient",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.yellow.material.ambient-soft",
+      "layer": "product",
+      "semanticId": "product.strata.yellow.material.ambient-soft",
+      "values": {
+        "light": {
+          "r": 237,
+          "g": 212,
+          "b": 125,
+          "a": 0.18
+        },
+        "dark": {
+          "r": 237,
+          "g": 212,
+          "b": 125,
+          "a": 0.12
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambientSoft",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.yellow.material.ambient-edge",
+      "layer": "product",
+      "semanticId": "product.strata.yellow.material.ambient-edge",
+      "values": {
+        "light": {
+          "r": 237,
+          "g": 212,
+          "b": 125,
+          "a": 0.42
+        },
+        "dark": {
+          "r": 237,
+          "g": 212,
+          "b": 125,
+          "a": 0.28
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambientEdge",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-purple.seed",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 183,
+          "g": 164,
+          "b": 219,
+          "a": 1
+        },
+        "dark": {
+          "r": 183,
+          "g": 164,
+          "b": 219,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.brand.seed",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-purple.seed-ink",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 35,
+          "g": 40,
+          "b": 49,
+          "a": 1
+        },
+        "dark": {
+          "r": 35,
+          "g": 40,
+          "b": 49,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.brand.seedInk",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-purple.primary",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 105,
+          "g": 71,
+          "b": 170,
+          "a": 1
+        },
+        "dark": {
+          "r": 198,
+          "g": 179,
+          "b": 234,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.brand.primary",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-purple.hover",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 90,
+          "g": 59,
+          "b": 149,
+          "a": 1
+        },
+        "dark": {
+          "r": 215,
+          "g": 200,
+          "b": 243,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.brand.hover",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-purple.active",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 73,
+          "g": 48,
+          "b": 125,
+          "a": 1
+        },
+        "dark": {
+          "r": 179,
+          "g": 156,
+          "b": 217,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.brand.active",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-purple.subtle",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 240,
+          "g": 235,
+          "b": 247,
+          "a": 1
+        },
+        "dark": {
+          "r": 61,
+          "g": 51,
+          "b": 78,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.brand.subtle",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-purple.text",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 105,
+          "g": 71,
+          "b": 170,
+          "a": 1
+        },
+        "dark": {
+          "r": 215,
+          "g": 200,
+          "b": 243,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.brand.text",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "brand.strata-purple.on-accent",
+      "layer": "brand",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        },
+        "dark": {
+          "r": 32,
+          "g": 28,
+          "b": 40,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.text.onBrand",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.purple.surface.page",
+      "layer": "product",
+      "semanticId": "product.strata.purple.surface.page",
+      "values": {
+        "light": {
+          "r": 236,
+          "g": 233,
+          "b": 239,
+          "a": 1
+        },
+        "dark": {
+          "r": 28,
+          "g": 25,
+          "b": 34,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.surface.page",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.purple.surface.region",
+      "layer": "product",
+      "semanticId": "product.strata.purple.surface.region",
+      "values": {
+        "light": {
+          "r": 244,
+          "g": 241,
+          "b": 247,
+          "a": 1
+        },
+        "dark": {
+          "r": 37,
+          "g": 33,
+          "b": 45,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.surface.region",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.purple.surface.card",
+      "layer": "product",
+      "semanticId": "product.strata.purple.surface.card",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        },
+        "dark": {
+          "r": 50,
+          "g": 44,
+          "b": 60,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.surface.card",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.purple.surface.inset",
+      "layer": "product",
+      "semanticId": "product.strata.purple.surface.inset",
+      "values": {
+        "light": {
+          "r": 248,
+          "g": 245,
+          "b": 250,
+          "a": 1
+        },
+        "dark": {
+          "r": 42,
+          "g": 37,
+          "b": 51,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.surface.inset",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.purple.surface.hover",
+      "layer": "product",
+      "semanticId": "product.strata.purple.surface.hover",
+      "values": {
+        "light": {
+          "r": 235,
+          "g": 230,
+          "b": 240,
+          "a": 1
+        },
+        "dark": {
+          "r": 60,
+          "g": 53,
+          "b": 72,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.surface.hover",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.purple.surface.selected",
+      "layer": "product",
+      "semanticId": "product.strata.purple.surface.selected",
+      "values": {
+        "light": {
+          "r": 226,
+          "g": 220,
+          "b": 233,
+          "a": 1
+        },
+        "dark": {
+          "r": 70,
+          "g": 62,
+          "b": 83,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#palettes.purple.surface.selected",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.purple.material.panel",
+      "layer": "product",
+      "semanticId": "product.strata.purple.material.panel",
+      "values": {
+        "light": {
+          "r": 244,
+          "g": 241,
+          "b": 247,
+          "a": 0.62
+        },
+        "dark": {
+          "r": 37,
+          "g": 33,
+          "b": 45,
+          "a": 0.72
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.panel",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.purple.material.content",
+      "layer": "product",
+      "semanticId": "product.strata.purple.material.content",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 0.7
+        },
+        "dark": {
+          "r": 50,
+          "g": 44,
+          "b": 60,
+          "a": 0.82
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.content",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.purple.material.control",
+      "layer": "product",
+      "semanticId": "product.strata.purple.material.control",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 0.64
+        },
+        "dark": {
+          "r": 50,
+          "g": 44,
+          "b": 60,
+          "a": 0.85
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.control",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.purple.material.ambient",
+      "layer": "product",
+      "semanticId": "product.strata.purple.material.ambient",
+      "values": {
+        "light": {
+          "r": 183,
+          "g": 164,
+          "b": 219,
+          "a": 0.34
+        },
+        "dark": {
+          "r": 183,
+          "g": 164,
+          "b": 219,
+          "a": 0.2
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambient",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.purple.material.ambient-soft",
+      "layer": "product",
+      "semanticId": "product.strata.purple.material.ambient-soft",
+      "values": {
+        "light": {
+          "r": 183,
+          "g": 164,
+          "b": 219,
+          "a": 0.18
+        },
+        "dark": {
+          "r": 183,
+          "g": 164,
+          "b": 219,
+          "a": 0.12
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambientSoft",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.purple.material.ambient-edge",
+      "layer": "product",
+      "semanticId": "product.strata.purple.material.ambient-edge",
+      "values": {
+        "light": {
+          "r": 183,
+          "g": 164,
+          "b": 219,
+          "a": 0.42
+        },
+        "dark": {
+          "r": 183,
+          "g": 164,
+          "b": 219,
+          "a": 0.28
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.ambientEdge",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.text.primary",
+      "layer": "product",
+      "semanticId": "product.strata.text.primary",
+      "values": {
+        "light": {
+          "r": 35,
+          "g": 40,
+          "b": 49,
+          "a": 1
+        },
+        "dark": {
+          "r": 241,
+          "g": 241,
+          "b": 244,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.text.primary",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.text.secondary",
+      "layer": "product",
+      "semanticId": "product.strata.text.secondary",
+      "values": {
+        "light": {
+          "r": 80,
+          "g": 88,
+          "b": 100,
+          "a": 1
+        },
+        "dark": {
+          "r": 202,
+          "g": 200,
+          "b": 209,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.text.secondary",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.border",
+      "layer": "product",
+      "semanticId": "product.strata.border",
+      "values": {
+        "light": {
+          "r": 194,
+          "g": 201,
+          "b": 210,
+          "a": 1
+        },
+        "dark": {
+          "r": 116,
+          "g": 109,
+          "b": 128,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.border",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "status.strata.success",
+      "layer": "status",
+      "values": {
+        "light": {
+          "r": 39,
+          "g": 100,
+          "b": 66,
+          "a": 1
+        },
+        "dark": {
+          "r": 164,
+          "g": 216,
+          "b": 180,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.status.success",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "status.strata.success-surface",
+      "layer": "status",
+      "values": {
+        "light": {
+          "r": 234,
+          "g": 243,
+          "b": 236,
+          "a": 1
+        },
+        "dark": {
+          "r": 41,
+          "g": 62,
+          "b": 51,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.status.successSurface",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "status.strata.warning",
+      "layer": "status",
+      "values": {
+        "light": {
+          "r": 121,
+          "g": 85,
+          "b": 6,
+          "a": 1
+        },
+        "dark": {
+          "r": 229,
+          "g": 205,
+          "b": 143,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.status.warning",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "status.strata.warning-surface",
+      "layer": "status",
+      "values": {
+        "light": {
+          "r": 250,
+          "g": 241,
+          "b": 216,
+          "a": 1
+        },
+        "dark": {
+          "r": 66,
+          "g": 59,
+          "b": 40,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.status.warningSurface",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "status.strata.error",
+      "layer": "status",
+      "values": {
+        "light": {
+          "r": 170,
+          "g": 54,
+          "b": 66,
+          "a": 1
+        },
+        "dark": {
+          "r": 240,
+          "g": 174,
+          "b": 184,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.status.error",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "status.strata.error-surface",
+      "layer": "status",
+      "values": {
+        "light": {
+          "r": 251,
+          "g": 236,
+          "b": 238,
+          "a": 1
+        },
+        "dark": {
+          "r": 73,
+          "g": 48,
+          "b": 57,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.status.errorSurface",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.chart.primary",
+      "layer": "product",
+      "semanticId": "product.strata.chart.primary",
+      "values": {
+        "light": {
+          "r": 82,
+          "g": 122,
+          "b": 145,
+          "a": 1
+        },
+        "dark": {
+          "r": 157,
+          "g": 196,
+          "b": 214,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.chart.primary",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.chart.secondary",
+      "layer": "product",
+      "semanticId": "product.strata.chart.secondary",
+      "values": {
+        "light": {
+          "r": 150,
+          "g": 129,
+          "b": 169,
+          "a": 1
+        },
+        "dark": {
+          "r": 191,
+          "g": 170,
+          "b": 214,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.chart.secondary",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.chart.tertiary",
+      "layer": "product",
+      "semanticId": "product.strata.chart.tertiary",
+      "values": {
+        "light": {
+          "r": 178,
+          "g": 156,
+          "b": 102,
+          "a": 1
+        },
+        "dark": {
+          "r": 212,
+          "g": 191,
+          "b": 146,
+          "a": 1
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#semantic.chart.tertiary",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.material.edge",
+      "layer": "product",
+      "semanticId": "product.strata.material.edge",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 0.78
+        },
+        "dark": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 0.16
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.edge",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.material.highlight",
+      "layer": "product",
+      "semanticId": "product.strata.material.highlight",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 0.72
+        },
+        "dark": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 0.12
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.highlight",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.material.inner-edge",
+      "layer": "product",
+      "semanticId": "product.strata.material.inner-edge",
+      "values": {
+        "light": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 0.64
+        },
+        "dark": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 0.09
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.innerEdge",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
+    },
+    {
+      "id": "product.strata.material.shadow",
+      "layer": "product",
+      "semanticId": "product.strata.material.shadow",
+      "values": {
+        "light": {
+          "r": 56,
+          "g": 75,
+          "b": 99,
+          "a": 0.06
+        },
+        "dark": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.22
+        }
+      },
+      "provenance": {
+        "source": "local",
+        "locator": "strata-reference@b4bff430517ed2e2944f814d8b5ab89a1866ee33:tokens.mjs#getMaterial.shade",
+        "note": "Original Strata v0.2 custom design; approved source b4bff430517ed2e2944f814d8b5ab89a1866ee33. Not Apple or Basalt theme data. Alpha uses intended two-decimal percentage for CSS/native serialization parity; RGB remains exact."
+      }
     }
   ],
   "brands": {
@@ -703,6 +3441,26 @@
     "graphite": {
       "accent": "brand.graphite.accent",
       "onAccent": "brand.graphite.on-accent"
+    },
+    "strata-blue": {
+      "accent": "brand.strata-blue.primary",
+      "onAccent": "brand.strata-blue.on-accent"
+    },
+    "strata-green": {
+      "accent": "brand.strata-green.primary",
+      "onAccent": "brand.strata-green.on-accent"
+    },
+    "strata-pink": {
+      "accent": "brand.strata-pink.primary",
+      "onAccent": "brand.strata-pink.on-accent"
+    },
+    "strata-yellow": {
+      "accent": "brand.strata-yellow.primary",
+      "onAccent": "brand.strata-yellow.on-accent"
+    },
+    "strata-purple": {
+      "accent": "brand.strata-purple.primary",
+      "onAccent": "brand.strata-purple.on-accent"
     }
   },
   "contrastPairs": [
@@ -749,6 +3507,446 @@
     {
       "foreground": "brand.graphite.on-accent",
       "background": "brand.graphite.accent",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.blue.surface.page",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.blue.surface.page",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.blue.surface.region",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.blue.surface.region",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.blue.surface.card",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.blue.surface.card",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.blue.surface.inset",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.blue.surface.inset",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.blue.surface.hover",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.blue.surface.hover",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.blue.surface.selected",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.blue.surface.selected",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-blue.on-accent",
+      "background": "brand.strata-blue.primary",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-blue.on-accent",
+      "background": "brand.strata-blue.hover",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-blue.on-accent",
+      "background": "brand.strata-blue.active",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-blue.seed-ink",
+      "background": "brand.strata-blue.seed",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-blue.text",
+      "background": "brand.strata-blue.subtle",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.green.surface.page",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.green.surface.page",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.green.surface.region",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.green.surface.region",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.green.surface.card",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.green.surface.card",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.green.surface.inset",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.green.surface.inset",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.green.surface.hover",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.green.surface.hover",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.green.surface.selected",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.green.surface.selected",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-green.on-accent",
+      "background": "brand.strata-green.primary",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-green.on-accent",
+      "background": "brand.strata-green.hover",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-green.on-accent",
+      "background": "brand.strata-green.active",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-green.seed-ink",
+      "background": "brand.strata-green.seed",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-green.text",
+      "background": "brand.strata-green.subtle",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.pink.surface.page",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.pink.surface.page",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.pink.surface.region",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.pink.surface.region",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.pink.surface.card",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.pink.surface.card",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.pink.surface.inset",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.pink.surface.inset",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.pink.surface.hover",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.pink.surface.hover",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.pink.surface.selected",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.pink.surface.selected",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-pink.on-accent",
+      "background": "brand.strata-pink.primary",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-pink.on-accent",
+      "background": "brand.strata-pink.hover",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-pink.on-accent",
+      "background": "brand.strata-pink.active",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-pink.seed-ink",
+      "background": "brand.strata-pink.seed",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-pink.text",
+      "background": "brand.strata-pink.subtle",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.yellow.surface.page",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.yellow.surface.page",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.yellow.surface.region",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.yellow.surface.region",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.yellow.surface.card",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.yellow.surface.card",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.yellow.surface.inset",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.yellow.surface.inset",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.yellow.surface.hover",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.yellow.surface.hover",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.yellow.surface.selected",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.yellow.surface.selected",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-yellow.on-accent",
+      "background": "brand.strata-yellow.primary",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-yellow.on-accent",
+      "background": "brand.strata-yellow.hover",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-yellow.on-accent",
+      "background": "brand.strata-yellow.active",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-yellow.seed-ink",
+      "background": "brand.strata-yellow.seed",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-yellow.text",
+      "background": "brand.strata-yellow.subtle",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.purple.surface.page",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.purple.surface.page",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.purple.surface.region",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.purple.surface.region",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.purple.surface.card",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.purple.surface.card",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.purple.surface.inset",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.purple.surface.inset",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.purple.surface.hover",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.purple.surface.hover",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.primary",
+      "background": "product.strata.purple.surface.selected",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "product.strata.text.secondary",
+      "background": "product.strata.purple.surface.selected",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-purple.on-accent",
+      "background": "brand.strata-purple.primary",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-purple.on-accent",
+      "background": "brand.strata-purple.hover",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-purple.on-accent",
+      "background": "brand.strata-purple.active",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-purple.seed-ink",
+      "background": "brand.strata-purple.seed",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "brand.strata-purple.text",
+      "background": "brand.strata-purple.subtle",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "status.strata.success",
+      "background": "status.strata.success-surface",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "status.strata.warning",
+      "background": "status.strata.warning-surface",
+      "minimum": 4.5
+    },
+    {
+      "foreground": "status.strata.error",
+      "background": "status.strata.error-surface",
       "minimum": 4.5
     }
   ]
