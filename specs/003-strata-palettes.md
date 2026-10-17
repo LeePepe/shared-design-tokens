@@ -37,9 +37,10 @@ packed consumers, exact committed Swift consumer and all existing gates remain.
 ## Release boundary
 
 This source candidate does not issue a release, tag or registry publication.
-Version 0.2.0 metadata is prepared following companion-release authorization;
-publication still waits required exact-head checks, review and external consumer
-evidence. Native candidate evidence may use an isolated bare Git mirror with a
-local-only v0.2.0 tag at the frozen candidate SHA and must label that provenance.
+Version 0.2.0 metadata is prepared but unreleased; publication remains a separate
+step after required exact-head checks, review, applicable Owner approval and
+external consumer evidence. Native candidate evidence may use an isolated bare
+Git mirror with a local-only v0.2.0 tag at the frozen candidate SHA and must label
+that provenance.
 Remote released-dependency verification starts only after the immutable release
 is available. Release policy and npm publication restrictions are unchanged.
